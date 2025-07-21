@@ -1,0 +1,4994 @@
+{
+  "1960-61": [
+    {
+      "Country": "Australia",
+      "Population": 10276477
+    },
+    {
+      "Country": "Austria",
+      "Population": 7047539
+    },
+    {
+      "Country": "Belarus",
+      "Population": 8198000
+    },
+    {
+      "Country": "Canada",
+      "Population": 17909356
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 5327827
+    },
+    {
+      "Country": "Germany",
+      "Population": 72814900
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4579603
+    },
+    {
+      "Country": "Finland",
+      "Population": 4429634
+    },
+    {
+      "Country": "France",
+      "Population": 47412964
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4140181
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 9429981
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2778550
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2120979
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 11486631
+    },
+    {
+      "Country": "Norway",
+      "Population": 3581239
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1584720
+    },
+    {
+      "Country": "Sweden",
+      "Population": 7484656
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 42824093
+    },
+    {
+      "Country": "United States",
+      "Population": 180671000
+    }
+  ],
+  "1961-62": [
+    {
+      "Country": "Australia",
+      "Population": 10483000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7086299
+    },
+    {
+      "Country": "Belarus",
+      "Population": 8271216
+    },
+    {
+      "Country": "Canada",
+      "Population": 18271000
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 5434294
+    },
+    {
+      "Country": "Germany",
+      "Population": 73377632
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4611687
+    },
+    {
+      "Country": "Finland",
+      "Population": 4461005
+    },
+    {
+      "Country": "France",
+      "Population": 47905982
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4167292
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 9742085
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2823550
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2152681
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 11638712
+    },
+    {
+      "Country": "Norway",
+      "Population": 3609800
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1594131
+    },
+    {
+      "Country": "Sweden",
+      "Population": 7519998
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 43399766
+    },
+    {
+      "Country": "United States",
+      "Population": 183691000
+    }
+  ],
+  "1962-63": [
+    {
+      "Country": "Australia",
+      "Population": 10742000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7129864
+    },
+    {
+      "Country": "Belarus",
+      "Population": 8351928
+    },
+    {
+      "Country": "Canada",
+      "Population": 18614000
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 5573815
+    },
+    {
+      "Country": "Germany",
+      "Population": 74025784
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4647727
+    },
+    {
+      "Country": "Finland",
+      "Population": 4491443
+    },
+    {
+      "Country": "France",
+      "Population": 48389516
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4196712
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 10058928
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2863350
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2181586
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 11805689
+    },
+    {
+      "Country": "Norway",
+      "Population": 3638918
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1603649
+    },
+    {
+      "Country": "Sweden",
+      "Population": 7561588
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 43943674
+    },
+    {
+      "Country": "United States",
+      "Population": 186538000
+    }
+  ],
+  "1963-64": [
+    {
+      "Country": "Australia",
+      "Population": 10950000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7175811
+    },
+    {
+      "Country": "Belarus",
+      "Population": 8437232
+    },
+    {
+      "Country": "Canada",
+      "Population": 18964000
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 5694247
+    },
+    {
+      "Country": "Germany",
+      "Population": 74714353
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4684483
+    },
+    {
+      "Country": "Finland",
+      "Population": 4523309
+    },
+    {
+      "Country": "France",
+      "Population": 48877567
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4225675
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 10377466
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2898950
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2210919
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 11965966
+    },
+    {
+      "Country": "Norway",
+      "Population": 3666537
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1616971
+    },
+    {
+      "Country": "Sweden",
+      "Population": 7604328
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 44462372
+    },
+    {
+      "Country": "United States",
+      "Population": 189242000
+    }
+  ],
+  "1964-65": [
+    {
+      "Country": "Australia",
+      "Population": 11167000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7223801
+    },
+    {
+      "Country": "Belarus",
+      "Population": 8524224
+    },
+    {
+      "Country": "Canada",
+      "Population": 19325000
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 5789228
+    },
+    {
+      "Country": "Germany",
+      "Population": 75318337
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4722072
+    },
+    {
+      "Country": "Finland",
+      "Population": 4548543
+    },
+    {
+      "Country": "France",
+      "Population": 49401492
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4252876
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 10690309
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2935200
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2240623
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 12127120
+    },
+    {
+      "Country": "Norway",
+      "Population": 3694339
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1632114
+    },
+    {
+      "Country": "Sweden",
+      "Population": 7661354
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 44951156
+    },
+    {
+      "Country": "United States",
+      "Population": 191889000
+    }
+  ],
+  "1965-66": [
+    {
+      "Country": "Australia",
+      "Population": 11388000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7270889
+    },
+    {
+      "Country": "Belarus",
+      "Population": 8610000
+    },
+    {
+      "Country": "Canada",
+      "Population": 19678000
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 5856472
+    },
+    {
+      "Country": "Germany",
+      "Population": 75963695
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4759012
+    },
+    {
+      "Country": "Finland",
+      "Population": 4563732
+    },
+    {
+      "Country": "France",
+      "Population": 49877725
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4280923
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 10993183
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2971450
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2265919
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 12294732
+    },
+    {
+      "Country": "Norway",
+      "Population": 3723168
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1649160
+    },
+    {
+      "Country": "Sweden",
+      "Population": 7733853
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 45386892
+    },
+    {
+      "Country": "United States",
+      "Population": 194303000
+    }
+  ],
+  "1966-67": [
+    {
+      "Country": "Australia",
+      "Population": 11651000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7322066
+    },
+    {
+      "Country": "Belarus",
+      "Population": 8696496
+    },
+    {
+      "Country": "Canada",
+      "Population": 20048000
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 5918002
+    },
+    {
+      "Country": "Germany",
+      "Population": 76600311
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4797381
+    },
+    {
+      "Country": "Finland",
+      "Population": 4580869
+    },
+    {
+      "Country": "France",
+      "Population": 50311637
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4310701
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 11288989
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3008050
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2283217
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 12456251
+    },
+    {
+      "Country": "Norway",
+      "Population": 3753012
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1669905
+    },
+    {
+      "Country": "Sweden",
+      "Population": 7807797
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 45802519
+    },
+    {
+      "Country": "United States",
+      "Population": 196560000
+    }
+  ],
+  "1967-68": [
+    {
+      "Country": "Australia",
+      "Population": 11799000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7376998
+    },
+    {
+      "Country": "Belarus",
+      "Population": 8785648
+    },
+    {
+      "Country": "Canada",
+      "Population": 20412000
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 5991785
+    },
+    {
+      "Country": "Germany",
+      "Population": 76951336
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4835354
+    },
+    {
+      "Country": "Finland",
+      "Population": 4605744
+    },
+    {
+      "Country": "France",
+      "Population": 50722791
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4338683
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 11584428
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3044400
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2301220
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 12598201
+    },
+    {
+      "Country": "Norway",
+      "Population": 3784539
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1689528
+    },
+    {
+      "Country": "Sweden",
+      "Population": 7867931
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 46215988
+    },
+    {
+      "Country": "United States",
+      "Population": 198712000
+    }
+  ],
+  "1968-69": [
+    {
+      "Country": "Australia",
+      "Population": 12009000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7415403
+    },
+    {
+      "Country": "Belarus",
+      "Population": 8874552
+    },
+    {
+      "Country": "Canada",
+      "Population": 20744000
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6067714
+    },
+    {
+      "Country": "Germany",
+      "Population": 77294314
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4864883
+    },
+    {
+      "Country": "Finland",
+      "Population": 4626469
+    },
+    {
+      "Country": "France",
+      "Population": 51112980
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4365628
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 11879182
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3078850
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2323619
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 12729721
+    },
+    {
+      "Country": "Norway",
+      "Population": 3816486
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1704546
+    },
+    {
+      "Country": "Sweden",
+      "Population": 7912273
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 46614325
+    },
+    {
+      "Country": "United States",
+      "Population": 200706000
+    }
+  ],
+  "1969-70": [
+    {
+      "Country": "Australia",
+      "Population": 12263000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7441055
+    },
+    {
+      "Country": "Belarus",
+      "Population": 8960304
+    },
+    {
+      "Country": "Canada",
+      "Population": 21028000
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6136387
+    },
+    {
+      "Country": "Germany",
+      "Population": 77909682
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4891860
+    },
+    {
+      "Country": "Finland",
+      "Population": 4623785
+    },
+    {
+      "Country": "France",
+      "Population": 51536014
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4391490
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 12156212
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3107321
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2343173
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 12877984
+    },
+    {
+      "Country": "Norway",
+      "Population": 3847707
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1713874
+    },
+    {
+      "Country": "Sweden",
+      "Population": 7968072
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 46976256
+    },
+    {
+      "Country": "United States",
+      "Population": 202677000
+    }
+  ],
+  "1970-71": [
+    {
+      "Country": "Australia",
+      "Population": 12507000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7467086
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9040000
+    },
+    {
+      "Country": "Canada",
+      "Population": 21324000
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6180877
+    },
+    {
+      "Country": "Germany",
+      "Population": 78169289
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4928757
+    },
+    {
+      "Country": "Finland",
+      "Population": 4606307
+    },
+    {
+      "Country": "France",
+      "Population": 52007169
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4412252
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 12419057
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3139689
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2359164
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 13038526
+    },
+    {
+      "Country": "Norway",
+      "Population": 3875763
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1724891
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8042801
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 47261306
+    },
+    {
+      "Country": "United States",
+      "Population": 205052000
+    }
+  ],
+  "1971-72": [
+    {
+      "Country": "Australia",
+      "Population": 12937000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7500482
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9115576
+    },
+    {
+      "Country": "Canada",
+      "Population": 21962032
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6213399
+    },
+    {
+      "Country": "Germany",
+      "Population": 78312842
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4963126
+    },
+    {
+      "Country": "Finland",
+      "Population": 4612124
+    },
+    {
+      "Country": "France",
+      "Population": 52499553
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4431275
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 12684813
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3179041
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2376389
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 13194497
+    },
+    {
+      "Country": "Norway",
+      "Population": 3903039
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1738335
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8098334
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 47573287
+    },
+    {
+      "Country": "United States",
+      "Population": 207661000
+    }
+  ],
+  "1972-73": [
+    {
+      "Country": "Australia",
+      "Population": 13177000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7544201
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9188968
+    },
+    {
+      "Country": "Canada",
+      "Population": 22218463
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6260956
+    },
+    {
+      "Country": "Germany",
+      "Population": 78688452
+    },
+    {
+      "Country": "Denmark",
+      "Population": 4991596
+    },
+    {
+      "Country": "Finland",
+      "Population": 4639657
+    },
+    {
+      "Country": "France",
+      "Population": 52962356
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4450564
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 12951798
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3213622
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2395674
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 13328593
+    },
+    {
+      "Country": "Norway",
+      "Population": 3933004
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1752233
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8122300
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 47946893
+    },
+    {
+      "Country": "United States",
+      "Population": 209896000
+    }
+  ],
+  "1973-74": [
+    {
+      "Country": "Australia",
+      "Population": 13380000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7586115
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9257272
+    },
+    {
+      "Country": "Canada",
+      "Population": 22491777
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6307347
+    },
+    {
+      "Country": "Germany",
+      "Population": 78936666
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5021861
+    },
+    {
+      "Country": "Finland",
+      "Population": 4666081
+    },
+    {
+      "Country": "France",
+      "Population": 53392161
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4470161
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 13208121
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3244438
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2415819
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 13439322
+    },
+    {
+      "Country": "Norway",
+      "Population": 3960612
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1766697
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8136312
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 48277121
+    },
+    {
+      "Country": "United States",
+      "Population": 211909000
+    }
+  ],
+  "1974-75": [
+    {
+      "Country": "Australia",
+      "Population": 13723000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7599038
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9317584
+    },
+    {
+      "Country": "Canada",
+      "Population": 22807969
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6341405
+    },
+    {
+      "Country": "Germany",
+      "Population": 78967433
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5045297
+    },
+    {
+      "Country": "Finland",
+      "Population": 4690574
+    },
+    {
+      "Country": "France",
+      "Population": 53746571
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4490660
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 13454570
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3273894
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2437186
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 13545056
+    },
+    {
+      "Country": "Norway",
+      "Population": 3985258
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1776132
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8159955
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 48576570
+    },
+    {
+      "Country": "United States",
+      "Population": 213854000
+    }
+  ],
+  "1975-76": [
+    {
+      "Country": "Australia",
+      "Population": 13893000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7578903
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9367000
+    },
+    {
+      "Country": "Canada",
+      "Population": 23143275
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6338632
+    },
+    {
+      "Country": "Germany",
+      "Population": 78673554
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5059862
+    },
+    {
+      "Country": "Finland",
+      "Population": 4711440
+    },
+    {
+      "Country": "France",
+      "Population": 54002853
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4512082
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 13700843
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3301652
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2456130
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 13666335
+    },
+    {
+      "Country": "Norway",
+      "Population": 4007313
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1793581
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8192437
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 48865229
+    },
+    {
+      "Country": "United States",
+      "Population": 215973000
+    }
+  ],
+  "1976-77": [
+    {
+      "Country": "Australia",
+      "Population": 14033000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7565525
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9411000
+    },
+    {
+      "Country": "Canada",
+      "Population": 23449808
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6302504
+    },
+    {
+      "Country": "Germany",
+      "Population": 78336950
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5072596
+    },
+    {
+      "Country": "Finland",
+      "Population": 4725664
+    },
+    {
+      "Country": "France",
+      "Population": 54232383
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4535934
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 13998738
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3328664
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2470989
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 13774037
+    },
+    {
+      "Country": "Norway",
+      "Population": 4026152
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1820249
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8222286
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 49120842
+    },
+    {
+      "Country": "United States",
+      "Population": 218035000
+    }
+  ],
+  "1977-78": [
+    {
+      "Country": "Australia",
+      "Population": 14192000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7568430
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9463000
+    },
+    {
+      "Country": "Canada",
+      "Population": 23725843
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6281174
+    },
+    {
+      "Country": "Germany",
+      "Population": 78159814
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5088419
+    },
+    {
+      "Country": "Finland",
+      "Population": 4738902
+    },
+    {
+      "Country": "France",
+      "Population": 54486467
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4559571
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 14353265
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3355036
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2485073
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 13856185
+    },
+    {
+      "Country": "Norway",
+      "Population": 4043205
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1842377
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8251540
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 49336481
+    },
+    {
+      "Country": "United States",
+      "Population": 220239000
+    }
+  ],
+  "1978-79": [
+    {
+      "Country": "Australia",
+      "Population": 14358000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7562305
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9525000
+    },
+    {
+      "Country": "Canada",
+      "Population": 23963203
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6281738
+    },
+    {
+      "Country": "Germany",
+      "Population": 78091820
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5104248
+    },
+    {
+      "Country": "Finland",
+      "Population": 4752528
+    },
+    {
+      "Country": "France",
+      "Population": 54734030
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4581085
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 14711497
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3379514
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2497921
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 13941700
+    },
+    {
+      "Country": "Norway",
+      "Population": 4058671
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1862548
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8275599
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 49521243
+    },
+    {
+      "Country": "United States",
+      "Population": 222585000
+    }
+  ],
+  "1979-80": [
+    {
+      "Country": "Australia",
+      "Population": 14514000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7549425
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9584000
+    },
+    {
+      "Country": "Canada",
+      "Population": 24201544
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6294365
+    },
+    {
+      "Country": "Germany",
+      "Population": 78126350
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5116801
+    },
+    {
+      "Country": "Finland",
+      "Population": 4764690
+    },
+    {
+      "Country": "France",
+      "Population": 54979851
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4594778
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 14978696
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3397842
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2505953
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 14038270
+    },
+    {
+      "Country": "Norway",
+      "Population": 4072517
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1882599
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8293678
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 49721381
+    },
+    {
+      "Country": "United States",
+      "Population": 225055000
+    }
+  ],
+  "1980-81": [
+    {
+      "Country": "Australia",
+      "Population": 14692000
+    },
+    {
+      "Country": "Austria",
+      "Population": 7549433
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9643000
+    },
+    {
+      "Country": "Canada",
+      "Population": 24515667
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6319408
+    },
+    {
+      "Country": "Germany",
+      "Population": 78288576
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5123027
+    },
+    {
+      "Country": "Finland",
+      "Population": 4779535
+    },
+    {
+      "Country": "France",
+      "Population": 55274184
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4599782
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15152949
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3413202
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2511701
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 14149800
+    },
+    {
+      "Country": "Norway",
+      "Population": 4085620
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1901315
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8310531
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 49955152
+    },
+    {
+      "Country": "United States",
+      "Population": 227225000
+    }
+  ],
+  "1981-82": [
+    {
+      "Country": "Australia",
+      "Population": 14923260
+    },
+    {
+      "Country": "Austria",
+      "Population": 7568710
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9710000
+    },
+    {
+      "Country": "Canada",
+      "Population": 24819915
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6354074
+    },
+    {
+      "Country": "Germany",
+      "Population": 78407907
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5121572
+    },
+    {
+      "Country": "Finland",
+      "Population": 4799964
+    },
+    {
+      "Country": "France",
+      "Population": 55603353
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4611509
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15323082
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3432947
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2519421
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 14247208
+    },
+    {
+      "Country": "Norway",
+      "Population": 4099702
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1906531
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8320503
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 50189281
+    },
+    {
+      "Country": "United States",
+      "Population": 229466000
+    }
+  ],
+  "1982-83": [
+    {
+      "Country": "Australia",
+      "Population": 15184247
+    },
+    {
+      "Country": "Austria",
+      "Population": 7574140
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9776000
+    },
+    {
+      "Country": "Canada",
+      "Population": 25116942
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6391309
+    },
+    {
+      "Country": "Germany",
+      "Population": 78333366
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5117810
+    },
+    {
+      "Country": "Finland",
+      "Population": 4826933
+    },
+    {
+      "Country": "France",
+      "Population": 55806789
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4634234
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15492595
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3457179
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2531080
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 14312690
+    },
+    {
+      "Country": "Norway",
+      "Population": 4114787
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1910334
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8325263
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 50402724
+    },
+    {
+      "Country": "United States",
+      "Population": 231664000
+    }
+  ],
+  "1983-84": [
+    {
+      "Country": "Australia",
+      "Population": 15393472
+    },
+    {
+      "Country": "Austria",
+      "Population": 7561910
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9843000
+    },
+    {
+      "Country": "Canada",
+      "Population": 25366451
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6418773
+    },
+    {
+      "Country": "Germany",
+      "Population": 78128282
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5114297
+    },
+    {
+      "Country": "Finland",
+      "Population": 4855787
+    },
+    {
+      "Country": "France",
+      "Population": 56108330
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4658254
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15665551
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3485192
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2546011
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 14367070
+    },
+    {
+      "Country": "Norway",
+      "Population": 4128432
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1922321
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8329033
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 50637029
+    },
+    {
+      "Country": "United States",
+      "Population": 233792000
+    }
+  ],
+  "1984-85": [
+    {
+      "Country": "Australia",
+      "Population": 15579391
+    },
+    {
+      "Country": "Austria",
+      "Population": 7561434
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9910000
+    },
+    {
+      "Country": "Canada",
+      "Population": 25607053
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6441865
+    },
+    {
+      "Country": "Germany",
+      "Population": 77858685
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5111619
+    },
+    {
+      "Country": "Finland",
+      "Population": 4881803
+    },
+    {
+      "Country": "France",
+      "Population": 56383085
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4680285
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15844621
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3514205
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2562047
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 14424211
+    },
+    {
+      "Country": "Norway",
+      "Population": 4140099
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1932154
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8336605
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 50887599
+    },
+    {
+      "Country": "United States",
+      "Population": 235825000
+    }
+  ],
+  "1985-86": [
+    {
+      "Country": "Australia",
+      "Population": 15788312
+    },
+    {
+      "Country": "Austria",
+      "Population": 7564985
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9975000
+    },
+    {
+      "Country": "Canada",
+      "Population": 25842116
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6470365
+    },
+    {
+      "Country": "Germany",
+      "Population": 77684873
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5113691
+    },
+    {
+      "Country": "Finland",
+      "Population": 4902206
+    },
+    {
+      "Country": "France",
+      "Population": 56665619
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4701417
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16031090
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3544543
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2578873
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 14491632
+    },
+    {
+      "Country": "Norway",
+      "Population": 4152516
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1941641
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8350386
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 51108770
+    },
+    {
+      "Country": "United States",
+      "Population": 237924000
+    }
+  ],
+  "1986-87": [
+    {
+      "Country": "Australia",
+      "Population": 16018350
+    },
+    {
+      "Country": "Austria",
+      "Population": 7569794
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10043000
+    },
+    {
+      "Country": "Canada",
+      "Population": 26100278
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6504124
+    },
+    {
+      "Country": "Germany",
+      "Population": 77720436
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5120534
+    },
+    {
+      "Country": "Finland",
+      "Population": 4918154
+    },
+    {
+      "Country": "France",
+      "Population": 56956002
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4721446
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16262702
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3578914
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2599892
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 14572278
+    },
+    {
+      "Country": "Norway",
+      "Population": 4167354
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1965964
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8369829
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 51318745
+    },
+    {
+      "Country": "United States",
+      "Population": 240133000
+    }
+  ],
+  "1987-88": [
+    {
+      "Country": "Australia",
+      "Population": 16263874
+    },
+    {
+      "Country": "Austria",
+      "Population": 7574586
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10111000
+    },
+    {
+      "Country": "Canada",
+      "Population": 26446601
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6545106
+    },
+    {
+      "Country": "Germany",
+      "Population": 77839920
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5127024
+    },
+    {
+      "Country": "Finland",
+      "Population": 4932123
+    },
+    {
+      "Country": "France",
+      "Population": 57266167
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4739745
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16527715
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3616367
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2626583
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 14665037
+    },
+    {
+      "Country": "Norway",
+      "Population": 4186905
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1989776
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8397804
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 51515732
+    },
+    {
+      "Country": "United States",
+      "Population": 242289000
+    }
+  ],
+  "1988-89": [
+    {
+      "Country": "Australia",
+      "Population": 16532164
+    },
+    {
+      "Country": "Austria",
+      "Population": 7585317
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10140000
+    },
+    {
+      "Country": "Canada",
+      "Population": 26791747
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6593386
+    },
+    {
+      "Country": "Germany",
+      "Population": 78144619
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5129516
+    },
+    {
+      "Country": "Finland",
+      "Population": 4946481
+    },
+    {
+      "Country": "France",
+      "Population": 57598186
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4755207
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16781168
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3655049
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2653434
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 14760094
+    },
+    {
+      "Country": "Norway",
+      "Population": 4209488
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1995196
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8436489
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 51724853
+    },
+    {
+      "Country": "United States",
+      "Population": 244499000
+    }
+  ],
+  "1989-90": [
+    {
+      "Country": "Australia",
+      "Population": 16814416
+    },
+    {
+      "Country": "Austria",
+      "Population": 7619567
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10170000
+    },
+    {
+      "Country": "Canada",
+      "Population": 27276781
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6646912
+    },
+    {
+      "Country": "Germany",
+      "Population": 78751283
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5132594
+    },
+    {
+      "Country": "Finland",
+      "Population": 4964371
+    },
+    {
+      "Country": "France",
+      "Population": 57943062
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4767260
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16997013
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3684255
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2666955
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 14848907
+    },
+    {
+      "Country": "Norway",
+      "Population": 4226901
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1996351
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8492964
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 51917817
+    },
+    {
+      "Country": "United States",
+      "Population": 246819000
+    }
+  ],
+  "1990-91": [
+    {
+      "Country": "Australia",
+      "Population": 17065128
+    },
+    {
+      "Country": "Austria",
+      "Population": 7677850
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10189348
+    },
+    {
+      "Country": "Canada",
+      "Population": 27691138
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6715519
+    },
+    {
+      "Country": "Germany",
+      "Population": 79433029
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5140939
+    },
+    {
+      "Country": "Finland",
+      "Population": 4986431
+    },
+    {
+      "Country": "France",
+      "Population": 58261012
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4777368
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 17154054
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3697838
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2663151
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 14951510
+    },
+    {
+      "Country": "Norway",
+      "Population": 4241473
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1998161
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8558835
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 52054092
+    },
+    {
+      "Country": "United States",
+      "Population": 249623000
+    }
+  ],
+  "1991-92": [
+    {
+      "Country": "Australia",
+      "Population": 17284036
+    },
+    {
+      "Country": "Austria",
+      "Population": 7754891
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10194050
+    },
+    {
+      "Country": "Canada",
+      "Population": 28037420
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6799978
+    },
+    {
+      "Country": "Germany",
+      "Population": 80013896
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5154298
+    },
+    {
+      "Country": "Finland",
+      "Population": 5013740
+    },
+    {
+      "Country": "France",
+      "Population": 58554242
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4689022
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 17278600
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3704134
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2650581
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 15069798
+    },
+    {
+      "Country": "Norway",
+      "Population": 4261732
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1999429
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8617375
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 52170961
+    },
+    {
+      "Country": "United States",
+      "Population": 252981000
+    }
+  ],
+  "1992-93": [
+    {
+      "Country": "Australia",
+      "Population": 17478635
+    },
+    {
+      "Country": "Austria",
+      "Population": 7840709
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10216470
+    },
+    {
+      "Country": "Canada",
+      "Population": 28371264
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6875364
+    },
+    {
+      "Country": "Germany",
+      "Population": 80624598
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5171370
+    },
+    {
+      "Country": "Finland",
+      "Population": 5041992
+    },
+    {
+      "Country": "France",
+      "Population": 58846584
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4575818
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 17332625
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3700114
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2614338
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 15184166
+    },
+    {
+      "Country": "Norway",
+      "Population": 4286401
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1996498
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8668067
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 52323671
+    },
+    {
+      "Country": "United States",
+      "Population": 256514000
+    }
+  ],
+  "1993-94": [
+    {
+      "Country": "Australia",
+      "Population": 17634808
+    },
+    {
+      "Country": "Austria",
+      "Population": 7905633
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10239050
+    },
+    {
+      "Country": "Canada",
+      "Population": 28684764
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6938265
+    },
+    {
+      "Country": "Germany",
+      "Population": 81156363
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5188628
+    },
+    {
+      "Country": "Finland",
+      "Population": 5066447
+    },
+    {
+      "Country": "France",
+      "Population": 59103094
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4600463
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 17274487
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3682613
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2563290
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 15290368
+    },
+    {
+      "Country": "Norway",
+      "Population": 4311991
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1991746
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8718561
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 52350126
+    },
+    {
+      "Country": "United States",
+      "Population": 259919000
+    }
+  ],
+  "1994-95": [
+    {
+      "Country": "Australia",
+      "Population": 17805468
+    },
+    {
+      "Country": "Austria",
+      "Population": 7936118
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10226955
+    },
+    {
+      "Country": "Canada",
+      "Population": 29000663
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 6993795
+    },
+    {
+      "Country": "Germany",
+      "Population": 81438348
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5206180
+    },
+    {
+      "Country": "Finland",
+      "Population": 5088333
+    },
+    {
+      "Country": "France",
+      "Population": 59324863
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4652024
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 17043771
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3657144
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2520742
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 15382838
+    },
+    {
+      "Country": "Norway",
+      "Population": 4336613
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1989443
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8780745
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 52075998
+    },
+    {
+      "Country": "United States",
+      "Population": 263126000
+    }
+  ],
+  "1995-96": [
+    {
+      "Country": "Australia",
+      "Population": 18004882
+    },
+    {
+      "Country": "Austria",
+      "Population": 7948278
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10193831
+    },
+    {
+      "Country": "Canada",
+      "Population": 29302311
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7040687
+    },
+    {
+      "Country": "Germany",
+      "Population": 81678051
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5233373
+    },
+    {
+      "Country": "Finland",
+      "Population": 5107790
+    },
+    {
+      "Country": "France",
+      "Population": 59541294
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4620030
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16730536
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3629102
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2485056
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 15459006
+    },
+    {
+      "Country": "Norway",
+      "Population": 4359184
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1989872
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8826939
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 51665539
+    },
+    {
+      "Country": "United States",
+      "Population": 266278000
+    }
+  ],
+  "1996-97": [
+    {
+      "Country": "Australia",
+      "Population": 18224767
+    },
+    {
+      "Country": "Austria",
+      "Population": 7959017
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10159569
+    },
+    {
+      "Country": "Canada",
+      "Population": 29610218
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7071850
+    },
+    {
+      "Country": "Germany",
+      "Population": 81914831
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5263074
+    },
+    {
+      "Country": "Finland",
+      "Population": 5124573
+    },
+    {
+      "Country": "France",
+      "Population": 59754504
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4557097
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16416027
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3601613
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2457222
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 15530498
+    },
+    {
+      "Country": "Norway",
+      "Population": 4381336
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1988628
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8840998
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 51226109
+    },
+    {
+      "Country": "United States",
+      "Population": 269394000
+    }
+  ],
+  "1997-98": [
+    {
+      "Country": "Australia",
+      "Population": 18423037
+    },
+    {
+      "Country": "Austria",
+      "Population": 7968041
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10117433
+    },
+    {
+      "Country": "Canada",
+      "Population": 29905948
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7088906
+    },
+    {
+      "Country": "Germany",
+      "Population": 82034771
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5284991
+    },
+    {
+      "Country": "Finland",
+      "Population": 5139835
+    },
+    {
+      "Country": "France",
+      "Population": 59968066
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4534920
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16043251
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3575137
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2432851
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 15610650
+    },
+    {
+      "Country": "Norway",
+      "Population": 4405157
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1985956
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8846062
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 50786885
+    },
+    {
+      "Country": "United States",
+      "Population": 272657000
+    }
+  ],
+  "1998-99": [
+    {
+      "Country": "Australia",
+      "Population": 18607584
+    },
+    {
+      "Country": "Austria",
+      "Population": 7976789
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10071963
+    },
+    {
+      "Country": "Canada",
+      "Population": 30155173
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7110001
+    },
+    {
+      "Country": "Germany",
+      "Population": 82047195
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5304219
+    },
+    {
+      "Country": "Finland",
+      "Population": 5153498
+    },
+    {
+      "Country": "France",
+      "Population": 60190684
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4532135
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15647785
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3549331
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2410019
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 15707209
+    },
+    {
+      "Country": "Norway",
+      "Population": 4431464
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1981629
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8850974
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 50379731
+    },
+    {
+      "Country": "United States",
+      "Population": 275854000
+    }
+  ],
+  "1999-00": [
+    {
+      "Country": "Australia",
+      "Population": 18812264
+    },
+    {
+      "Country": "Austria",
+      "Population": 7992324
+    },
+    {
+      "Country": "Belarus",
+      "Population": 10026738
+    },
+    {
+      "Country": "Canada",
+      "Population": 30401286
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7143991
+    },
+    {
+      "Country": "Germany",
+      "Population": 82100243
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5321799
+    },
+    {
+      "Country": "Finland",
+      "Population": 5165474
+    },
+    {
+      "Country": "France",
+      "Population": 60501986
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4512597
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15455874
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3524238
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2390482
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 15812088
+    },
+    {
+      "Country": "Norway",
+      "Population": 4461913
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1983045
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8857874
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 49976446
+    },
+    {
+      "Country": "United States",
+      "Population": 279040000
+    }
+  ],
+  "2000-01": [
+    {
+      "Country": "Australia",
+      "Population": 19028802
+    },
+    {
+      "Country": "Austria",
+      "Population": 8011566
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9979610
+    },
+    {
+      "Country": "Canada",
+      "Population": 30685730
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7184250
+    },
+    {
+      "Country": "Germany",
+      "Population": 82211508
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5339616
+    },
+    {
+      "Country": "Finland",
+      "Population": 5176209
+    },
+    {
+      "Country": "France",
+      "Population": 60918661
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4468302
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15501103
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3499536
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2367550
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 15925513
+    },
+    {
+      "Country": "Norway",
+      "Population": 4490967
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1988925
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8872109
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 49556660
+    },
+    {
+      "Country": "United States",
+      "Population": 282162411
+    }
+  ],
+  "2001-02": [
+    {
+      "Country": "Australia",
+      "Population": 19274701
+    },
+    {
+      "Country": "Austria",
+      "Population": 8042293
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9928549
+    },
+    {
+      "Country": "Canada",
+      "Population": 31020855
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7229854
+    },
+    {
+      "Country": "Germany",
+      "Population": 82349925
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5358783
+    },
+    {
+      "Country": "Finland",
+      "Population": 5188008
+    },
+    {
+      "Country": "France",
+      "Population": 61364377
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4299642
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15575550
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3470818
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2337170
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16046180
+    },
+    {
+      "Country": "Norway",
+      "Population": 4513751
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1992060
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8895960
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 49106855
+    },
+    {
+      "Country": "United States",
+      "Population": 284968955
+    }
+  ],
+  "2002-03": [
+    {
+      "Country": "Australia",
+      "Population": 19495210
+    },
+    {
+      "Country": "Austria",
+      "Population": 8081957
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9865548
+    },
+    {
+      "Country": "Canada",
+      "Population": 31359199
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7284753
+    },
+    {
+      "Country": "Germany",
+      "Population": 82488495
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5375931
+    },
+    {
+      "Country": "Finland",
+      "Population": 5200598
+    },
+    {
+      "Country": "France",
+      "Population": 61812142
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4302174
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15656677
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3443067
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2310173
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16148929
+    },
+    {
+      "Country": "Norway",
+      "Population": 4538159
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1994530
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8924958
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 48677281
+    },
+    {
+      "Country": "United States",
+      "Population": 287625193
+    }
+  ],
+  "2003-04": [
+    {
+      "Country": "Australia",
+      "Population": 19720737
+    },
+    {
+      "Country": "Austria",
+      "Population": 8121423
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9796749
+    },
+    {
+      "Country": "Canada",
+      "Population": 31642461
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7339001
+    },
+    {
+      "Country": "Germany",
+      "Population": 82534176
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5390574
+    },
+    {
+      "Country": "Finland",
+      "Population": 5213014
+    },
+    {
+      "Country": "France",
+      "Population": 62249855
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4303399
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15747380
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3415213
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2287955
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16225302
+    },
+    {
+      "Country": "Norway",
+      "Population": 4564855
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1995733
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8958229
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 48315136
+    },
+    {
+      "Country": "United States",
+      "Population": 290107933
+    }
+  ],
+  "2004-05": [
+    {
+      "Country": "Australia",
+      "Population": 19932722
+    },
+    {
+      "Country": "Austria",
+      "Population": 8171966
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9730146
+    },
+    {
+      "Country": "Canada",
+      "Population": 31938807
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7389625
+    },
+    {
+      "Country": "Germany",
+      "Population": 82516260
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5404523
+    },
+    {
+      "Country": "Finland",
+      "Population": 5228172
+    },
+    {
+      "Country": "France",
+      "Population": 62707588
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4304600
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15850159
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3377075
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2263122
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16281779
+    },
+    {
+      "Country": "Norway",
+      "Population": 4591910
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 1997012
+    },
+    {
+      "Country": "Sweden",
+      "Population": 8993531
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 47979507
+    },
+    {
+      "Country": "United States",
+      "Population": 292805298
+    }
+  ],
+  "2005-06": [
+    {
+      "Country": "Australia",
+      "Population": 20176844
+    },
+    {
+      "Country": "Austria",
+      "Population": 8227829
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9663915
+    },
+    {
+      "Country": "Canada",
+      "Population": 32242732
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7437115
+    },
+    {
+      "Country": "Germany",
+      "Population": 82469422
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5419432
+    },
+    {
+      "Country": "Finland",
+      "Population": 5246096
+    },
+    {
+      "Country": "France",
+      "Population": 63180854
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4310145
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 15968117
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3322528
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2238799
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16319868
+    },
+    {
+      "Country": "Norway",
+      "Population": 4623291
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2000474
+    },
+    {
+      "Country": "Sweden",
+      "Population": 9029572
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 47585556
+    },
+    {
+      "Country": "United States",
+      "Population": 295516599
+    }
+  ],
+  "2006-07": [
+    {
+      "Country": "Australia",
+      "Population": 20450966
+    },
+    {
+      "Country": "Austria",
+      "Population": 8268641
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9604924
+    },
+    {
+      "Country": "Canada",
+      "Population": 32571193
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7483934
+    },
+    {
+      "Country": "Germany",
+      "Population": 82376451
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5437272
+    },
+    {
+      "Country": "Finland",
+      "Population": 5266268
+    },
+    {
+      "Country": "France",
+      "Population": 63622342
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4311159
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16103716
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3269909
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2218357
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16346101
+    },
+    {
+      "Country": "Norway",
+      "Population": 4660677
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2006868
+    },
+    {
+      "Country": "Sweden",
+      "Population": 9080505
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 47278694
+    },
+    {
+      "Country": "United States",
+      "Population": 298379912
+    }
+  ],
+  "2007-08": [
+    {
+      "Country": "Australia",
+      "Population": 20827622
+    },
+    {
+      "Country": "Austria",
+      "Population": 8295487
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9560953
+    },
+    {
+      "Country": "Canada",
+      "Population": 32888886
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7551117
+    },
+    {
+      "Country": "Germany",
+      "Population": 82266372
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5461438
+    },
+    {
+      "Country": "Finland",
+      "Population": 5288720
+    },
+    {
+      "Country": "France",
+      "Population": 64016890
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4310217
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16257214
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3231294
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2200325
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16381696
+    },
+    {
+      "Country": "Norway",
+      "Population": 4709153
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2018122
+    },
+    {
+      "Country": "Sweden",
+      "Population": 9148092
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 47062798
+    },
+    {
+      "Country": "United States",
+      "Population": 301231207
+    }
+  ],
+  "2008-09": [
+    {
+      "Country": "Australia",
+      "Population": 21249199
+    },
+    {
+      "Country": "Austria",
+      "Population": 8321496
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9527985
+    },
+    {
+      "Country": "Canada",
+      "Population": 33247298
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7647675
+    },
+    {
+      "Country": "Germany",
+      "Population": 82110097
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5493621
+    },
+    {
+      "Country": "Finland",
+      "Population": 5313399
+    },
+    {
+      "Country": "France",
+      "Population": 64375116
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4309705
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16426525
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3198231
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2177322
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16445593
+    },
+    {
+      "Country": "Norway",
+      "Population": 4768212
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2021316
+    },
+    {
+      "Country": "Sweden",
+      "Population": 9219637
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 46819175
+    },
+    {
+      "Country": "United States",
+      "Population": 304093966
+    }
+  ],
+  "2009-10": [
+    {
+      "Country": "Australia",
+      "Population": 21691653
+    },
+    {
+      "Country": "Austria",
+      "Population": 8343323
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9504583
+    },
+    {
+      "Country": "Canada",
+      "Population": 33630069
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7743831
+    },
+    {
+      "Country": "Germany",
+      "Population": 81902307
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5523095
+    },
+    {
+      "Country": "Finland",
+      "Population": 5338871
+    },
+    {
+      "Country": "France",
+      "Population": 64706436
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4305181
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16619846
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3162916
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2141669
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16530388
+    },
+    {
+      "Country": "Norway",
+      "Population": 4828726
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2039669
+    },
+    {
+      "Country": "Sweden",
+      "Population": 9298515
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 46623731
+    },
+    {
+      "Country": "United States",
+      "Population": 306771529
+    }
+  ],
+  "2010-11": [
+    {
+      "Country": "Australia",
+      "Population": 22031750
+    },
+    {
+      "Country": "Austria",
+      "Population": 8363404
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9483836
+    },
+    {
+      "Country": "Canada",
+      "Population": 34005902
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7824909
+    },
+    {
+      "Country": "Germany",
+      "Population": 81776930
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5547683
+    },
+    {
+      "Country": "Finland",
+      "Population": 5363352
+    },
+    {
+      "Country": "France",
+      "Population": 65026211
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4295427
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 16836810
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3097282
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2097555
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16615394
+    },
+    {
+      "Country": "Norway",
+      "Population": 4889252
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2048583
+    },
+    {
+      "Country": "Sweden",
+      "Population": 9378126
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 46456003
+    },
+    {
+      "Country": "United States",
+      "Population": 309327143
+    }
+  ],
+  "2011-12": [
+    {
+      "Country": "Australia",
+      "Population": 22340024
+    },
+    {
+      "Country": "Austria",
+      "Population": 8391643
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9461643
+    },
+    {
+      "Country": "Canada",
+      "Population": 34339221
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7912398
+    },
+    {
+      "Country": "Germany",
+      "Population": 80274983
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5570572
+    },
+    {
+      "Country": "Finland",
+      "Population": 5388272
+    },
+    {
+      "Country": "France",
+      "Population": 65340830
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4280622
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 17066002
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 3028115
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2059709
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16693074
+    },
+    {
+      "Country": "Norway",
+      "Population": 4953088
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2052843
+    },
+    {
+      "Country": "Sweden",
+      "Population": 9449213
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 46307853
+    },
+    {
+      "Country": "United States",
+      "Population": 311583481
+    }
+  ],
+  "2012-13": [
+    {
+      "Country": "Australia",
+      "Population": 22733465
+    },
+    {
+      "Country": "Austria",
+      "Population": 8429991
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9446836
+    },
+    {
+      "Country": "Canada",
+      "Population": 34713395
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 7996861
+    },
+    {
+      "Country": "Germany",
+      "Population": 80425823
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5591572
+    },
+    {
+      "Country": "Finland",
+      "Population": 5413971
+    },
+    {
+      "Country": "France",
+      "Population": 65657659
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4260368
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 17306106
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2987773
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2034319
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16754962
+    },
+    {
+      "Country": "Norway",
+      "Population": 5018573
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2057159
+    },
+    {
+      "Country": "Sweden",
+      "Population": 9519374
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 46210056
+    },
+    {
+      "Country": "United States",
+      "Population": 313877662
+    }
+  ],
+  "2013-14": [
+    {
+      "Country": "Australia",
+      "Population": 23128129
+    },
+    {
+      "Country": "Austria",
+      "Population": 8479823
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9443211
+    },
+    {
+      "Country": "Canada",
+      "Population": 35080992
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 8089346
+    },
+    {
+      "Country": "Germany",
+      "Population": 80645605
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5614932
+    },
+    {
+      "Country": "Finland",
+      "Population": 5438972
+    },
+    {
+      "Country": "France",
+      "Population": 65997932
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4233922
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 17556502
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2957689
+    },
+    {
+      "Country": "Latvia",
+      "Population": 2012647
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16804432
+    },
+    {
+      "Country": "Norway",
+      "Population": 5079623
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2059953
+    },
+    {
+      "Country": "Sweden",
+      "Population": 9600379
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 46126770
+    },
+    {
+      "Country": "United States",
+      "Population": 316059947
+    }
+  ],
+  "2014-15": [
+    {
+      "Country": "Australia",
+      "Population": 23475686
+    },
+    {
+      "Country": "Austria",
+      "Population": 8546356
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9448515
+    },
+    {
+      "Country": "Canada",
+      "Population": 35434066
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 8188649
+    },
+    {
+      "Country": "Germany",
+      "Population": 80982500
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5643475
+    },
+    {
+      "Country": "Finland",
+      "Population": 5461512
+    },
+    {
+      "Country": "France",
+      "Population": 66312067
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4201598
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 17816285
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2932367
+    },
+    {
+      "Country": "Latvia",
+      "Population": 1993782
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16865008
+    },
+    {
+      "Country": "Norway",
+      "Population": 5137232
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2061980
+    },
+    {
+      "Country": "Sweden",
+      "Population": 9696110
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 45972380
+    },
+    {
+      "Country": "United States",
+      "Population": 318386329
+    }
+  ],
+  "2015-16": [
+    {
+      "Country": "Australia",
+      "Population": 23815995
+    },
+    {
+      "Country": "Austria",
+      "Population": 8642699
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9461076
+    },
+    {
+      "Country": "Canada",
+      "Population": 35704498
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 8282396
+    },
+    {
+      "Country": "Germany",
+      "Population": 81686611
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5683483
+    },
+    {
+      "Country": "Finland",
+      "Population": 5479531
+    },
+    {
+      "Country": "France",
+      "Population": 66548272
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4151725
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 18084169
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2904910
+    },
+    {
+      "Country": "Latvia",
+      "Population": 1977527
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 16939923
+    },
+    {
+      "Country": "Norway",
+      "Population": 5188607
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2063531
+    },
+    {
+      "Country": "Sweden",
+      "Population": 9799186
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 45784896
+    },
+    {
+      "Country": "United States",
+      "Population": 320738994
+    }
+  ],
+  "2016-17": [
+    {
+      "Country": "Australia",
+      "Population": 24190907
+    },
+    {
+      "Country": "Austria",
+      "Population": 8736668
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9469379
+    },
+    {
+      "Country": "Canada",
+      "Population": 36110803
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 8373338
+    },
+    {
+      "Country": "Germany",
+      "Population": 82348669
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5728010
+    },
+    {
+      "Country": "Finland",
+      "Population": 5495303
+    },
+    {
+      "Country": "France",
+      "Population": 66724104
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4106867
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 18363600
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2868231
+    },
+    {
+      "Country": "Latvia",
+      "Population": 1959537
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 17030314
+    },
+    {
+      "Country": "Norway",
+      "Population": 5234519
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2065042
+    },
+    {
+      "Country": "Sweden",
+      "Population": 9923085
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 45616832
+    },
+    {
+      "Country": "United States",
+      "Population": 323071755
+    }
+  ],
+  "2017-18": [
+    {
+      "Country": "Australia",
+      "Population": 24592588
+    },
+    {
+      "Country": "Austria",
+      "Population": 8797566
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9458989
+    },
+    {
+      "Country": "Canada",
+      "Population": 36545075
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 8451840
+    },
+    {
+      "Country": "Germany",
+      "Population": 82657002
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5764980
+    },
+    {
+      "Country": "Finland",
+      "Population": 5508214
+    },
+    {
+      "Country": "France",
+      "Population": 66918020
+    },
+    {
+      "Country": "Croatia",
+      "Population": 4041407
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 18651931
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2828403
+    },
+    {
+      "Country": "Latvia",
+      "Population": 1942248
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 17131296
+    },
+    {
+      "Country": "Norway",
+      "Population": 5276968
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2066388
+    },
+    {
+      "Country": "Sweden",
+      "Population": 10057698
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 45436041
+    },
+    {
+      "Country": "United States",
+      "Population": 325122128
+    }
+  ],
+  "2018-19": [
+    {
+      "Country": "Australia",
+      "Population": 24963258
+    },
+    {
+      "Country": "Austria",
+      "Population": 8840521
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9438785
+    },
+    {
+      "Country": "Canada",
+      "Population": 37072620
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 8514329
+    },
+    {
+      "Country": "Germany",
+      "Population": 82905782
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5793636
+    },
+    {
+      "Country": "Finland",
+      "Population": 5515525
+    },
+    {
+      "Country": "France",
+      "Population": 67158348
+    },
+    {
+      "Country": "Croatia",
+      "Population": 3988775
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 18932727
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2801543
+    },
+    {
+      "Country": "Latvia",
+      "Population": 1927174
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 17231624
+    },
+    {
+      "Country": "Norway",
+      "Population": 5311916
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2073894
+    },
+    {
+      "Country": "Sweden",
+      "Population": 10175214
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 45208907
+    },
+    {
+      "Country": "United States",
+      "Population": 326838199
+    }
+  ],
+  "2019-20": [
+    {
+      "Country": "Australia",
+      "Population": 25334826
+    },
+    {
+      "Country": "Austria",
+      "Population": 8879920
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9419758
+    },
+    {
+      "Country": "Canada",
+      "Population": 37618495
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 8575280
+    },
+    {
+      "Country": "Germany",
+      "Population": 83092962
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5814422
+    },
+    {
+      "Country": "Finland",
+      "Population": 5521606
+    },
+    {
+      "Country": "France",
+      "Population": 67382061
+    },
+    {
+      "Country": "Croatia",
+      "Population": 3949390
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 19209555
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2794137
+    },
+    {
+      "Country": "Latvia",
+      "Population": 1913822
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 17344874
+    },
+    {
+      "Country": "Norway",
+      "Population": 5347896
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2088385
+    },
+    {
+      "Country": "Sweden",
+      "Population": 10278887
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 44957458
+    },
+    {
+      "Country": "United States",
+      "Population": 328329953
+    }
+  ],
+  "2020-21": [
+    {
+      "Country": "Australia",
+      "Population": 25649248
+    },
+    {
+      "Country": "Austria",
+      "Population": 8916864
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9379952
+    },
+    {
+      "Country": "Canada",
+      "Population": 38028638
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 8638167
+    },
+    {
+      "Country": "Germany",
+      "Population": 83160871
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5831404
+    },
+    {
+      "Country": "Finland",
+      "Population": 5529543
+    },
+    {
+      "Country": "France",
+      "Population": 67601110
+    },
+    {
+      "Country": "Croatia",
+      "Population": 3914206
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 19482117
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2794885
+    },
+    {
+      "Country": "Latvia",
+      "Population": 1900449
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 17441500
+    },
+    {
+      "Country": "Norway",
+      "Population": 5379475
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2102419
+    },
+    {
+      "Country": "Sweden",
+      "Population": 10353442
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 44680014
+    },
+    {
+      "Country": "United States",
+      "Population": 331526933
+    }
+  ],
+  "2021-22": [
+    {
+      "Country": "Australia",
+      "Population": 25685412
+    },
+    {
+      "Country": "Austria",
+      "Population": 8955797
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9302585
+    },
+    {
+      "Country": "Canada",
+      "Population": 38239864
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 8704546
+    },
+    {
+      "Country": "Germany",
+      "Population": 83196078
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5856733
+    },
+    {
+      "Country": "Finland",
+      "Population": 5541017
+    },
+    {
+      "Country": "France",
+      "Population": 67842811
+    },
+    {
+      "Country": "Croatia",
+      "Population": 3878981
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 19743603
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2800839
+    },
+    {
+      "Country": "Latvia",
+      "Population": 1884490
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 17533044
+    },
+    {
+      "Country": "Norway",
+      "Population": 5408320
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2108079
+    },
+    {
+      "Country": "Sweden",
+      "Population": 10415811
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 44298640
+    },
+    {
+      "Country": "United States",
+      "Population": 332048977
+    }
+  ],
+  "2022-23": [
+    {
+      "Country": "Australia",
+      "Population": 26014399
+    },
+    {
+      "Country": "Austria",
+      "Population": 9041851
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9228071
+    },
+    {
+      "Country": "Canada",
+      "Population": 38939056
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 8777088
+    },
+    {
+      "Country": "Germany",
+      "Population": 83797985
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5903037
+    },
+    {
+      "Country": "Finland",
+      "Population": 5556106
+    },
+    {
+      "Country": "France",
+      "Population": 68065015
+    },
+    {
+      "Country": "Croatia",
+      "Population": 3855641
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 20034609
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2831639
+    },
+    {
+      "Country": "Latvia",
+      "Population": 1879383
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 17700982
+    },
+    {
+      "Country": "Norway",
+      "Population": 5457127
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2112076
+    },
+    {
+      "Country": "Sweden",
+      "Population": 10486941
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 41048766
+    },
+    {
+      "Country": "United States",
+      "Population": 333271411
+    }
+  ],
+  "2023-24": [
+    {
+      "Country": "Australia",
+      "Population": 26658948
+    },
+    {
+      "Country": "Austria",
+      "Population": 9131761
+    },
+    {
+      "Country": "Belarus",
+      "Population": 9178298
+    },
+    {
+      "Country": "Canada",
+      "Population": 40097761
+    },
+    {
+      "Country": "Switzerland",
+      "Population": 8888093
+    },
+    {
+      "Country": "Germany",
+      "Population": 83280000
+    },
+    {
+      "Country": "Denmark",
+      "Population": 5946952
+    },
+    {
+      "Country": "Finland",
+      "Population": 5583911
+    },
+    {
+      "Country": "France",
+      "Population": 68287487
+    },
+    {
+      "Country": "Croatia",
+      "Population": 3859686
+    },
+    {
+      "Country": "Kazakhstan",
+      "Population": 20330104
+    },
+    {
+      "Country": "Lithuania",
+      "Population": 2871585
+    },
+    {
+      "Country": "Latvia",
+      "Population": 1877445
+    },
+    {
+      "Country": "Netherlands",
+      "Population": 17877117
+    },
+    {
+      "Country": "Norway",
+      "Population": 5519594
+    },
+    {
+      "Country": "Slovenia",
+      "Population": 2120461
+    },
+    {
+      "Country": "Sweden",
+      "Population": 10536632
+    },
+    {
+      "Country": "Ukraine",
+      "Population": 37732836
+    },
+    {
+      "Country": "United States",
+      "Population": 334914895
+    }
+  ]
+}

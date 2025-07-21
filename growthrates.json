@@ -1,0 +1,28 @@
+{
+  "GrowthRates": [
+    { "Country": "Australia", "GrowthRate": 0.015 },
+    { "Country": "Austria", "GrowthRate": 0.001 },
+    { "Country": "Belarus", "GrowthRate": -0.001 },
+    { "Country": "Canada", "GrowthRate": 0.0108 },
+    { "Country": "Switzerland", "GrowthRate": 0.007 },
+    { "Country": "Germany", "GrowthRate": 0.0003 },
+    { "Country": "Denmark", "GrowthRate": 0.001 },
+    { "Country": "Finland", "GrowthRate": 0.001 },
+    { "Country": "France", "GrowthRate": 0.0012 },
+    { "Country": "Croatia", "GrowthRate": -0.0015 },
+    { "Country": "Kazakhstan", "GrowthRate": 0.013 },
+    { "Country": "Lithuania", "GrowthRate": -0.002 },
+    { "Country": "Latvia", "GrowthRate": -0.002 },
+    { "Country": "Netherlands", "GrowthRate": 0.001 },
+    { "Country": "Norway", "GrowthRate": 0.0015 },
+    { "Country": "Slovenia", "GrowthRate": 0.0005 },
+    { "Country": "Sweden", "GrowthRate": 0.001 },
+    { "Country": "Ukraine", "GrowthRate": -0.005 },
+    { "Country": "United States", "GrowthRate": 0.006 },
+
+    { "Country": "Russia", "GrowthRate": -0.0015 },
+    { "Country": "Czech Republic", "GrowthRate": -0.0003 },
+    { "Country": "Slovakia", "GrowthRate": 0.0003 },
+    { "Country": "South Korea", "GrowthRate": 0.007 }
+  ]
+}
