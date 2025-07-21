@@ -1,0 +1,4817 @@
+[
+  {
+    "Season": "1917-18",
+    "Nationality": "Canada",
+    "Players": 40
+  },
+  {
+    "Season": "1917-18",
+    "Nationality": "United Kingdom",
+    "Players": 2
+  },
+  {
+    "Season": "1917-18",
+    "Nationality": "United States",
+    "Players": 3
+  },
+  {
+    "Season": "1918-19",
+    "Nationality": "Canada",
+    "Players": 34
+  },
+  {
+    "Season": "1918-19",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1918-19",
+    "Nationality": "United States",
+    "Players": 1
+  },
+  {
+    "Season": "1919-20",
+    "Nationality": "Canada",
+    "Players": 44
+  },
+  {
+    "Season": "1919-20",
+    "Nationality": "United States",
+    "Players": 3
+  },
+  {
+    "Season": "1919-20",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1920-21",
+    "Nationality": "Canada",
+    "Players": 40
+  },
+  {
+    "Season": "1920-21",
+    "Nationality": "United States",
+    "Players": 3
+  },
+  {
+    "Season": "1920-21",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1921-22",
+    "Nationality": "Canada",
+    "Players": 44
+  },
+  {
+    "Season": "1921-22",
+    "Nationality": "United States",
+    "Players": 2
+  },
+  {
+    "Season": "1921-22",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1922-23",
+    "Nationality": "Canada",
+    "Players": 40
+  },
+  {
+    "Season": "1922-23",
+    "Nationality": "United States",
+    "Players": 3
+  },
+  {
+    "Season": "1922-23",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1923-24",
+    "Nationality": "Canada",
+    "Players": 49
+  },
+  {
+    "Season": "1923-24",
+    "Nationality": "United States",
+    "Players": 3
+  },
+  {
+    "Season": "1923-24",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1924-25",
+    "Nationality": "Canada",
+    "Players": 77
+  },
+  {
+    "Season": "1924-25",
+    "Nationality": "United States",
+    "Players": 5
+  },
+  {
+    "Season": "1924-25",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1925-26",
+    "Nationality": "Canada",
+    "Players": 95
+  },
+  {
+    "Season": "1925-26",
+    "Nationality": "United States",
+    "Players": 9
+  },
+  {
+    "Season": "1925-26",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1926-27",
+    "Nationality": "Canada",
+    "Players": 138
+  },
+  {
+    "Season": "1926-27",
+    "Nationality": "United States",
+    "Players": 6
+  },
+  {
+    "Season": "1926-27",
+    "Nationality": "United Kingdom",
+    "Players": 2
+  },
+  {
+    "Season": "1926-27",
+    "Nationality": "Finland",
+    "Players": 1
+  },
+  {
+    "Season": "1927-28",
+    "Nationality": "Canada",
+    "Players": 140
+  },
+  {
+    "Season": "1927-28",
+    "Nationality": "United States",
+    "Players": 4
+  },
+  {
+    "Season": "1927-28",
+    "Nationality": "United Kingdom",
+    "Players": 2
+  },
+  {
+    "Season": "1928-29",
+    "Nationality": "Canada",
+    "Players": 133
+  },
+  {
+    "Season": "1928-29",
+    "Nationality": "United States",
+    "Players": 7
+  },
+  {
+    "Season": "1928-29",
+    "Nationality": "United Kingdom",
+    "Players": 4
+  },
+  {
+    "Season": "1929-30",
+    "Nationality": "Canada",
+    "Players": 148
+  },
+  {
+    "Season": "1929-30",
+    "Nationality": "United States",
+    "Players": 8
+  },
+  {
+    "Season": "1929-30",
+    "Nationality": "United Kingdom",
+    "Players": 3
+  },
+  {
+    "Season": "1930-31",
+    "Nationality": "Canada",
+    "Players": 163
+  },
+  {
+    "Season": "1930-31",
+    "Nationality": "United States",
+    "Players": 12
+  },
+  {
+    "Season": "1930-31",
+    "Nationality": "United Kingdom",
+    "Players": 5
+  },
+  {
+    "Season": "1930-31",
+    "Nationality": "Poland",
+    "Players": 1
+  },
+  {
+    "Season": "1931-32",
+    "Nationality": "Canada",
+    "Players": 133
+  },
+  {
+    "Season": "1931-32",
+    "Nationality": "United States",
+    "Players": 11
+  },
+  {
+    "Season": "1931-32",
+    "Nationality": "United Kingdom",
+    "Players": 5
+  },
+  {
+    "Season": "1931-32",
+    "Nationality": "Poland",
+    "Players": 1
+  },
+  {
+    "Season": "1932-33",
+    "Nationality": "Canada",
+    "Players": 151
+  },
+  {
+    "Season": "1932-33",
+    "Nationality": "United States",
+    "Players": 11
+  },
+  {
+    "Season": "1932-33",
+    "Nationality": "United Kingdom",
+    "Players": 5
+  },
+  {
+    "Season": "1932-33",
+    "Nationality": "Sweden",
+    "Players": 1
+  },
+  {
+    "Season": "1933-34",
+    "Nationality": "Canada",
+    "Players": 152
+  },
+  {
+    "Season": "1933-34",
+    "Nationality": "United States",
+    "Players": 12
+  },
+  {
+    "Season": "1933-34",
+    "Nationality": "United Kingdom",
+    "Players": 7
+  },
+  {
+    "Season": "1933-34",
+    "Nationality": "Poland",
+    "Players": 1
+  },
+  {
+    "Season": "1934-35",
+    "Nationality": "Canada",
+    "Players": 158
+  },
+  {
+    "Season": "1934-35",
+    "Nationality": "United States",
+    "Players": 11
+  },
+  {
+    "Season": "1934-35",
+    "Nationality": "United Kingdom",
+    "Players": 7
+  },
+  {
+    "Season": "1935-36",
+    "Nationality": "Canada",
+    "Players": 150
+  },
+  {
+    "Season": "1935-36",
+    "Nationality": "United States",
+    "Players": 11
+  },
+  {
+    "Season": "1935-36",
+    "Nationality": "United Kingdom",
+    "Players": 6
+  },
+  {
+    "Season": "1935-36",
+    "Nationality": "Poland",
+    "Players": 1
+  },
+  {
+    "Season": "1936-37",
+    "Nationality": "Canada",
+    "Players": 152
+  },
+  {
+    "Season": "1936-37",
+    "Nationality": "United States",
+    "Players": 16
+  },
+  {
+    "Season": "1936-37",
+    "Nationality": "United Kingdom",
+    "Players": 5
+  },
+  {
+    "Season": "1936-37",
+    "Nationality": "Poland",
+    "Players": 1
+  },
+  {
+    "Season": "1937-38",
+    "Nationality": "Canada",
+    "Players": 142
+  },
+  {
+    "Season": "1937-38",
+    "Nationality": "United States",
+    "Players": 15
+  },
+  {
+    "Season": "1937-38",
+    "Nationality": "United Kingdom",
+    "Players": 4
+  },
+  {
+    "Season": "1937-38",
+    "Nationality": "Poland",
+    "Players": 1
+  },
+  {
+    "Season": "1938-39",
+    "Nationality": "Canada",
+    "Players": 137
+  },
+  {
+    "Season": "1938-39",
+    "Nationality": "United States",
+    "Players": 10
+  },
+  {
+    "Season": "1938-39",
+    "Nationality": "United Kingdom",
+    "Players": 4
+  },
+  {
+    "Season": "1938-39",
+    "Nationality": "Poland",
+    "Players": 1
+  },
+  {
+    "Season": "1939-40",
+    "Nationality": "Canada",
+    "Players": 135
+  },
+  {
+    "Season": "1939-40",
+    "Nationality": "United States",
+    "Players": 10
+  },
+  {
+    "Season": "1939-40",
+    "Nationality": "United Kingdom",
+    "Players": 3
+  },
+  {
+    "Season": "1940-41",
+    "Nationality": "Canada",
+    "Players": 140
+  },
+  {
+    "Season": "1940-41",
+    "Nationality": "United States",
+    "Players": 7
+  },
+  {
+    "Season": "1940-41",
+    "Nationality": "United Kingdom",
+    "Players": 4
+  },
+  {
+    "Season": "1941-42",
+    "Nationality": "Canada",
+    "Players": 148
+  },
+  {
+    "Season": "1941-42",
+    "Nationality": "United Kingdom",
+    "Players": 3
+  },
+  {
+    "Season": "1941-42",
+    "Nationality": "United States",
+    "Players": 8
+  },
+  {
+    "Season": "1942-43",
+    "Nationality": "Canada",
+    "Players": 135
+  },
+  {
+    "Season": "1942-43",
+    "Nationality": "United States",
+    "Players": 5
+  },
+  {
+    "Season": "1943-44",
+    "Nationality": "Canada",
+    "Players": 135
+  },
+  {
+    "Season": "1943-44",
+    "Nationality": "United States",
+    "Players": 14
+  },
+  {
+    "Season": "1943-44",
+    "Nationality": "United Kingdom",
+    "Players": 2
+  },
+  {
+    "Season": "1944-45",
+    "Nationality": "Canada",
+    "Players": 117
+  },
+  {
+    "Season": "1944-45",
+    "Nationality": "United States",
+    "Players": 10
+  },
+  {
+    "Season": "1945-46",
+    "Nationality": "Canada",
+    "Players": 133
+  },
+  {
+    "Season": "1945-46",
+    "Nationality": "United Kingdom",
+    "Players": 2
+  },
+  {
+    "Season": "1945-46",
+    "Nationality": "United States",
+    "Players": 4
+  },
+  {
+    "Season": "1946-47",
+    "Nationality": "Canada",
+    "Players": 140
+  },
+  {
+    "Season": "1946-47",
+    "Nationality": "United Kingdom",
+    "Players": 2
+  },
+  {
+    "Season": "1946-47",
+    "Nationality": "United States",
+    "Players": 4
+  },
+  {
+    "Season": "1947-48",
+    "Nationality": "Canada",
+    "Players": 134
+  },
+  {
+    "Season": "1947-48",
+    "Nationality": "United Kingdom",
+    "Players": 4
+  },
+  {
+    "Season": "1947-48",
+    "Nationality": "United States",
+    "Players": 5
+  },
+  {
+    "Season": "1948-49",
+    "Nationality": "Canada",
+    "Players": 130
+  },
+  {
+    "Season": "1948-49",
+    "Nationality": "United Kingdom",
+    "Players": 5
+  },
+  {
+    "Season": "1948-49",
+    "Nationality": "United States",
+    "Players": 5
+  },
+  {
+    "Season": "1948-49",
+    "Nationality": "Finland",
+    "Players": 1
+  },
+  {
+    "Season": "1949-50",
+    "Nationality": "Canada",
+    "Players": 155
+  },
+  {
+    "Season": "1949-50",
+    "Nationality": "United Kingdom",
+    "Players": 4
+  },
+  {
+    "Season": "1949-50",
+    "Nationality": "United States",
+    "Players": 4
+  },
+  {
+    "Season": "1949-50",
+    "Nationality": "Finland",
+    "Players": 1
+  },
+  {
+    "Season": "1950-51",
+    "Nationality": "Canada",
+    "Players": 154
+  },
+  {
+    "Season": "1950-51",
+    "Nationality": "United Kingdom",
+    "Players": 4
+  },
+  {
+    "Season": "1950-51",
+    "Nationality": "United States",
+    "Players": 3
+  },
+  {
+    "Season": "1950-51",
+    "Nationality": "Finland",
+    "Players": 1
+  },
+  {
+    "Season": "1951-52",
+    "Nationality": "Canada",
+    "Players": 143
+  },
+  {
+    "Season": "1951-52",
+    "Nationality": "United Kingdom",
+    "Players": 5
+  },
+  {
+    "Season": "1951-52",
+    "Nationality": "United States",
+    "Players": 3
+  },
+  {
+    "Season": "1951-52",
+    "Nationality": "Ireland",
+    "Players": 1
+  },
+  {
+    "Season": "1951-52",
+    "Nationality": "Finland",
+    "Players": 1
+  },
+  {
+    "Season": "1952-53",
+    "Nationality": "Canada",
+    "Players": 147
+  },
+  {
+    "Season": "1952-53",
+    "Nationality": "United Kingdom",
+    "Players": 3
+  },
+  {
+    "Season": "1952-53",
+    "Nationality": "United States",
+    "Players": 2
+  },
+  {
+    "Season": "1952-53",
+    "Nationality": "Finland",
+    "Players": 1
+  },
+  {
+    "Season": "1952-53",
+    "Nationality": "Ireland",
+    "Players": 1
+  },
+  {
+    "Season": "1953-54",
+    "Nationality": "Canada",
+    "Players": 146
+  },
+  {
+    "Season": "1953-54",
+    "Nationality": "United Kingdom",
+    "Players": 2
+  },
+  {
+    "Season": "1953-54",
+    "Nationality": "United States",
+    "Players": 1
+  },
+  {
+    "Season": "1953-54",
+    "Nationality": "Ireland",
+    "Players": 1
+  },
+  {
+    "Season": "1954-55",
+    "Nationality": "Canada",
+    "Players": 151
+  },
+  {
+    "Season": "1954-55",
+    "Nationality": "United States",
+    "Players": 2
+  },
+  {
+    "Season": "1954-55",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1955-56",
+    "Nationality": "Canada",
+    "Players": 142
+  },
+  {
+    "Season": "1955-56",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1955-56",
+    "Nationality": "United States",
+    "Players": 1
+  },
+  {
+    "Season": "1956-57",
+    "Nationality": "Canada",
+    "Players": 145
+  },
+  {
+    "Season": "1956-57",
+    "Nationality": "United States",
+    "Players": 1
+  },
+  {
+    "Season": "1956-57",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1957-58",
+    "Nationality": "Canada",
+    "Players": 153
+  },
+  {
+    "Season": "1957-58",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1957-58",
+    "Nationality": "United States",
+    "Players": 4
+  },
+  {
+    "Season": "1958-59",
+    "Nationality": "Canada",
+    "Players": 140
+  },
+  {
+    "Season": "1958-59",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1958-59",
+    "Nationality": "United States",
+    "Players": 1
+  },
+  {
+    "Season": "1959-60",
+    "Nationality": "Canada",
+    "Players": 150
+  },
+  {
+    "Season": "1959-60",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1959-60",
+    "Nationality": "United States",
+    "Players": 2
+  },
+  {
+    "Season": "1960-61",
+    "Nationality": "Canada",
+    "Players": 153
+  },
+  {
+    "Season": "1960-61",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1960-61",
+    "Nationality": "United States",
+    "Players": 4
+  },
+  {
+    "Season": "1961-62",
+    "Nationality": "Canada",
+    "Players": 147
+  },
+  {
+    "Season": "1961-62",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1961-62",
+    "Nationality": "United States",
+    "Players": 1
+  },
+  {
+    "Season": "1962-63",
+    "Nationality": "Canada",
+    "Players": 147
+  },
+  {
+    "Season": "1962-63",
+    "Nationality": "United States",
+    "Players": 2
+  },
+  {
+    "Season": "1962-63",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1963-64",
+    "Nationality": "Canada",
+    "Players": 162
+  },
+  {
+    "Season": "1963-64",
+    "Nationality": "United States",
+    "Players": 3
+  },
+  {
+    "Season": "1964-65",
+    "Nationality": "Canada",
+    "Players": 162
+  },
+  {
+    "Season": "1964-65",
+    "Nationality": "United States",
+    "Players": 2
+  },
+  {
+    "Season": "1964-65",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1964-65",
+    "Nationality": "Sweden",
+    "Players": 1
+  },
+  {
+    "Season": "1965-66",
+    "Nationality": "Canada",
+    "Players": 178
+  },
+  {
+    "Season": "1965-66",
+    "Nationality": "United States",
+    "Players": 3
+  },
+  {
+    "Season": "1965-66",
+    "Nationality": "Denmark",
+    "Players": 1
+  },
+  {
+    "Season": "1966-67",
+    "Nationality": "Canada",
+    "Players": 173
+  },
+  {
+    "Season": "1966-67",
+    "Nationality": "United States",
+    "Players": 3
+  },
+  {
+    "Season": "1967-68",
+    "Nationality": "Canada",
+    "Players": 309
+  },
+  {
+    "Season": "1967-68",
+    "Nationality": "United States",
+    "Players": 8
+  },
+  {
+    "Season": "1967-68",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1967-68",
+    "Nationality": "Denmark",
+    "Players": 1
+  },
+  {
+    "Season": "1968-69",
+    "Nationality": "Canada",
+    "Players": 318
+  },
+  {
+    "Season": "1968-69",
+    "Nationality": "United States",
+    "Players": 6
+  },
+  {
+    "Season": "1968-69",
+    "Nationality": "United Kingdom",
+    "Players": 2
+  },
+  {
+    "Season": "1968-69",
+    "Nationality": "Denmark",
+    "Players": 1
+  },
+  {
+    "Season": "1969-70",
+    "Nationality": "Canada",
+    "Players": 311
+  },
+  {
+    "Season": "1969-70",
+    "Nationality": "United States",
+    "Players": 6
+  },
+  {
+    "Season": "1969-70",
+    "Nationality": "Sweden",
+    "Players": 1
+  },
+  {
+    "Season": "1969-70",
+    "Nationality": "United Kingdom",
+    "Players": 2
+  },
+  {
+    "Season": "1969-70",
+    "Nationality": "Denmark",
+    "Players": 1
+  },
+  {
+    "Season": "1969-70",
+    "Nationality": "Czech Republic",
+    "Players": 1
+  },
+  {
+    "Season": "1970-71",
+    "Nationality": "Canada",
+    "Players": 373
+  },
+  {
+    "Season": "1970-71",
+    "Nationality": "United States",
+    "Players": 9
+  },
+  {
+    "Season": "1970-71",
+    "Nationality": "Sweden",
+    "Players": 1
+  },
+  {
+    "Season": "1970-71",
+    "Nationality": "Denmark",
+    "Players": 1
+  },
+  {
+    "Season": "1970-71",
+    "Nationality": "United Kingdom",
+    "Players": 2
+  },
+  {
+    "Season": "1971-72",
+    "Nationality": "Canada",
+    "Players": 360
+  },
+  {
+    "Season": "1971-72",
+    "Nationality": "United States",
+    "Players": 16
+  },
+  {
+    "Season": "1971-72",
+    "Nationality": "Sweden",
+    "Players": 1
+  },
+  {
+    "Season": "1971-72",
+    "Nationality": "Denmark",
+    "Players": 1
+  },
+  {
+    "Season": "1972-73",
+    "Nationality": "Canada",
+    "Players": 382
+  },
+  {
+    "Season": "1972-73",
+    "Nationality": "United States",
+    "Players": 18
+  },
+  {
+    "Season": "1972-73",
+    "Nationality": "Sweden",
+    "Players": 3
+  },
+  {
+    "Season": "1973-74",
+    "Nationality": "Canada",
+    "Players": 401
+  },
+  {
+    "Season": "1973-74",
+    "Nationality": "United States",
+    "Players": 27
+  },
+  {
+    "Season": "1973-74",
+    "Nationality": "Sweden",
+    "Players": 6
+  },
+  {
+    "Season": "1973-74",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1973-74",
+    "Nationality": "Italy",
+    "Players": 1
+  },
+  {
+    "Season": "1973-74",
+    "Nationality": "Netherlands",
+    "Players": 2
+  },
+  {
+    "Season": "1974-75",
+    "Nationality": "Canada",
+    "Players": 455
+  },
+  {
+    "Season": "1974-75",
+    "Nationality": "United States",
+    "Players": 36
+  },
+  {
+    "Season": "1974-75",
+    "Nationality": "Sweden",
+    "Players": 5
+  },
+  {
+    "Season": "1974-75",
+    "Nationality": "France",
+    "Players": 2
+  },
+  {
+    "Season": "1974-75",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "1974-75",
+    "Nationality": "Italy",
+    "Players": 1
+  },
+  {
+    "Season": "1974-75",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1975-76",
+    "Nationality": "Canada",
+    "Players": 446
+  },
+  {
+    "Season": "1975-76",
+    "Nationality": "United States",
+    "Players": 37
+  },
+  {
+    "Season": "1975-76",
+    "Nationality": "Sweden",
+    "Players": 4
+  },
+  {
+    "Season": "1975-76",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "1975-76",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1975-76",
+    "Nationality": "Italy",
+    "Players": 1
+  },
+  {
+    "Season": "1975-76",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1976-77",
+    "Nationality": "Canada",
+    "Players": 450
+  },
+  {
+    "Season": "1976-77",
+    "Nationality": "United States",
+    "Players": 41
+  },
+  {
+    "Season": "1976-77",
+    "Nationality": "Sweden",
+    "Players": 6
+  },
+  {
+    "Season": "1976-77",
+    "Nationality": "Netherlands",
+    "Players": 2
+  },
+  {
+    "Season": "1976-77",
+    "Nationality": "Finland",
+    "Players": 1
+  },
+  {
+    "Season": "1976-77",
+    "Nationality": "Italy",
+    "Players": 2
+  },
+  {
+    "Season": "1977-78",
+    "Nationality": "Canada",
+    "Players": 448
+  },
+  {
+    "Season": "1977-78",
+    "Nationality": "United States",
+    "Players": 44
+  },
+  {
+    "Season": "1977-78",
+    "Nationality": "Sweden",
+    "Players": 11
+  },
+  {
+    "Season": "1977-78",
+    "Nationality": "Netherlands",
+    "Players": 2
+  },
+  {
+    "Season": "1977-78",
+    "Nationality": "Italy",
+    "Players": 3
+  },
+  {
+    "Season": "1977-78",
+    "Nationality": "Czech Republic",
+    "Players": 1
+  },
+  {
+    "Season": "1977-78",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1977-78",
+    "Nationality": "Finland",
+    "Players": 1
+  },
+  {
+    "Season": "1978-79",
+    "Nationality": "Canada",
+    "Players": 424
+  },
+  {
+    "Season": "1978-79",
+    "Nationality": "United States",
+    "Players": 49
+  },
+  {
+    "Season": "1978-79",
+    "Nationality": "Sweden",
+    "Players": 16
+  },
+  {
+    "Season": "1978-79",
+    "Nationality": "Czech Republic",
+    "Players": 1
+  },
+  {
+    "Season": "1978-79",
+    "Nationality": "Netherlands",
+    "Players": 2
+  },
+  {
+    "Season": "1978-79",
+    "Nationality": "United Kingdom",
+    "Players": 2
+  },
+  {
+    "Season": "1978-79",
+    "Nationality": "Italy",
+    "Players": 3
+  },
+  {
+    "Season": "1978-79",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "1979-80",
+    "Nationality": "Canada",
+    "Players": 547
+  },
+  {
+    "Season": "1979-80",
+    "Nationality": "United States",
+    "Players": 72
+  },
+  {
+    "Season": "1979-80",
+    "Nationality": "Sweden",
+    "Players": 20
+  },
+  {
+    "Season": "1979-80",
+    "Nationality": "Finland",
+    "Players": 5
+  },
+  {
+    "Season": "1979-80",
+    "Nationality": "Czech Republic",
+    "Players": 2
+  },
+  {
+    "Season": "1979-80",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1979-80",
+    "Nationality": "Netherlands",
+    "Players": 2
+  },
+  {
+    "Season": "1979-80",
+    "Nationality": "Italy",
+    "Players": 3
+  },
+  {
+    "Season": "1979-80",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1979-80",
+    "Nationality": "Denmark",
+    "Players": 1
+  },
+  {
+    "Season": "1980-81",
+    "Nationality": "Canada",
+    "Players": 524
+  },
+  {
+    "Season": "1980-81",
+    "Nationality": "United States",
+    "Players": 76
+  },
+  {
+    "Season": "1980-81",
+    "Nationality": "Sweden",
+    "Players": 22
+  },
+  {
+    "Season": "1980-81",
+    "Nationality": "Finland",
+    "Players": 6
+  },
+  {
+    "Season": "1980-81",
+    "Nationality": "Slovakia",
+    "Players": 2
+  },
+  {
+    "Season": "1980-81",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1980-81",
+    "Nationality": "Czech Republic",
+    "Players": 3
+  },
+  {
+    "Season": "1980-81",
+    "Nationality": "Italy",
+    "Players": 2
+  },
+  {
+    "Season": "1980-81",
+    "Nationality": "Netherlands",
+    "Players": 2
+  },
+  {
+    "Season": "1980-81",
+    "Nationality": "France",
+    "Players": 2
+  },
+  {
+    "Season": "1981-82",
+    "Nationality": "Canada",
+    "Players": 547
+  },
+  {
+    "Season": "1981-82",
+    "Nationality": "United States",
+    "Players": 75
+  },
+  {
+    "Season": "1981-82",
+    "Nationality": "Sweden",
+    "Players": 27
+  },
+  {
+    "Season": "1981-82",
+    "Nationality": "Finland",
+    "Players": 14
+  },
+  {
+    "Season": "1981-82",
+    "Nationality": "Slovakia",
+    "Players": 3
+  },
+  {
+    "Season": "1981-82",
+    "Nationality": "Czech Republic",
+    "Players": 4
+  },
+  {
+    "Season": "1981-82",
+    "Nationality": "Italy",
+    "Players": 2
+  },
+  {
+    "Season": "1981-82",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1981-82",
+    "Nationality": "Netherlands",
+    "Players": 3
+  },
+  {
+    "Season": "1981-82",
+    "Nationality": "Germany",
+    "Players": 2
+  },
+  {
+    "Season": "1981-82",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "Canada",
+    "Players": 542
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "United States",
+    "Players": 68
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "Sweden",
+    "Players": 25
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "Finland",
+    "Players": 13
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "Slovakia",
+    "Players": 4
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "Czech Republic",
+    "Players": 9
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "Netherlands",
+    "Players": 3
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "Italy",
+    "Players": 3
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "Russia",
+    "Players": 1
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "Austria",
+    "Players": 1
+  },
+  {
+    "Season": "1982-83",
+    "Nationality": "Germany",
+    "Players": 1
+  },
+  {
+    "Season": "1983-84",
+    "Nationality": "Canada",
+    "Players": 544
+  },
+  {
+    "Season": "1983-84",
+    "Nationality": "United States",
+    "Players": 89
+  },
+  {
+    "Season": "1983-84",
+    "Nationality": "Sweden",
+    "Players": 27
+  },
+  {
+    "Season": "1983-84",
+    "Nationality": "Finland",
+    "Players": 12
+  },
+  {
+    "Season": "1983-84",
+    "Nationality": "Slovakia",
+    "Players": 4
+  },
+  {
+    "Season": "1983-84",
+    "Nationality": "Czech Republic",
+    "Players": 5
+  },
+  {
+    "Season": "1983-84",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "1983-84",
+    "Nationality": "Italy",
+    "Players": 5
+  },
+  {
+    "Season": "1983-84",
+    "Nationality": "Austria",
+    "Players": 1
+  },
+  {
+    "Season": "1983-84",
+    "Nationality": "Germany",
+    "Players": 1
+  },
+  {
+    "Season": "1983-84",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1984-85",
+    "Nationality": "Canada",
+    "Players": 509
+  },
+  {
+    "Season": "1984-85",
+    "Nationality": "United States",
+    "Players": 96
+  },
+  {
+    "Season": "1984-85",
+    "Nationality": "Sweden",
+    "Players": 30
+  },
+  {
+    "Season": "1984-85",
+    "Nationality": "Finland",
+    "Players": 15
+  },
+  {
+    "Season": "1984-85",
+    "Nationality": "Slovakia",
+    "Players": 4
+  },
+  {
+    "Season": "1984-85",
+    "Nationality": "Czech Republic",
+    "Players": 8
+  },
+  {
+    "Season": "1984-85",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "1984-85",
+    "Nationality": "Italy",
+    "Players": 5
+  },
+  {
+    "Season": "1984-85",
+    "Nationality": "Germany",
+    "Players": 1
+  },
+  {
+    "Season": "1984-85",
+    "Nationality": "Austria",
+    "Players": 2
+  },
+  {
+    "Season": "1984-85",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1985-86",
+    "Nationality": "Canada",
+    "Players": 522
+  },
+  {
+    "Season": "1985-86",
+    "Nationality": "United States",
+    "Players": 101
+  },
+  {
+    "Season": "1985-86",
+    "Nationality": "Sweden",
+    "Players": 30
+  },
+  {
+    "Season": "1985-86",
+    "Nationality": "Finland",
+    "Players": 15
+  },
+  {
+    "Season": "1985-86",
+    "Nationality": "Slovakia",
+    "Players": 5
+  },
+  {
+    "Season": "1985-86",
+    "Nationality": "Czech Republic",
+    "Players": 5
+  },
+  {
+    "Season": "1985-86",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "1985-86",
+    "Nationality": "Austria",
+    "Players": 2
+  },
+  {
+    "Season": "1985-86",
+    "Nationality": "Italy",
+    "Players": 4
+  },
+  {
+    "Season": "1985-86",
+    "Nationality": "Germany",
+    "Players": 1
+  },
+  {
+    "Season": "1985-86",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1986-87",
+    "Nationality": "Canada",
+    "Players": 521
+  },
+  {
+    "Season": "1986-87",
+    "Nationality": "United States",
+    "Players": 105
+  },
+  {
+    "Season": "1986-87",
+    "Nationality": "Sweden",
+    "Players": 21
+  },
+  {
+    "Season": "1986-87",
+    "Nationality": "Finland",
+    "Players": 17
+  },
+  {
+    "Season": "1986-87",
+    "Nationality": "Slovakia",
+    "Players": 4
+  },
+  {
+    "Season": "1986-87",
+    "Nationality": "Czech Republic",
+    "Players": 7
+  },
+  {
+    "Season": "1986-87",
+    "Nationality": "Germany",
+    "Players": 3
+  },
+  {
+    "Season": "1986-87",
+    "Nationality": "Italy",
+    "Players": 3
+  },
+  {
+    "Season": "1986-87",
+    "Nationality": "Austria",
+    "Players": 2
+  },
+  {
+    "Season": "1987-88",
+    "Nationality": "Canada",
+    "Players": 565
+  },
+  {
+    "Season": "1987-88",
+    "Nationality": "United States",
+    "Players": 115
+  },
+  {
+    "Season": "1987-88",
+    "Nationality": "Sweden",
+    "Players": 24
+  },
+  {
+    "Season": "1987-88",
+    "Nationality": "Finland",
+    "Players": 12
+  },
+  {
+    "Season": "1987-88",
+    "Nationality": "Slovakia",
+    "Players": 3
+  },
+  {
+    "Season": "1987-88",
+    "Nationality": "Czech Republic",
+    "Players": 8
+  },
+  {
+    "Season": "1987-88",
+    "Nationality": "Germany",
+    "Players": 2
+  },
+  {
+    "Season": "1987-88",
+    "Nationality": "Austria",
+    "Players": 4
+  },
+  {
+    "Season": "1987-88",
+    "Nationality": "Italy",
+    "Players": 2
+  },
+  {
+    "Season": "1988-89",
+    "Nationality": "Canada",
+    "Players": 553
+  },
+  {
+    "Season": "1988-89",
+    "Nationality": "United States",
+    "Players": 112
+  },
+  {
+    "Season": "1988-89",
+    "Nationality": "Sweden",
+    "Players": 23
+  },
+  {
+    "Season": "1988-89",
+    "Nationality": "Finland",
+    "Players": 18
+  },
+  {
+    "Season": "1988-89",
+    "Nationality": "Czech Republic",
+    "Players": 10
+  },
+  {
+    "Season": "1988-89",
+    "Nationality": "Slovakia",
+    "Players": 6
+  },
+  {
+    "Season": "1988-89",
+    "Nationality": "Germany",
+    "Players": 2
+  },
+  {
+    "Season": "1988-89",
+    "Nationality": "Austria",
+    "Players": 4
+  },
+  {
+    "Season": "1988-89",
+    "Nationality": "Russia",
+    "Players": 1
+  },
+  {
+    "Season": "1988-89",
+    "Nationality": "Italy",
+    "Players": 2
+  },
+  {
+    "Season": "1989-90",
+    "Nationality": "Canada",
+    "Players": 538
+  },
+  {
+    "Season": "1989-90",
+    "Nationality": "United States",
+    "Players": 120
+  },
+  {
+    "Season": "1989-90",
+    "Nationality": "Sweden",
+    "Players": 22
+  },
+  {
+    "Season": "1989-90",
+    "Nationality": "Finland",
+    "Players": 16
+  },
+  {
+    "Season": "1989-90",
+    "Nationality": "Czech Republic",
+    "Players": 11
+  },
+  {
+    "Season": "1989-90",
+    "Nationality": "Russia",
+    "Players": 9
+  },
+  {
+    "Season": "1989-90",
+    "Nationality": "Slovakia",
+    "Players": 2
+  },
+  {
+    "Season": "1989-90",
+    "Nationality": "Germany",
+    "Players": 3
+  },
+  {
+    "Season": "1989-90",
+    "Nationality": "Latvia",
+    "Players": 1
+  },
+  {
+    "Season": "1989-90",
+    "Nationality": "Austria",
+    "Players": 1
+  },
+  {
+    "Season": "1989-90",
+    "Nationality": "Jamaica",
+    "Players": 1
+  },
+  {
+    "Season": "1989-90",
+    "Nationality": "Italy",
+    "Players": 1
+  },
+  {
+    "Season": "1990-91",
+    "Nationality": "Canada",
+    "Players": 544
+  },
+  {
+    "Season": "1990-91",
+    "Nationality": "United States",
+    "Players": 122
+  },
+  {
+    "Season": "1990-91",
+    "Nationality": "Sweden",
+    "Players": 17
+  },
+  {
+    "Season": "1990-91",
+    "Nationality": "Czech Republic",
+    "Players": 19
+  },
+  {
+    "Season": "1990-91",
+    "Nationality": "Russia",
+    "Players": 12
+  },
+  {
+    "Season": "1990-91",
+    "Nationality": "Finland",
+    "Players": 11
+  },
+  {
+    "Season": "1990-91",
+    "Nationality": "Slovakia",
+    "Players": 4
+  },
+  {
+    "Season": "1990-91",
+    "Nationality": "Germany",
+    "Players": 2
+  },
+  {
+    "Season": "1990-91",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "1990-91",
+    "Nationality": "Jamaica",
+    "Players": 1
+  },
+  {
+    "Season": "1990-91",
+    "Nationality": "Austria",
+    "Players": 2
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Canada",
+    "Players": 552
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "United States",
+    "Players": 146
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Russia",
+    "Players": 22
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Sweden",
+    "Players": 18
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Czech Republic",
+    "Players": 20
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Finland",
+    "Players": 9
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Slovakia",
+    "Players": 5
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Germany",
+    "Players": 2
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Switzerland",
+    "Players": 1
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Jamaica",
+    "Players": 1
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Austria",
+    "Players": 1
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Latvia",
+    "Players": 1
+  },
+  {
+    "Season": "1991-92",
+    "Nationality": "Italy",
+    "Players": 1
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Canada",
+    "Players": 524
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "United States",
+    "Players": 143
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Russia",
+    "Players": 43
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Czech Republic",
+    "Players": 25
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Sweden",
+    "Players": 24
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Finland",
+    "Players": 9
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Slovakia",
+    "Players": 5
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Germany",
+    "Players": 3
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Latvia",
+    "Players": 4
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Switzerland",
+    "Players": 1
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Austria",
+    "Players": 1
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Belarus",
+    "Players": 1
+  },
+  {
+    "Season": "1992-93",
+    "Nationality": "Jamaica",
+    "Players": 1
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Canada",
+    "Players": 569
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "United States",
+    "Players": 153
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Russia",
+    "Players": 56
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Czech Republic",
+    "Players": 29
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Sweden",
+    "Players": 24
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Finland",
+    "Players": 10
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Slovakia",
+    "Players": 10
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Ukraine",
+    "Players": 3
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Latvia",
+    "Players": 6
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Germany",
+    "Players": 3
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Switzerland",
+    "Players": 1
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Austria",
+    "Players": 1
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Poland",
+    "Players": 1
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Belarus",
+    "Players": 1
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Italy",
+    "Players": 2
+  },
+  {
+    "Season": "1993-94",
+    "Nationality": "Jamaica",
+    "Players": 1
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Canada",
+    "Players": 507
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "United States",
+    "Players": 148
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Russia",
+    "Players": 59
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Sweden",
+    "Players": 28
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Czech Republic",
+    "Players": 29
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Finland",
+    "Players": 11
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Slovakia",
+    "Players": 8
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Ukraine",
+    "Players": 3
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Germany",
+    "Players": 3
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Poland",
+    "Players": 1
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Latvia",
+    "Players": 3
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Switzerland",
+    "Players": 2
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Belarus",
+    "Players": 1
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1994-95",
+    "Nationality": "Italy",
+    "Players": 1
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Canada",
+    "Players": 533
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "United States",
+    "Players": 154
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Russia",
+    "Players": 56
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Sweden",
+    "Players": 35
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Czech Republic",
+    "Players": 35
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Finland",
+    "Players": 14
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Slovakia",
+    "Players": 10
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Ukraine",
+    "Players": 3
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Latvia",
+    "Players": 3
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Poland",
+    "Players": 1
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Germany",
+    "Players": 4
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Belarus",
+    "Players": 2
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Switzerland",
+    "Players": 1
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1995-96",
+    "Nationality": "Italy",
+    "Players": 1
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Canada",
+    "Players": 525
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "United States",
+    "Players": 143
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Russia",
+    "Players": 55
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Sweden",
+    "Players": 36
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Czech Republic",
+    "Players": 38
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Finland",
+    "Players": 17
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Slovakia",
+    "Players": 8
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Latvia",
+    "Players": 3
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Ukraine",
+    "Players": 3
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Poland",
+    "Players": 2
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Belarus",
+    "Players": 2
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Germany",
+    "Players": 5
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Switzerland",
+    "Players": 2
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Kazakhstan",
+    "Players": 1
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Italy",
+    "Players": 1
+  },
+  {
+    "Season": "1996-97",
+    "Nationality": "Hungary",
+    "Players": 1
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Canada",
+    "Players": 512
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "United States",
+    "Players": 138
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Russia",
+    "Players": 52
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Sweden",
+    "Players": 39
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Czech Republic",
+    "Players": 39
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Finland",
+    "Players": 17
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Slovakia",
+    "Players": 13
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Latvia",
+    "Players": 4
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Belarus",
+    "Players": 2
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Germany",
+    "Players": 6
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Poland",
+    "Players": 2
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Switzerland",
+    "Players": 1
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Hungary",
+    "Players": 1
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Croatia",
+    "Players": 1
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1997-98",
+    "Nationality": "Italy",
+    "Players": 2
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Canada",
+    "Players": 548
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "United States",
+    "Players": 146
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Russia",
+    "Players": 58
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Czech Republic",
+    "Players": 52
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Sweden",
+    "Players": 41
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Finland",
+    "Players": 17
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Slovakia",
+    "Players": 13
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Ukraine",
+    "Players": 1
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Latvia",
+    "Players": 7
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Poland",
+    "Players": 2
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Germany",
+    "Players": 6
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Belarus",
+    "Players": 2
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Switzerland",
+    "Players": 1
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "1998-99",
+    "Nationality": "Italy",
+    "Players": 2
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Canada",
+    "Players": 526
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "United States",
+    "Players": 150
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Russia",
+    "Players": 71
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Czech Republic",
+    "Players": 56
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Sweden",
+    "Players": 46
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Slovakia",
+    "Players": 19
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Finland",
+    "Players": 26
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Latvia",
+    "Players": 7
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Poland",
+    "Players": 2
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Germany",
+    "Players": 6
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Belarus",
+    "Players": 2
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Ukraine",
+    "Players": 3
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Kazakhstan",
+    "Players": 1
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Switzerland",
+    "Players": 1
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Croatia",
+    "Players": 1
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "Hungary",
+    "Players": 1
+  },
+  {
+    "Season": "1999-00",
+    "Nationality": "United Kingdom",
+    "Players": 1
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Canada",
+    "Players": 532
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "United States",
+    "Players": 151
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Russia",
+    "Players": 72
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Czech Republic",
+    "Players": 71
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Sweden",
+    "Players": 47
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Slovakia",
+    "Players": 30
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Finland",
+    "Players": 34
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Latvia",
+    "Players": 7
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Germany",
+    "Players": 6
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Ukraine",
+    "Players": 3
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Poland",
+    "Players": 3
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Norway",
+    "Players": 2
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Switzerland",
+    "Players": 5
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Belarus",
+    "Players": 2
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Kazakhstan",
+    "Players": 3
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Croatia",
+    "Players": 1
+  },
+  {
+    "Season": "2000-01",
+    "Nationality": "Italy",
+    "Players": 1
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Canada",
+    "Players": 516
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "United States",
+    "Players": 152
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Russia",
+    "Players": 63
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Czech Republic",
+    "Players": 77
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Sweden",
+    "Players": 52
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Slovakia",
+    "Players": 32
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Finland",
+    "Players": 42
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Latvia",
+    "Players": 6
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Germany",
+    "Players": 7
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Ukraine",
+    "Players": 4
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Poland",
+    "Players": 2
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Switzerland",
+    "Players": 2
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Belarus",
+    "Players": 1
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Kazakhstan",
+    "Players": 2
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Austria",
+    "Players": 1
+  },
+  {
+    "Season": "2001-02",
+    "Nationality": "Italy",
+    "Players": 1
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Canada",
+    "Players": 535
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "United States",
+    "Players": 145
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Czech Republic",
+    "Players": 73
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Russia",
+    "Players": 62
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Sweden",
+    "Players": 58
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Slovakia",
+    "Players": 36
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Finland",
+    "Players": 38
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Latvia",
+    "Players": 5
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Germany",
+    "Players": 9
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Kazakhstan",
+    "Players": 2
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Ukraine",
+    "Players": 3
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Poland",
+    "Players": 3
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Belarus",
+    "Players": 2
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Switzerland",
+    "Players": 3
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Austria",
+    "Players": 1
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "Hungary",
+    "Players": 1
+  },
+  {
+    "Season": "2002-03",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Canada",
+    "Players": 547
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "United States",
+    "Players": 165
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Czech Republic",
+    "Players": 74
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Russia",
+    "Players": 64
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Sweden",
+    "Players": 52
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Slovakia",
+    "Players": 38
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Finland",
+    "Players": 38
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Germany",
+    "Players": 8
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Poland",
+    "Players": 3
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Latvia",
+    "Players": 4
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Belarus",
+    "Players": 2
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Kazakhstan",
+    "Players": 2
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Norway",
+    "Players": 2
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "Switzerland",
+    "Players": 4
+  },
+  {
+    "Season": "2003-04",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Canada",
+    "Players": 513
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "United States",
+    "Players": 182
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Czech Republic",
+    "Players": 65
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Sweden",
+    "Players": 47
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Russia",
+    "Players": 49
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Slovakia",
+    "Players": 32
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Finland",
+    "Players": 39
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Germany",
+    "Players": 8
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Kazakhstan",
+    "Players": 5
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Belarus",
+    "Players": 4
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Latvia",
+    "Players": 3
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Switzerland",
+    "Players": 4
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Poland",
+    "Players": 2
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2005-06",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Canada",
+    "Players": 489
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "United States",
+    "Players": 187
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Czech Republic",
+    "Players": 65
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Russia",
+    "Players": 44
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Sweden",
+    "Players": 51
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Finland",
+    "Players": 42
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Slovakia",
+    "Players": 26
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Germany",
+    "Players": 7
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Austria",
+    "Players": 2
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Kazakhstan",
+    "Players": 6
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Belarus",
+    "Players": 4
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Switzerland",
+    "Players": 5
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Latvia",
+    "Players": 4
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Norway",
+    "Players": 2
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Denmark",
+    "Players": 1
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "Japan",
+    "Players": 1
+  },
+  {
+    "Season": "2006-07",
+    "Nationality": "South Korea",
+    "Players": 1
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Canada",
+    "Players": 482
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "United States",
+    "Players": 208
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Czech Republic",
+    "Players": 59
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Sweden",
+    "Players": 54
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Russia",
+    "Players": 34
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Finland",
+    "Players": 40
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Slovakia",
+    "Players": 23
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Germany",
+    "Players": 9
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Belarus",
+    "Players": 6
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Kazakhstan",
+    "Players": 5
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Switzerland",
+    "Players": 6
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Austria",
+    "Players": 2
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Latvia",
+    "Players": 3
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Norway",
+    "Players": 2
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "Denmark",
+    "Players": 2
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2007-08",
+    "Nationality": "South Korea",
+    "Players": 1
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Canada",
+    "Players": 502
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "United States",
+    "Players": 224
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Czech Republic",
+    "Players": 57
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Sweden",
+    "Players": 54
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Russia",
+    "Players": 36
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Finland",
+    "Players": 43
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Slovakia",
+    "Players": 18
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Belarus",
+    "Players": 4
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Germany",
+    "Players": 8
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Kazakhstan",
+    "Players": 4
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Denmark",
+    "Players": 4
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Switzerland",
+    "Players": 6
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Latvia",
+    "Players": 4
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "Italy",
+    "Players": 1
+  },
+  {
+    "Season": "2008-09",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Canada",
+    "Players": 515
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "United States",
+    "Players": 212
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Sweden",
+    "Players": 54
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Czech Republic",
+    "Players": 48
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Russia",
+    "Players": 34
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Finland",
+    "Players": 38
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Slovakia",
+    "Players": 18
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Germany",
+    "Players": 8
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Kazakhstan",
+    "Players": 4
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Belarus",
+    "Players": 5
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Denmark",
+    "Players": 6
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Switzerland",
+    "Players": 5
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Latvia",
+    "Players": 5
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "South Korea",
+    "Players": 1
+  },
+  {
+    "Season": "2009-10",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Canada",
+    "Players": 516
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "United States",
+    "Players": 235
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Sweden",
+    "Players": 63
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Czech Republic",
+    "Players": 42
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Finland",
+    "Players": 30
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Russia",
+    "Players": 33
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Slovakia",
+    "Players": 14
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Belarus",
+    "Players": 4
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Germany",
+    "Players": 9
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Denmark",
+    "Players": 6
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Slovenia",
+    "Players": 2
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Kazakhstan",
+    "Players": 3
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Norway",
+    "Players": 2
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Switzerland",
+    "Players": 7
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "Latvia",
+    "Players": 4
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "South Korea",
+    "Players": 1
+  },
+  {
+    "Season": "2010-11",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Canada",
+    "Players": 525
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "United States",
+    "Players": 235
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Sweden",
+    "Players": 68
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Czech Republic",
+    "Players": 43
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Russia",
+    "Players": 31
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Finland",
+    "Players": 29
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Slovakia",
+    "Players": 12
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Denmark",
+    "Players": 6
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Belarus",
+    "Players": 3
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Switzerland",
+    "Players": 9
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Germany",
+    "Players": 7
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Slovenia",
+    "Players": 2
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Kazakhstan",
+    "Players": 1
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Latvia",
+    "Players": 3
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2011-12",
+    "Nationality": "South Korea",
+    "Players": 1
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Canada",
+    "Players": 486
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "United States",
+    "Players": 217
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Sweden",
+    "Players": 63
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Czech Republic",
+    "Players": 44
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Russia",
+    "Players": 29
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Finland",
+    "Players": 30
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Slovakia",
+    "Players": 12
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Denmark",
+    "Players": 8
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Switzerland",
+    "Players": 8
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Germany",
+    "Players": 8
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Slovenia",
+    "Players": 2
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Belarus",
+    "Players": 3
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Ukraine",
+    "Players": 2
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Kazakhstan",
+    "Players": 1
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "France",
+    "Players": 2
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2012-13",
+    "Nationality": "Latvia",
+    "Players": 1
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Canada",
+    "Players": 513
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "United States",
+    "Players": 239
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Sweden",
+    "Players": 77
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Czech Republic",
+    "Players": 37
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Russia",
+    "Players": 34
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Finland",
+    "Players": 32
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Slovakia",
+    "Players": 14
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Switzerland",
+    "Players": 11
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Denmark",
+    "Players": 8
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Germany",
+    "Players": 6
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Belarus",
+    "Players": 2
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "France",
+    "Players": 2
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2013-14",
+    "Nationality": "Latvia",
+    "Players": 2
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Canada",
+    "Players": 495
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "United States",
+    "Players": 236
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Sweden",
+    "Players": 76
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Czech Republic",
+    "Players": 39
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Russia",
+    "Players": 35
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Finland",
+    "Players": 35
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Slovakia",
+    "Players": 13
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Switzerland",
+    "Players": 13
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Denmark",
+    "Players": 8
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Germany",
+    "Players": 10
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Latvia",
+    "Players": 2
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "France",
+    "Players": 2
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Belarus",
+    "Players": 3
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2014-15",
+    "Nationality": "Croatia",
+    "Players": 1
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Canada",
+    "Players": 485
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "United States",
+    "Players": 243
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Sweden",
+    "Players": 85
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Russia",
+    "Players": 41
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Czech Republic",
+    "Players": 39
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Finland",
+    "Players": 39
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Denmark",
+    "Players": 7
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Slovakia",
+    "Players": 12
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Switzerland",
+    "Players": 14
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Germany",
+    "Players": 9
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Norway",
+    "Players": 2
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "France",
+    "Players": 2
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Belarus",
+    "Players": 2
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Latvia",
+    "Players": 3
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Lithuania",
+    "Players": 1
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "2015-16",
+    "Nationality": "Croatia",
+    "Players": 1
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Canada",
+    "Players": 451
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "United States",
+    "Players": 265
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Sweden",
+    "Players": 91
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Russia",
+    "Players": 42
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Finland",
+    "Players": 39
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Czech Republic",
+    "Players": 38
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Switzerland",
+    "Players": 15
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Slovakia",
+    "Players": 13
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Denmark",
+    "Players": 9
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Germany",
+    "Players": 7
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Norway",
+    "Players": 2
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "France",
+    "Players": 3
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Belarus",
+    "Players": 1
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Latvia",
+    "Players": 2
+  },
+  {
+    "Season": "2016-17",
+    "Nationality": "Croatia",
+    "Players": 1
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Canada",
+    "Players": 444
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "United States",
+    "Players": 269
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Sweden",
+    "Players": 98
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Russia",
+    "Players": 39
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Finland",
+    "Players": 42
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Czech Republic",
+    "Players": 37
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Switzerland",
+    "Players": 15
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Denmark",
+    "Players": 7
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Slovakia",
+    "Players": 13
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Germany",
+    "Players": 7
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Norway",
+    "Players": 2
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "France",
+    "Players": 3
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Latvia",
+    "Players": 1
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Belarus",
+    "Players": 2
+  },
+  {
+    "Season": "2017-18",
+    "Nationality": "Australia",
+    "Players": 1
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Canada",
+    "Players": 435
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "United States",
+    "Players": 286
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Sweden",
+    "Players": 97
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Russia",
+    "Players": 39
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Finland",
+    "Players": 49
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Czech Republic",
+    "Players": 40
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Switzerland",
+    "Players": 13
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Denmark",
+    "Players": 7
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Germany",
+    "Players": 8
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Slovakia",
+    "Players": 11
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Austria",
+    "Players": 3
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "France",
+    "Players": 3
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Norway",
+    "Players": 2
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Latvia",
+    "Players": 3
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "2018-19",
+    "Nationality": "Australia",
+    "Players": 1
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Canada",
+    "Players": 413
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "United States",
+    "Players": 253
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Sweden",
+    "Players": 113
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Russia",
+    "Players": 50
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Finland",
+    "Players": 49
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Czech Republic",
+    "Players": 33
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Switzerland",
+    "Players": 15
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Germany",
+    "Players": 9
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Denmark",
+    "Players": 9
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Slovakia",
+    "Players": 12
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "France",
+    "Players": 3
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Latvia",
+    "Players": 5
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Austria",
+    "Players": 2
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Australia",
+    "Players": 1
+  },
+  {
+    "Season": "2019-20",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Canada",
+    "Players": 432
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "United States",
+    "Players": 282
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Sweden",
+    "Players": 98
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Russia",
+    "Players": 52
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Finland",
+    "Players": 60
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Czech Republic",
+    "Players": 34
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Switzerland",
+    "Players": 12
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Germany",
+    "Players": 9
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Denmark",
+    "Players": 8
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Slovakia",
+    "Players": 10
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Latvia",
+    "Players": 4
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Belarus",
+    "Players": 2
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "France",
+    "Players": 3
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Austria",
+    "Players": 1
+  },
+  {
+    "Season": "2020-21",
+    "Nationality": "Australia",
+    "Players": 1
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Canada",
+    "Players": 485
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "United States",
+    "Players": 317
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Sweden",
+    "Players": 106
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Russia",
+    "Players": 57
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Finland",
+    "Players": 63
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Czech Republic",
+    "Players": 39
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Switzerland",
+    "Players": 13
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Germany",
+    "Players": 8
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Denmark",
+    "Players": 7
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Slovakia",
+    "Players": 11
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Latvia",
+    "Players": 5
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Belarus",
+    "Players": 3
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "France",
+    "Players": 3
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Austria",
+    "Players": 2
+  },
+  {
+    "Season": "2021-22",
+    "Nationality": "Australia",
+    "Players": 1
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Canada",
+    "Players": 445
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "United States",
+    "Players": 297
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Sweden",
+    "Players": 107
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Russia",
+    "Players": 62
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Finland",
+    "Players": 55
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Czech Republic",
+    "Players": 41
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Switzerland",
+    "Players": 12
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Germany",
+    "Players": 8
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Slovakia",
+    "Players": 10
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Denmark",
+    "Players": 6
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Norway",
+    "Players": 1
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Belarus",
+    "Players": 3
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Latvia",
+    "Players": 5
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Australia",
+    "Players": 1
+  },
+  {
+    "Season": "2022-23",
+    "Nationality": "Austria",
+    "Players": 2
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Canada",
+    "Players": 434
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "United States",
+    "Players": 288
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Sweden",
+    "Players": 101
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Russia",
+    "Players": 66
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Finland",
+    "Players": 48
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Czech Republic",
+    "Players": 32
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Switzerland",
+    "Players": 10
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Germany",
+    "Players": 8
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Slovakia",
+    "Players": 11
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Denmark",
+    "Players": 6
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Belarus",
+    "Players": 4
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Norway",
+    "Players": 2
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Latvia",
+    "Players": 5
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Netherlands",
+    "Players": 1
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Austria",
+    "Players": 1
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "France",
+    "Players": 3
+  },
+  {
+    "Season": "2023-24",
+    "Nationality": "Australia",
+    "Players": 1
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Canada",
+    "Players": 420
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "United States",
+    "Players": 303
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Sweden",
+    "Players": 97
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Russia",
+    "Players": 65
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Finland",
+    "Players": 56
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Czech Republic",
+    "Players": 29
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Switzerland",
+    "Players": 11
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Germany",
+    "Players": 7
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Slovakia",
+    "Players": 8
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Denmark",
+    "Players": 6
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Belarus",
+    "Players": 7
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Austria",
+    "Players": 2
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Norway",
+    "Players": 2
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Slovenia",
+    "Players": 1
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Latvia",
+    "Players": 6
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Australia",
+    "Players": 1
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "France",
+    "Players": 1
+  },
+  {
+    "Season": "2024-25",
+    "Nationality": "Netherlands",
+    "Players": 1
+  }
+]
