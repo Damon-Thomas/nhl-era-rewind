@@ -1,9 +1,0 @@
-@import "tailwindcss";
-
-.heading {
-  @apply font-bold bg-gray-600;
-}
-
-.grid {
-  @apply py-1 px-2 md:py-2 md:px-4;
-}
