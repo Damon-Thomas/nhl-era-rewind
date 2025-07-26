@@ -1,14 +1,30 @@
-import {
-  handleGoalieSort,
-  handleSkaterSort,
-} from "../data/league/leagueSorters";
+import { handleRosterSort } from "../data/league/leagueSorters";
 import HeadingEntry from "./HeadingEntry";
+
+interface HeadingRowProps {
+  type?: "skater" | "goalie" | "defensemen" | "forwards";
+  roster: any[];
+  setRoster: (r: any[]) => void;
+  sortState: { field: string; asc: boolean };
+  setSortState: (s: { field: string; asc: boolean }) => void;
+}
 
 export default function HeadingRow({
   type = "skater",
-}: {
-  type?: "skater" | "goalie" | "defensemen" | "forwards";
-}) {
+  roster,
+  setRoster,
+  sortState,
+  setSortState,
+}: HeadingRowProps) {
+  const sort = (sortBy: string) =>
+    handleRosterSort({
+      roster,
+      setRoster,
+      sortState,
+      setSortState,
+      sortBy: sortBy as any,
+    });
+
   return (
     <>
       {type === "skater" ? (
@@ -16,37 +32,37 @@ export default function HeadingRow({
           <HeadingEntry
             label="Player Name"
             side="left"
-            sortHandler={() => handleSkaterSort("name")}
+            sortHandler={() => sort("name")}
           />
           <HeadingEntry
             label="Nation"
             side="left"
-            sortHandler={() => handleSkaterSort("nationality")}
+            sortHandler={() => sort("nationality")}
           />
           <HeadingEntry
             label="Pos"
             side="left"
-            sortHandler={() => handleSkaterSort("position")}
+            sortHandler={() => sort("position")}
           />
           <HeadingEntry
             label="GP"
             side="right"
-            sortHandler={() => handleSkaterSort("gamesPlayed")}
+            sortHandler={() => sort("gamesPlayed")}
           />
           <HeadingEntry
             label="G"
             side="right"
-            sortHandler={() => handleSkaterSort("goals")}
+            sortHandler={() => sort("goals")}
           />
           <HeadingEntry
             label="A"
             side="right"
-            sortHandler={() => handleSkaterSort("assists")}
+            sortHandler={() => sort("assists")}
           />
           <HeadingEntry
             label="Pts"
             side="right"
-            sortHandler={() => handleSkaterSort("points")}
+            sortHandler={() => sort("points")}
           />
         </>
       ) : type === "goalie" ? (
@@ -54,37 +70,37 @@ export default function HeadingRow({
           <HeadingEntry
             label="Player Name"
             side="left"
-            sortHandler={() => handleGoalieSort("name")}
+            sortHandler={() => sort("name")}
           />
           <HeadingEntry
             label="Nation"
             side="left"
-            sortHandler={() => handleGoalieSort("nationality")}
+            sortHandler={() => sort("nationality")}
           />
           <HeadingEntry
             label="Pos"
             side="left"
-            sortHandler={() => handleGoalieSort("position")}
+            sortHandler={() => sort("position")}
           />
           <HeadingEntry
             label="GP"
             side="right"
-            sortHandler={() => handleGoalieSort("gamesPlayed")}
+            sortHandler={() => sort("gamesPlayed")}
           />
           <HeadingEntry
             label="W"
             side="right"
-            sortHandler={() => handleGoalieSort("wins")}
+            sortHandler={() => sort("wins")}
           />
           <HeadingEntry
             label="Pct"
             side="right"
-            sortHandler={() => handleGoalieSort("savePercentage")}
+            sortHandler={() => sort("savePercentage")}
           />
           <HeadingEntry
             label="GA"
             side="right"
-            sortHandler={() => handleGoalieSort("goalsAgainstAvg")}
+            sortHandler={() => sort("goalsAgainstAvg")}
           />
         </>
       ) : type === "defensemen" ? null : type === "forwards" ? null : null}

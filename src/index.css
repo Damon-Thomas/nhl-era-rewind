@@ -13,6 +13,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @apply text-xs sm:text-base md:text-lg lg:text-xl xl:text-2xl;
 }
 
 a {
