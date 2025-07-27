@@ -2,8 +2,6 @@
 
 This project takes the current NHL league and simulates what it would look like if we brought today's league back in time.
 
-![Nationalities in 1970](src/assets/Nationalities1970.png)
-
 For example, if we take the league back to 1970 and there were only 13 non-Canadian players in the league, then all non-Canadians in the current league would be removed except for 13 from those nations. If the population of Canada was half of what it is now, then half of the current Canadian players would be removed. Next, the number of teams from that era is used, and the remaining players are assigned to teams like a fantasy draft. Any leftover players are cut and placed in an "other pro leagues" list, and if there aren't enough players, a non-NHL placeholder is used.
 
 After generating the new league, the user will see the updated leaderboard. They can sort by goals, games played, assists, etc. A new goal leader, point leader, top defenseman, and top goalie will be chosen.
