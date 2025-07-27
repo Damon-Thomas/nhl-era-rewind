@@ -10,4 +10,30 @@ describe("StatEntry", () => {
     render(<StatEntry stat={2} side="left" />);
     expect(screen.getByText(2)).toBeInTheDocument();
   });
+  test("renders with null stat", () => {
+    render(<StatEntry stat={null} side="left" />);
+    expect(screen.getByText("N/A")).toBeInTheDocument();
+  });
+  test("renders with undefined stat", () => {
+    render(<StatEntry stat={undefined} side="left" />);
+    expect(screen.getByText("N/A")).toBeInTheDocument();
+  });
+  test("renders with rounded number stat to 2", () => {
+    render(<StatEntry stat={2.12345} side="left" round={2} />);
+    expect(screen.getByText("2.12")).toBeInTheDocument();
+  });
+  test("renders with rounded number stat to 3", () => {
+    render(<StatEntry stat={2.12345} side="left" round={3} />);
+    expect(screen.getByText("2.123")).toBeInTheDocument();
+  });
+  test("round renders integer number stat to 3 decimals", () => {
+    render(<StatEntry stat={2} side="left" round={3} />);
+    expect(screen.getByText("2.000")).toBeInTheDocument();
+  });
+  test("renders with different side", () => {
+    render(<StatEntry stat="USA" side="right" />);
+    const element = screen.getByText("USA");
+    expect(element).toHaveClass("text-right");
+    expect(element).toHaveClass("px-1 md:px-4");
+  });
 });
