@@ -1,10 +1,11 @@
+import type { Player } from "@/types/player";
 import { handleRosterSort } from "../data/league/leagueSorters";
 import HeadingEntry from "./HeadingEntry";
 
 interface HeadingRowProps {
   type?: "skater" | "goalie" | "defensemen" | "forwards";
-  roster: any[];
-  setRoster: (r: any[]) => void;
+  roster: Player[];
+  setRoster: (r: Player[]) => void;
   sortState: { field: string; asc: boolean };
   setSortState: (s: { field: string; asc: boolean }) => void;
 }
@@ -16,13 +17,25 @@ export default function HeadingRow({
   sortState,
   setSortState,
 }: HeadingRowProps) {
-  const sort = (sortBy: string) =>
+  type SortBy =
+    | "points"
+    | "goals"
+    | "assists"
+    | "gamesPlayed"
+    | "name"
+    | "position"
+    | "nationality"
+    | "wins"
+    | "savePercentage"
+    | "goalsAgainstAvg";
+
+  const sort = (sortBy: SortBy) =>
     handleRosterSort({
       roster,
       setRoster,
       sortState,
       setSortState,
-      sortBy: sortBy as any,
+      sortBy: sortBy,
     });
 
   return (

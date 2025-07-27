@@ -1,3 +1,5 @@
+import type { Player } from "@/types/player";
+
 // Generic sort handler
 export function handleRosterSort({
   roster,
@@ -6,8 +8,8 @@ export function handleRosterSort({
   setSortState,
   sortBy,
 }: {
-  roster: any[];
-  setRoster: (r: any[]) => void;
+  roster: Player[];
+  setRoster: (r: Player[]) => void;
   sortState: { field: string; asc: boolean };
   setSortState: (s: { field: string; asc: boolean }) => void;
   sortBy:

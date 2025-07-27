@@ -12,9 +12,8 @@ import {
 import StatOutputSizeButton from "./components/StatOutPutSizeButton";
 
 function App() {
-  const [currentLeagueSelector, setCurrentLeagueSelector] = useState<
-    "full" | "position"
-  >("full");
+  // setCurrentLeagueSelector will be used to toggle between full league and position-based stats commented out for now
+  const [currentLeagueSelector] = useState<"full" | "position">("full");
   // Separate league selection and page state for each stat category
   const [skaterLeagueSelection, setSkaterLeagueSelection] = useState<
     10 | 25 | 50 | 100
@@ -29,9 +28,9 @@ function App() {
     10 | 25 | 50 | 100
   >(10);
 
-  const handleLeagueSelectorChange = (value: "full" | "position") => {
-    setCurrentLeagueSelector(value);
-  };
+  // const handleLeagueSelectorChange = (value: "full" | "position") => {
+  //   setCurrentLeagueSelector(value);
+  // };
 
   // Roster and sort state
   const [skaterRoster, setSkaterRoster] = useState(sortedRoster);
@@ -51,7 +50,7 @@ function App() {
     let rosterLength = 0;
     let setPage: (n: number) => void = () => {};
     let leagueSelection = 10;
-    let currentPage = page;
+    const currentPage = page;
     switch (type) {
       case "skater":
         rosterLength = skaterRoster.length;
@@ -78,8 +77,8 @@ function App() {
     }
 
     // Calculate the last page so that the last page always shows a full set (leagueSelection) unless total < leagueSelection
-    let maxPage = Math.max(1, Math.ceil(rosterLength / leagueSelection));
-    let lastFullPage =
+    const maxPage = Math.max(1, Math.ceil(rosterLength / leagueSelection));
+    const lastFullPage =
       rosterLength <= leagueSelection
         ? 1
         : Math.max(
