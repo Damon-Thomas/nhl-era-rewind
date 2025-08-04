@@ -271,21 +271,6 @@
       }
     },
     {
-      "playerId": 8484242,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8484242.png",
-      "firstName": "Brayden",
-      "lastName": "Yager",
-      "position": "C",
-      "nationality": "CAN",
-      "fgq": "forward",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
-      }
-    },
-    {
       "playerId": 8478463,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8478463.png",
       "firstName": "Anthony",
@@ -778,21 +763,6 @@
         "goals": 8,
         "assists": 25,
         "points": 33
-      }
-    },
-    {
-      "playerId": 8482130,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8482130.png",
-      "firstName": "Roni",
-      "lastName": "Hirvonen",
-      "position": "C",
-      "nationality": "FIN",
-      "fgq": "forward",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
       }
     },
     {
@@ -1396,21 +1366,6 @@
       }
     },
     {
-      "playerId": 8482748,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8482748.png",
-      "firstName": "Francesco",
-      "lastName": "Pinelli",
-      "position": "C",
-      "nationality": "CAN",
-      "fgq": "forward",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
-      }
-    },
-    {
       "playerId": 8480851,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8480851.png",
       "firstName": "Akil",
@@ -1711,21 +1666,6 @@
       }
     },
     {
-      "playerId": 8476455,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8476455.png",
-      "firstName": "Gabriel",
-      "lastName": "Landeskog",
-      "position": "L",
-      "nationality": "SWE",
-      "fgq": "forward",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
-      }
-    },
-    {
       "playerId": 8477476,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8477476.png",
       "firstName": "Artturi",
@@ -1873,21 +1813,6 @@
         "goals": 12,
         "assists": 15,
         "points": 27
-      }
-    },
-    {
-      "playerId": 8483455,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8483455.png",
-      "firstName": "Isaac",
-      "lastName": "Howard",
-      "position": "L",
-      "nationality": "USA",
-      "fgq": "forward",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
       }
     },
     {
@@ -2551,36 +2476,6 @@
       }
     },
     {
-      "playerId": 8483579,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8483579.png",
-      "firstName": "Wyatt",
-      "lastName": "Bongiovanni",
-      "position": "L",
-      "nationality": "USA",
-      "fgq": "forward",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
-      }
-    },
-    {
-      "playerId": 8482674,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482674.png",
-      "firstName": "Tyler",
-      "lastName": "Boucher",
-      "position": "R",
-      "nationality": "USA",
-      "fgq": "forward",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
-      }
-    },
-    {
       "playerId": 8476393,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8476393.png",
       "firstName": "Nick",
@@ -2653,21 +2548,6 @@
         "goals": 13,
         "assists": 21,
         "points": 34
-      }
-    },
-    {
-      "playerId": 8483676,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8483676.png",
-      "firstName": "Stephen",
-      "lastName": "Halliday",
-      "position": "C",
-      "nationality": "CAN",
-      "fgq": "forward",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
       }
     },
     {
@@ -2878,21 +2758,6 @@
         "goals": 14,
         "assists": 15,
         "points": 29
-      }
-    },
-    {
-      "playerId": 8483452,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8483452.png",
-      "firstName": "Hunter",
-      "lastName": "Haight",
-      "position": "C",
-      "nationality": "CAN",
-      "fgq": "forward",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
       }
     },
     {
@@ -3988,21 +3853,6 @@
         "goals": 8,
         "assists": 17,
         "points": 25
-      }
-    },
-    {
-      "playerId": 8475169,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8475169.png",
-      "firstName": "Evander",
-      "lastName": "Kane",
-      "position": "L",
-      "nationality": "CAN",
-      "fgq": "forward",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
       }
     },
     {
@@ -6993,21 +6843,6 @@
       }
     },
     {
-      "playerId": 8483510,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8483510.png",
-      "firstName": "Elias",
-      "lastName": "Salomonsson",
-      "position": "D",
-      "nationality": "SWE",
-      "fgq": "defensemen",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
-      }
-    },
-    {
       "playerId": 8480049,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8480049.png",
       "firstName": "Dylan",
@@ -7428,21 +7263,6 @@
       }
     },
     {
-      "playerId": 8482158,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8482158.png",
-      "firstName": "Topi",
-      "lastName": "Niemela",
-      "position": "D",
-      "nationality": "FIN",
-      "fgq": "defensemen",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
-      }
-    },
-    {
       "playerId": 8476853,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8476853.png",
       "firstName": "Morgan",
@@ -7500,36 +7320,6 @@
         "goals": 2,
         "assists": 10,
         "points": 12
-      }
-    },
-    {
-      "playerId": 8482174,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8482174.png",
-      "firstName": "William",
-      "lastName": "Villeneuve",
-      "position": "D",
-      "nationality": "CAN",
-      "fgq": "defensemen",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
-      }
-    },
-    {
-      "playerId": 8481570,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8481570.png",
-      "firstName": "Cade",
-      "lastName": "Webber",
-      "position": "D",
-      "nationality": "USA",
-      "fgq": "defensemen",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
       }
     },
     {
@@ -8133,21 +7923,6 @@
       }
     },
     {
-      "playerId": 8482100,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8482100.png",
-      "firstName": "Alexander",
-      "lastName": "Nikishin",
-      "position": "D",
-      "nationality": "RUS",
-      "fgq": "defensemen",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
-      }
-    },
-    {
       "playerId": 8476422,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8476422.png",
       "firstName": "Mike",
@@ -8328,21 +8103,6 @@
       }
     },
     {
-      "playerId": 8483683,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8483683.png",
-      "firstName": "Tomas",
-      "lastName": "Hamara",
-      "position": "D",
-      "nationality": "CZE",
-      "fgq": "defensemen",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
-      }
-    },
-    {
       "playerId": 8475324,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8475324.png",
       "firstName": "Nick",
@@ -8433,21 +8193,6 @@
       }
     },
     {
-      "playerId": 8484759,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8484759.png",
-      "firstName": "Carter",
-      "lastName": "Yakemchuk",
-      "position": "D",
-      "nationality": "CAN",
-      "fgq": "defensemen",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
-      }
-    },
-    {
       "playerId": 8482245,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482245.png",
       "firstName": "Artem",
@@ -8493,21 +8238,6 @@
       }
     },
     {
-      "playerId": 8484798,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8484798.png",
-      "firstName": "Zeev",
-      "lastName": "Buium",
-      "position": "D",
-      "nationality": "USA",
-      "fgq": "defensemen",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
-      }
-    },
-    {
       "playerId": 8482122,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8482122.png",
       "firstName": "Brock",
@@ -8520,21 +8250,6 @@
         "goals": 10,
         "assists": 19,
         "points": 29
-      }
-    },
-    {
-      "playerId": 8482781,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8482781.png",
-      "firstName": "Carson",
-      "lastName": "Lambos",
-      "position": "D",
-      "nationality": "CAN",
-      "fgq": "defensemen",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
       }
     },
     {
@@ -8955,21 +8670,6 @@
         "goals": 2,
         "assists": 7,
         "points": 9
-      }
-    },
-    {
-      "playerId": 8482873,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8482873.png",
-      "firstName": "Topias",
-      "lastName": "Vilen",
-      "position": "D",
-      "nationality": "FIN",
-      "fgq": "defensemen",
-      "stats": {
-        "gamesPlayed": null,
-        "goals": null,
-        "assists": null,
-        "points": null
       }
     },
     {
@@ -10865,21 +10565,6 @@
       }
     },
     {
-      "playerId": 8483659,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8483659.png",
-      "firstName": "Isaac",
-      "lastName": "Poulter",
-      "position": "G",
-      "nationality": "CAN",
-      "fgq": "goalie",
-      "stats": {
-        "gamesPlayed": null,
-        "goalsAgainstAvg": null,
-        "savePercentage": null,
-        "wins": null
-      }
-    },
-    {
       "playerId": 8479292,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8479292.png",
       "firstName": "Charlie",
@@ -10925,21 +10610,6 @@
       }
     },
     {
-      "playerId": 8482761,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8482761.png",
-      "firstName": "Carl",
-      "lastName": "Lindbom",
-      "position": "G",
-      "nationality": "SWE",
-      "fgq": "goalie",
-      "stats": {
-        "gamesPlayed": null,
-        "goalsAgainstAvg": null,
-        "savePercentage": null,
-        "wins": null
-      }
-    },
-    {
       "playerId": 8481033,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8481033.png",
       "firstName": "Akira",
@@ -10952,21 +10622,6 @@
         "goalsAgainstAvg": 1.259975,
         "savePercentage": 0.944444,
         "wins": 2
-      }
-    },
-    {
-      "playerId": 8482515,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8482515.png",
-      "firstName": "Artur",
-      "lastName": "Akhtyamov",
-      "position": "G",
-      "nationality": "RUS",
-      "fgq": "goalie",
-      "stats": {
-        "gamesPlayed": null,
-        "goalsAgainstAvg": null,
-        "savePercentage": null,
-        "wins": null
       }
     },
     {
@@ -11072,21 +10727,6 @@
         "goalsAgainstAvg": 2.719898,
         "savePercentage": 0.901042,
         "wins": 11
-      }
-    },
-    {
-      "playerId": 8484857,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8484857.png",
-      "firstName": "Carter",
-      "lastName": "George",
-      "position": "G",
-      "nationality": "CAN",
-      "fgq": "goalie",
-      "stats": {
-        "gamesPlayed": null,
-        "goalsAgainstAvg": null,
-        "savePercentage": null,
-        "wins": null
       }
     },
     {
@@ -11210,21 +10850,6 @@
       }
     },
     {
-      "playerId": 8484440,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8484440.png",
-      "firstName": "Ruslan",
-      "lastName": "Khazheyev",
-      "position": "G",
-      "nationality": "RUS",
-      "fgq": "goalie",
-      "stats": {
-        "gamesPlayed": null,
-        "goalsAgainstAvg": null,
-        "savePercentage": null,
-        "wins": null
-      }
-    },
-    {
       "playerId": 8481611,
       "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8481611.png",
       "firstName": "Pyotr",
@@ -11237,21 +10862,6 @@
         "goalsAgainstAvg": 2.601498,
         "savePercentage": 0.897611,
         "wins": 27
-      }
-    },
-    {
-      "playerId": 8482895,
-      "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8482895.png",
-      "firstName": "Nikita",
-      "lastName": "Quapp",
-      "position": "G",
-      "nationality": "DEU",
-      "fgq": "goalie",
-      "stats": {
-        "gamesPlayed": null,
-        "goalsAgainstAvg": null,
-        "savePercentage": null,
-        "wins": null
       }
     },
     {
