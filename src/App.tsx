@@ -10,6 +10,7 @@ import {
   sortedGoalies,
 } from "./data/league/preSortedLeague";
 import StatOutputSizeButton from "./components/StatOutPutSizeButton";
+import DropDown from "./components/DropDown";
 
 function App() {
   // setCurrentLeagueSelector will be used to toggle between full league and position-based stats commented out for now
@@ -140,59 +141,60 @@ function App() {
         <div className="flex  justify-between items-center mb-4 ">
           <h2 className="">Current League</h2>
         </div>
-        <div className="grid [grid-template-columns:repeat(7,auto)]">
-          <>
-            {currentLeagueSelector === "full" ? (
-              <>
-                <div className="flex justify-end col-span-7 mb-2">
-                  <StatOutputSizeButton
-                    leagueSelection={skaterLeagueSelection}
-                    setLeagueSelection={(val) => {
-                      setSkaterLeagueSelection(val);
-                      setSkaterPage(1);
-                    }}
-                  />
-                </div>
-                <HeadingRow
-                  type="skater"
-                  roster={skaterRoster}
-                  setRoster={setSkaterRoster}
-                  sortState={skaterSort}
-                  setSortState={setSkaterSort}
+        <>
+          {currentLeagueSelector === "full" ? (
+            <DropDown title="Skaters">
+              <div className="flex justify-end col-span-7 mb-2">
+                <StatOutputSizeButton
+                  leagueSelection={skaterLeagueSelection}
+                  setLeagueSelection={(val) => {
+                    setSkaterLeagueSelection(val);
+                    setSkaterPage(1);
+                  }}
                 />
-                {skaterRoster
-                  .slice(
-                    skaterPage ===
-                      Math.max(
-                        1,
-                        Math.ceil(skaterRoster.length / skaterLeagueSelection)
-                      )
-                      ? Math.max(0, skaterRoster.length - skaterLeagueSelection)
-                      : (skaterPage - 1) * skaterLeagueSelection,
-                    skaterPage ===
-                      Math.max(
-                        1,
-                        Math.ceil(skaterRoster.length / skaterLeagueSelection)
-                      )
-                      ? skaterRoster.length
-                      : skaterPage * skaterLeagueSelection
-                  )
-                  .map((player, idx) => (
-                    <PlayerBar key={idx} player={player} />
-                  ))}
+              </div>
 
-                <StatPageNav
-                  pageChangeHandler={handlePageChange}
-                  page={skaterPage}
-                  type="skater"
-                  maxPage={Math.max(
-                    1,
-                    Math.ceil(skaterRoster.length / skaterLeagueSelection)
-                  )}
-                />
-              </>
-            ) : (
-              <>
+              <HeadingRow
+                type="skater"
+                roster={skaterRoster}
+                setRoster={setSkaterRoster}
+                sortState={skaterSort}
+                setSortState={setSkaterSort}
+              />
+              {skaterRoster
+                .slice(
+                  skaterPage ===
+                    Math.max(
+                      1,
+                      Math.ceil(skaterRoster.length / skaterLeagueSelection)
+                    )
+                    ? Math.max(0, skaterRoster.length - skaterLeagueSelection)
+                    : (skaterPage - 1) * skaterLeagueSelection,
+                  skaterPage ===
+                    Math.max(
+                      1,
+                      Math.ceil(skaterRoster.length / skaterLeagueSelection)
+                    )
+                    ? skaterRoster.length
+                    : skaterPage * skaterLeagueSelection
+                )
+                .map((player, idx) => (
+                  <PlayerBar key={idx} player={player} />
+                ))}
+
+              <StatPageNav
+                pageChangeHandler={handlePageChange}
+                page={skaterPage}
+                type="skater"
+                maxPage={Math.max(
+                  1,
+                  Math.ceil(skaterRoster.length / skaterLeagueSelection)
+                )}
+              />
+            </DropDown>
+          ) : (
+            <>
+              <DropDown title="Forwards">
                 <div className="flex justify-end col-span-7 mb-2">
                   <StatOutputSizeButton
                     leagueSelection={forwardsLeagueSelection}
@@ -245,6 +247,8 @@ function App() {
                     Math.ceil(forwardsRoster.length / forwardsLeagueSelection)
                   )}
                 />
+              </DropDown>
+              <DropDown title="Defensemen">
                 <div className="flex justify-end col-span-7 mb-2">
                   <StatOutputSizeButton
                     leagueSelection={defensemenLeagueSelection}
@@ -299,8 +303,10 @@ function App() {
                     )
                   )}
                 />
-              </>
-            )}
+              </DropDown>
+            </>
+          )}
+          <DropDown title="Goalies">
             <div className="flex justify-end col-span-7 mb-2">
               <StatOutputSizeButton
                 leagueSelection={goalieLeagueSelection}
@@ -346,8 +352,8 @@ function App() {
                 Math.ceil(goalieRoster.length / goalieLeagueSelection)
               )}
             />
-          </>
-        </div>
+          </DropDown>
+        </>
       </div>
     </div>
   );
