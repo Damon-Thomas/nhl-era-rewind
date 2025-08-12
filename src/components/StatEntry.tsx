@@ -2,15 +2,19 @@ export default function StatEntry({
   stat,
   side,
   round = 0,
+  size = "lg",
 }: {
   stat: string | number | null | undefined;
   side: "left" | "center" | "right";
   round?: number;
+  size?: "sm" | "md" | "lg";
 }) {
   if (stat === null || stat === undefined) {
     return (
       <p
-        className={`text-${side} px-1 md:px-4 whitespace-nowrap border-1 border-gray-300`}
+        className={`text-${side} ${
+          size === "md" ? "w-10" : size === "sm" ? "w-10" : ""
+        }  whitespace-nowrap px-1 border-1 border-gray-300`}
       >
         N/A
       </p>
@@ -18,7 +22,9 @@ export default function StatEntry({
   }
   return (
     <p
-      className={`text-${side} px-1 md:px-4 whitespace-nowrap border-1 border-gray-300`}
+      className={`text-${side} ${
+        size === "md" ? "w-10" : size === "sm" ? "w-10" : ""
+      }  whitespace-nowrap px-1 border-1 border-gray-300`}
     >
       {typeof stat === "number" ? stat.toFixed(round) : stat}
     </p>

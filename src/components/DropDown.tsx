@@ -43,7 +43,7 @@ export default function StatsDropDown({
         }`}
       >
         <div className="overflow-hidden">
-          <div className="grid [grid-template-columns:repeat(7,auto)]">
+          <div className="grid [grid-template-columns:1fr_auto_auto_auto_auto_auto_auto]">
             {children}
           </div>
         </div>

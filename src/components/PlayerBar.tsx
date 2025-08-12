@@ -11,18 +11,21 @@ export default function PlayerBar({ player }: { player: Player }) {
             side="left"
           />
           <StatEntry stat={player.nationality} side="left" />
-          <StatEntry stat={player.position} side="left" />
-          <StatEntry stat={player.stats.gamesPlayed} side="right" />
-          <StatEntry stat={player.stats.wins} side="right" />
+
+          <StatEntry stat={player.position} side="left" size={"md"} />
+          <StatEntry stat={player.stats.gamesPlayed} side="right" size={"sm"} />
+          <StatEntry stat={player.stats.wins} side="right" size={"sm"} />
           <StatEntry
             stat={player.stats.savePercentage}
             side="right"
             round={3}
+            size={"sm"}
           />
           <StatEntry
             stat={player.stats.goalsAgainstAvg}
             side="right"
             round={2}
+            size={"sm"}
           />
         </>
       ) : (
@@ -32,11 +35,11 @@ export default function PlayerBar({ player }: { player: Player }) {
             side="left"
           />
           <StatEntry stat={player.nationality} side="left" />
-          <StatEntry stat={player.position} side="left" />
-          <StatEntry stat={player.stats.gamesPlayed} side="right" />
-          <StatEntry stat={player.stats.goals} side="right" />
-          <StatEntry stat={player.stats.assists} side="right" />
-          <StatEntry stat={player.stats.points} side="right" />
+          <StatEntry stat={player.position} side="left" size={"md"} />
+          <StatEntry stat={player.stats.gamesPlayed} side="right" size={"sm"} />
+          <StatEntry stat={player.stats.goals} side="right" size={"sm"} />
+          <StatEntry stat={player.stats.assists} side="right" size={"sm"} />
+          <StatEntry stat={player.stats.points} side="right" size={"sm"} />
         </>
       )}
     </>
