@@ -56,26 +56,31 @@ export default function HeadingRow({
             label="Pos"
             side="left"
             sortHandler={() => sort("position")}
+            size="md"
           />
           <HeadingEntry
             label="GP"
             side="right"
             sortHandler={() => sort("gamesPlayed")}
+            size="sm"
           />
           <HeadingEntry
             label="G"
             side="right"
             sortHandler={() => sort("goals")}
+            size="sm"
           />
           <HeadingEntry
             label="A"
             side="right"
             sortHandler={() => sort("assists")}
+            size="sm"
           />
           <HeadingEntry
             label="Pts"
             side="right"
             sortHandler={() => sort("points")}
+            size="sm"
           />
         </>
       ) : type === "goalie" ? (
@@ -94,26 +99,31 @@ export default function HeadingRow({
             label="Pos"
             side="left"
             sortHandler={() => sort("position")}
+            size="md"
           />
           <HeadingEntry
             label="GP"
             side="right"
             sortHandler={() => sort("gamesPlayed")}
+            size="sm"
           />
           <HeadingEntry
             label="W"
             side="right"
             sortHandler={() => sort("wins")}
+            size="sm"
           />
           <HeadingEntry
             label="Pct"
             side="right"
             sortHandler={() => sort("savePercentage")}
+            size="sm"
           />
           <HeadingEntry
             label="GA"
             side="right"
             sortHandler={() => sort("goalsAgainstAvg")}
+            size="sm"
           />
         </>
       ) : type === "defensemen" ? null : type === "forwards" ? null : null}

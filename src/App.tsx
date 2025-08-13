@@ -9,7 +9,8 @@ import {
   sortedDefensemen,
   sortedGoalies,
 } from "./data/league/preSortedLeague";
-import StatOutputSizeButton from "./components/StatOutPutSizeButton";
+import StatsDropDown from "./components/DropDown";
+import type { Player } from "./types/player";
 
 function App() {
   // setCurrentLeagueSelector will be used to toggle between full league and position-based stats commented out for now
@@ -33,10 +34,12 @@ function App() {
   // };
 
   // Roster and sort state
-  const [skaterRoster, setSkaterRoster] = useState(sortedRoster);
-  const [goalieRoster, setGoalieRoster] = useState(sortedGoalies);
-  const [forwardsRoster, setForwardsRoster] = useState(sortedForwards);
-  const [defensemenRoster, setDefensemenRoster] = useState(sortedDefensemen);
+  const [skaterRoster, setSkaterRoster] = useState<Player[]>(sortedRoster);
+  const [goalieRoster, setGoalieRoster] = useState<Player[]>(sortedGoalies);
+  const [forwardsRoster, setForwardsRoster] =
+    useState<Player[]>(sortedForwards);
+  const [defensemenRoster, setDefensemenRoster] =
+    useState<Player[]>(sortedDefensemen);
   const [skaterPage, setSkaterPage] = useState(1);
   const [goaliePage, setGoaliePage] = useState(1);
   const [forwardsPage, setForwardsPage] = useState(1);
@@ -140,26 +143,25 @@ function App() {
         <div className="flex  justify-between items-center mb-4 ">
           <h2 className="">Current League</h2>
         </div>
-        <div className="grid [grid-template-columns:repeat(7,auto)]">
+        <div className="flex flex-col md:gap-2 w-full">
           <>
             {currentLeagueSelector === "full" ? (
-              <>
-                <div className="flex justify-end col-span-7 mb-2">
-                  <StatOutputSizeButton
-                    leagueSelection={skaterLeagueSelection}
-                    setLeagueSelection={(val) => {
-                      setSkaterLeagueSelection(val);
-                      setSkaterPage(1);
-                    }}
-                  />
-                </div>
+              <StatsDropDown
+                title="Skaters"
+                leagueSelection={skaterLeagueSelection}
+                setLeagueSelection={setSkaterLeagueSelection}
+                setPage={() => setSkaterPage(1)}
+              >
                 <HeadingRow
                   type="skater"
-                  roster={skaterRoster}
-                  setRoster={setSkaterRoster}
+                  roster={skaterRoster as Player[]}
+                  setRoster={(r: Player[]) =>
+                    setSkaterRoster(r as typeof skaterRoster)
+                  }
                   sortState={skaterSort}
                   setSortState={setSkaterSort}
                 />
+
                 {skaterRoster
                   .slice(
                     skaterPage ===
@@ -180,7 +182,6 @@ function App() {
                   .map((player, idx) => (
                     <PlayerBar key={idx} player={player} />
                   ))}
-
                 <StatPageNav
                   pageChangeHandler={handlePageChange}
                   page={skaterPage}
@@ -190,162 +191,156 @@ function App() {
                     Math.ceil(skaterRoster.length / skaterLeagueSelection)
                   )}
                 />
-              </>
+              </StatsDropDown>
             ) : (
               <>
-                <div className="flex justify-end col-span-7 mb-2">
-                  <StatOutputSizeButton
-                    leagueSelection={forwardsLeagueSelection}
-                    setLeagueSelection={(val) => {
-                      setForwardsLeagueSelection(val);
-                      setForwardsPage(1);
-                    }}
+                <StatsDropDown
+                  title="Forwards"
+                  leagueSelection={forwardsLeagueSelection}
+                  setLeagueSelection={setForwardsLeagueSelection}
+                  setPage={() => setForwardsPage(1)}
+                >
+                  <HeadingRow
+                    type="forwards"
+                    roster={forwardsRoster}
+                    setRoster={(r: Player[]) => setForwardsRoster(r)}
+                    sortState={forwardsSort}
+                    setSortState={setForwardsSort}
                   />
-                </div>
-                <HeadingRow
-                  type="forwards"
-                  roster={forwardsRoster}
-                  setRoster={setForwardsRoster}
-                  sortState={forwardsSort}
-                  setSortState={setForwardsSort}
-                />
-                {forwardsRoster
-                  .slice(
-                    forwardsPage ===
-                      Math.max(
-                        1,
-                        Math.ceil(
-                          forwardsRoster.length / forwardsLeagueSelection
+                  {forwardsRoster
+                    .slice(
+                      forwardsPage ===
+                        Math.max(
+                          1,
+                          Math.ceil(
+                            forwardsRoster.length / forwardsLeagueSelection
+                          )
                         )
-                      )
-                      ? Math.max(
-                          0,
-                          forwardsRoster.length - forwardsLeagueSelection
+                        ? Math.max(
+                            0,
+                            forwardsRoster.length - forwardsLeagueSelection
+                          )
+                        : (forwardsPage - 1) * forwardsLeagueSelection,
+                      forwardsPage ===
+                        Math.max(
+                          1,
+                          Math.ceil(
+                            forwardsRoster.length / forwardsLeagueSelection
+                          )
                         )
-                      : (forwardsPage - 1) * forwardsLeagueSelection,
-                    forwardsPage ===
-                      Math.max(
-                        1,
-                        Math.ceil(
-                          forwardsRoster.length / forwardsLeagueSelection
-                        )
-                      )
-                      ? forwardsRoster.length
-                      : forwardsPage * forwardsLeagueSelection
-                  )
-                  .map((player, idx) => (
-                    <PlayerBar key={idx} player={player} />
-                  ))}
-                <StatPageNav
-                  pageChangeHandler={handlePageChange}
-                  page={forwardsPage}
-                  type="forwards"
-                  maxPage={Math.max(
-                    1,
-                    Math.ceil(forwardsRoster.length / forwardsLeagueSelection)
-                  )}
-                />
-                <div className="flex justify-end col-span-7 mb-2">
-                  <StatOutputSizeButton
-                    leagueSelection={defensemenLeagueSelection}
-                    setLeagueSelection={(val) => {
-                      setDefensemenLeagueSelection(val);
-                      setDefensemenPage(1);
-                    }}
-                  />
-                </div>
-                <HeadingRow
-                  type="defensemen"
-                  roster={defensemenRoster}
-                  setRoster={setDefensemenRoster}
-                  sortState={defensemenSort}
-                  setSortState={setDefensemenSort}
-                />
-                {defensemenRoster
-                  .slice(
-                    defensemenPage ===
-                      Math.max(
-                        1,
-                        Math.ceil(
-                          defensemenRoster.length / defensemenLeagueSelection
-                        )
-                      )
-                      ? Math.max(
-                          0,
-                          defensemenRoster.length - defensemenLeagueSelection
-                        )
-                      : (defensemenPage - 1) * defensemenLeagueSelection,
-                    defensemenPage ===
-                      Math.max(
-                        1,
-                        Math.ceil(
-                          defensemenRoster.length / defensemenLeagueSelection
-                        )
-                      )
-                      ? defensemenRoster.length
-                      : defensemenPage * defensemenLeagueSelection
-                  )
-                  .map((player, idx) => (
-                    <PlayerBar key={idx} player={player} />
-                  ))}
-                <StatPageNav
-                  pageChangeHandler={handlePageChange}
-                  page={defensemenPage}
-                  type="defensemen"
-                  maxPage={Math.max(
-                    1,
-                    Math.ceil(
-                      defensemenRoster.length / defensemenLeagueSelection
+                        ? forwardsRoster.length
+                        : forwardsPage * forwardsLeagueSelection
                     )
-                  )}
-                />
+                    .map((player, idx) => (
+                      <PlayerBar key={idx} player={player} />
+                    ))}
+                  <StatPageNav
+                    pageChangeHandler={handlePageChange}
+                    page={forwardsPage}
+                    type="forwards"
+                    maxPage={Math.max(
+                      1,
+                      Math.ceil(forwardsRoster.length / forwardsLeagueSelection)
+                    )}
+                  />
+                </StatsDropDown>
+                <StatsDropDown
+                  title="Defensemen"
+                  leagueSelection={defensemenLeagueSelection}
+                  setLeagueSelection={setDefensemenLeagueSelection}
+                  setPage={() => setDefensemenPage(1)}
+                >
+                  <HeadingRow
+                    type="defensemen"
+                    roster={defensemenRoster}
+                    setRoster={(r: Player[]) => setDefensemenRoster(r)}
+                    sortState={defensemenSort}
+                    setSortState={setDefensemenSort}
+                  />
+                  {defensemenRoster
+                    .slice(
+                      defensemenPage ===
+                        Math.max(
+                          1,
+                          Math.ceil(
+                            defensemenRoster.length / defensemenLeagueSelection
+                          )
+                        )
+                        ? Math.max(
+                            0,
+                            defensemenRoster.length - defensemenLeagueSelection
+                          )
+                        : (defensemenPage - 1) * defensemenLeagueSelection,
+                      defensemenPage ===
+                        Math.max(
+                          1,
+                          Math.ceil(
+                            defensemenRoster.length / defensemenLeagueSelection
+                          )
+                        )
+                        ? defensemenRoster.length
+                        : defensemenPage * defensemenLeagueSelection
+                    )
+                    .map((player, idx) => (
+                      <PlayerBar key={idx} player={player} />
+                    ))}
+                  <StatPageNav
+                    pageChangeHandler={handlePageChange}
+                    page={defensemenPage}
+                    type="defensemen"
+                    maxPage={Math.max(
+                      1,
+                      Math.ceil(
+                        defensemenRoster.length / defensemenLeagueSelection
+                      )
+                    )}
+                  />
+                </StatsDropDown>
               </>
             )}
-            <div className="flex justify-end col-span-7 mb-2">
-              <StatOutputSizeButton
-                leagueSelection={goalieLeagueSelection}
-                setLeagueSelection={(val) => {
-                  setGoalieLeagueSelection(val);
-                  setGoaliePage(1);
-                }}
+            <StatsDropDown
+              title="Goalies"
+              leagueSelection={goalieLeagueSelection}
+              setLeagueSelection={setGoalieLeagueSelection}
+              setPage={() => setGoaliePage(1)}
+            >
+              <HeadingRow
+                type="goalie"
+                roster={goalieRoster}
+                setRoster={(r: Player[]) => setGoalieRoster(r)}
+                sortState={goalieSort}
+                setSortState={setGoalieSort}
               />
-            </div>
-            <HeadingRow
-              type="goalie"
-              roster={goalieRoster}
-              setRoster={setGoalieRoster}
-              sortState={goalieSort}
-              setSortState={setGoalieSort}
-            />
-            {goalieRoster
-              .slice(
-                goaliePage ===
-                  Math.max(
-                    1,
-                    Math.ceil(goalieRoster.length / goalieLeagueSelection)
-                  )
-                  ? Math.max(0, goalieRoster.length - goalieLeagueSelection)
-                  : (goaliePage - 1) * goalieLeagueSelection,
-                goaliePage ===
-                  Math.max(
-                    1,
-                    Math.ceil(goalieRoster.length / goalieLeagueSelection)
-                  )
-                  ? goalieRoster.length
-                  : goaliePage * goalieLeagueSelection
-              )
-              .map((player, idx) => (
-                <PlayerBar key={idx} player={player} />
-              ))}
-            <StatPageNav
-              pageChangeHandler={handlePageChange}
-              page={goaliePage}
-              type="goalie"
-              maxPage={Math.max(
-                1,
-                Math.ceil(goalieRoster.length / goalieLeagueSelection)
-              )}
-            />
+              {goalieRoster
+                .slice(
+                  goaliePage ===
+                    Math.max(
+                      1,
+                      Math.ceil(goalieRoster.length / goalieLeagueSelection)
+                    )
+                    ? Math.max(0, goalieRoster.length - goalieLeagueSelection)
+                    : (goaliePage - 1) * goalieLeagueSelection,
+                  goaliePage ===
+                    Math.max(
+                      1,
+                      Math.ceil(goalieRoster.length / goalieLeagueSelection)
+                    )
+                    ? goalieRoster.length
+                    : goaliePage * goalieLeagueSelection
+                )
+                .map((player, idx) => (
+                  <PlayerBar key={idx} player={player} />
+                ))}
+              <StatPageNav
+                pageChangeHandler={handlePageChange}
+                page={goaliePage}
+                type="goalie"
+                maxPage={Math.max(
+                  1,
+                  Math.ceil(goalieRoster.length / goalieLeagueSelection)
+                )}
+              />
+            </StatsDropDown>
           </>
         </div>
       </div>

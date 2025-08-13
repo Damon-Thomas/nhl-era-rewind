@@ -34,6 +34,8 @@ describe("StatEntry", () => {
     render(<StatEntry stat="USA" side="right" />);
     const element = screen.getByText("USA");
     expect(element).toHaveClass("text-right");
-    expect(element).toHaveClass("px-1 md:px-4");
+    expect(element).toHaveClass(
+      "whitespace-nowrap px-1 border-1 border-gray-300"
+    );
   });
 });

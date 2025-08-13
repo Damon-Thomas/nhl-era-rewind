@@ -12,23 +12,30 @@ export default function StatOutputSizeButton({
   return (
     <div className="flex flex-col relative">
       <button
-        onClick={() => {
+        onClick={(e) => {
+          e.stopPropagation();
           setLeagueSelectionVisible((prev) => !prev);
         }}
+        className={`  ${
+          leagueSelectionVisible ? "invisible" : " visible !border-slate-800"
+        }`}
       >
         {leagueSelection}
       </button>
-      <div className="absolute top-full -right-0 bg-gray-800 bg-opacity-50 z-10 flex items-center justify-center">
+      <div className="absolute  -left-0  z-10 flex items-center justify-center">
         {selectionOptions.map((option) => (
           <button
             key={option}
-            onClick={() => {
+            onClick={(e) => {
+              e.stopPropagation();
               setLeagueSelection(option as 10 | 25 | 50 | 100);
               setLeagueSelectionVisible(false);
             }}
-            className={`${
-              leagueSelection === option ? "bg-blue-500" : "bg-gray-300"
-            } p-2 m-1 ${leagueSelectionVisible ? "" : "hidden"}`}
+            className={` ${
+              leagueSelection === option
+                ? "!border-slate-200"
+                : "!border-slate-800"
+            } ${leagueSelectionVisible ? "" : "hidden"}`}
           >
             {option}
           </button>
