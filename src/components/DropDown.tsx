@@ -19,7 +19,7 @@ export default function StatsDropDown({
   return (
     <div className="relative inline-block text-left w-full h-fit">
       <button
-        className="w-full flex justify-between items-center px-4 py-2 text-sm font-medium bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none"
+        className="ddbutton w-full flex justify-between items-center px-4 py-2 text-sm font-medium bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none"
         onClick={() => {
           setOpen((prev) => !prev);
         }}
