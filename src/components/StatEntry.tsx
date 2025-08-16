@@ -13,7 +13,7 @@ export default function StatEntry({
     return (
       <p
         className={`text-${side} ${
-          size === "md" ? "w-10" : size === "sm" ? "w-10" : ""
+          size === "md" ? "w-auto" : size === "sm" ? "w-auto" : ""
         }  whitespace-nowrap px-1 border-1 border-gray-300`}
       >
         N/A
@@ -23,7 +23,7 @@ export default function StatEntry({
   return (
     <p
       className={`text-${side} ${
-        size === "md" ? "w-10" : size === "sm" ? "w-10" : ""
+        size === "md" ? "w-auto" : size === "sm" ? "w-auto" : ""
       }  whitespace-nowrap px-1 border-1 border-gray-300`}
     >
       {typeof stat === "number" ? stat.toFixed(round) : stat}
