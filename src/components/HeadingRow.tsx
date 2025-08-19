@@ -40,7 +40,7 @@ export default function HeadingRow({
 
   return (
     <>
-      {type === "skater" ? (
+      {type != "goalie" ? (
         <>
           <HeadingEntry
             label="Player Name"
@@ -83,7 +83,7 @@ export default function HeadingRow({
             size="sm"
           />
         </>
-      ) : type === "goalie" ? (
+      ) : (
         <>
           <HeadingEntry
             label="Player Name"
@@ -126,7 +126,7 @@ export default function HeadingRow({
             size="sm"
           />
         </>
-      ) : type === "defensemen" ? null : type === "forwards" ? null : null}
+      )}
     </>
   );
 }

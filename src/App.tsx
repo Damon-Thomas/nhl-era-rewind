@@ -11,10 +11,12 @@ import {
 } from "./data/league/preSortedLeague";
 import StatsDropDown from "./components/DropDown";
 import type { Player } from "./types/player";
+import LeagueToggle from "./components/LeagueToggle";
 
 function App() {
-  // setCurrentLeagueSelector will be used to toggle between full league and position-based stats commented out for now
-  const [currentLeagueSelector] = useState<"full" | "position">("full");
+  const [currentLeagueSelector, setCurrentLeagueSelector] = useState<
+    "full" | "position"
+  >("full");
   // Separate league selection and page state for each stat category
   const [skaterLeagueSelection, setSkaterLeagueSelection] = useState<
     10 | 25 | 50 | 100
@@ -28,10 +30,6 @@ function App() {
   const [defensemenLeagueSelection, setDefensemenLeagueSelection] = useState<
     10 | 25 | 50 | 100
   >(10);
-
-  // const handleLeagueSelectorChange = (value: "full" | "position") => {
-  //   setCurrentLeagueSelector(value);
-  // };
 
   // Roster and sort state
   const [skaterRoster, setSkaterRoster] = useState<Player[]>(sortedRoster);
@@ -142,6 +140,10 @@ function App() {
       <div className="w-full">
         <div className="flex  justify-between items-center mb-4 ">
           <h2 className="">Current League</h2>
+          <LeagueToggle
+            setCurrentLeagueSelector={setCurrentLeagueSelector}
+            currentLeagueSelector={currentLeagueSelector}
+          />
         </div>
         <div className="flex flex-col md:gap-2 w-full">
           <>
