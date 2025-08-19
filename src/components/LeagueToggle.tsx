@@ -13,9 +13,7 @@ export default function LeagueToggle({
         {currentLeagueSelector === "full" ? "Full" : "Pos"}
       </label>
       <button
-        className={`p-0! rounded-md h-8 w-16 ${
-          currentLeagueSelector === "full" ? "bg-blue-500 " : "bg-gray-800 "
-        }`}
+        className={`p-0! rounded-md h-8 w-16 bg-gray-800 `}
         onClick={() =>
           setCurrentLeagueSelector(
             currentLeagueSelector === "full" ? "position" : "full"
