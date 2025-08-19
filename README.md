@@ -12,7 +12,7 @@ Later, I want to add a feature where the user can protect a player. That player 
 
 ## Why this exists
 
-Some of the all time greats played in all Canadian leagues. The first Russian player didn't even play in the NHL until 1989. Imagine the current league without the reigning Art Ross winner Nikita Kucherov, or without the talented Russian goalies Vasilevski, Shesterkin, Bobrovsky and the other 9 Russian goalies that played in the NHL in the 2024-2025 season. The game was different, but players from their past excelled against their peers. Have you ever wondered how current players might stack up against their peers if the league was a similar size as an previous year? Do you want to compare how Bobby Orr and Cale Makar's careers compare if Makar played in a league that looked like Orr's NHL, well then this rewind might help.
+Some of the all time greats played in all Canadian leagues. The first Russian player didn't even play in the NHL until 1989. Imagine the current league without the reigning Art Ross winner Nikita Kucherov, or without the talented Russian goalies Vasilevski, Shesterkin, Bobrovsky and the other 9 Russian goalies that played in the NHL in the 2024-2025 season. The game was different, but players from their past excelled against their peers. Have you ever wondered how current players might stack up against their peers if the league was a similar size as a previous year? Do you want to compare how Bobby Orr and Cale Makar's careers compare if Makar played in a league that looked like Orr's NHL, well then this rewind might help.
 
 ## Features
 
