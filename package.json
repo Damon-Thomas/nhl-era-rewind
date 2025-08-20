@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "ftest": "jest --verbose"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
