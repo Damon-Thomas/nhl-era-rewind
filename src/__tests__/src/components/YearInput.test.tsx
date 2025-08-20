@@ -128,7 +128,7 @@ describe("YearInput", () => {
   });
 
   test("Rounds down decimal values", () => {
-    const { container } = render(
+    render(
       <SimulationYearProvider>
         <ContextConsumer />
         <YearInput />
