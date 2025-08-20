@@ -25,6 +25,7 @@ describe("StatEntry", () => {
   test("renders with rounded number stat to 3", () => {
     render(<StatEntry stat={2.12345} side="left" round={3} />);
     expect(screen.getByText("2.123")).toBeInTheDocument();
+    expect(screen.queryByText("2.1234")).not.toBeInTheDocument();
   });
   test("round renders integer number stat to 3 decimals", () => {
     render(<StatEntry stat={2} side="left" round={3} />);
