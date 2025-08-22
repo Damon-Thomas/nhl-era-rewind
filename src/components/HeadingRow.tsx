@@ -38,95 +38,40 @@ export default function HeadingRow({
       sortBy: sortBy,
     });
 
+  // Define column configs
+  const skaterColumns = [
+    { label: "Player Name", side: "left", sortBy: "name" },
+    { label: "Nation", side: "left", sortBy: "nationality" },
+    { label: "Pos", side: "left", sortBy: "position", size: "md" },
+    { label: "GP", side: "right", sortBy: "gamesPlayed", size: "sm" },
+    { label: "G", side: "right", sortBy: "goals", size: "sm" },
+    { label: "A", side: "right", sortBy: "assists", size: "sm" },
+    { label: "Pts", side: "right", sortBy: "points", size: "sm" },
+  ];
+
+  const goalieColumns = [
+    { label: "Player Name", side: "left", sortBy: "name" },
+    { label: "Nation", side: "left", sortBy: "nationality" },
+    { label: "Pos", side: "left", sortBy: "position", size: "md" },
+    { label: "GP", side: "right", sortBy: "gamesPlayed", size: "sm" },
+    { label: "W", side: "right", sortBy: "wins", size: "sm" },
+    { label: "Pct", side: "right", sortBy: "savePercentage", size: "sm" },
+    { label: "GA", side: "right", sortBy: "goalsAgainstAvg", size: "sm" },
+  ];
+
+  const columns = type === "goalie" ? goalieColumns : skaterColumns;
+
   return (
     <>
-      {type != "goalie" ? (
-        <>
-          <HeadingEntry
-            label="Player Name"
-            side="left"
-            sortHandler={() => sort("name")}
-          />
-          <HeadingEntry
-            label="Nation"
-            side="left"
-            sortHandler={() => sort("nationality")}
-          />
-          <HeadingEntry
-            label="Pos"
-            side="left"
-            sortHandler={() => sort("position")}
-            size="md"
-          />
-          <HeadingEntry
-            label="GP"
-            side="right"
-            sortHandler={() => sort("gamesPlayed")}
-            size="sm"
-          />
-          <HeadingEntry
-            label="G"
-            side="right"
-            sortHandler={() => sort("goals")}
-            size="sm"
-          />
-          <HeadingEntry
-            label="A"
-            side="right"
-            sortHandler={() => sort("assists")}
-            size="sm"
-          />
-          <HeadingEntry
-            label="Pts"
-            side="right"
-            sortHandler={() => sort("points")}
-            size="sm"
-          />
-        </>
-      ) : (
-        <>
-          <HeadingEntry
-            label="Player Name"
-            side="left"
-            sortHandler={() => sort("name")}
-          />
-          <HeadingEntry
-            label="Nation"
-            side="left"
-            sortHandler={() => sort("nationality")}
-          />
-          <HeadingEntry
-            label="Pos"
-            side="left"
-            sortHandler={() => sort("position")}
-            size="md"
-          />
-          <HeadingEntry
-            label="GP"
-            side="right"
-            sortHandler={() => sort("gamesPlayed")}
-            size="sm"
-          />
-          <HeadingEntry
-            label="W"
-            side="right"
-            sortHandler={() => sort("wins")}
-            size="sm"
-          />
-          <HeadingEntry
-            label="Pct"
-            side="right"
-            sortHandler={() => sort("savePercentage")}
-            size="sm"
-          />
-          <HeadingEntry
-            label="GA"
-            side="right"
-            sortHandler={() => sort("goalsAgainstAvg")}
-            size="sm"
-          />
-        </>
-      )}
+      {columns.map((col) => (
+        <HeadingEntry
+          key={col.label}
+          label={col.label}
+          side={col.side as "left" | "right"}
+          sortHandler={() => sort(col.sortBy as SortBy)}
+          size={col.size as "md" | "sm" | "lg" | undefined}
+        />
+      ))}
     </>
   );
 }
