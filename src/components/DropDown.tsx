@@ -18,8 +18,8 @@ export default function StatsDropDown({
   const [open, setOpen] = useState(false);
   return (
     <div className="relative inline-block text-left w-full h-fit">
-      <button
-        className="ddbutton w-full flex justify-between items-center px-4 py-2 text-sm font-medium bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none"
+      <div
+        className="ddbutton w-full flex justify-between items-center cursor-pointer rounded-lg border border-transparent px-4 py-2 test-sm font-medium bg-[#1a1a1a] transition-colors duration-250 hover:border-[#646cff] focus:outline-4 focus:outline-[#646cff]"
         onClick={() => {
           setOpen((prev) => !prev);
         }}
@@ -35,7 +35,7 @@ export default function StatsDropDown({
           />
         </div>
         <Chevron down={open} />
-      </button>
+      </div>
 
       <div
         className={`grid w-full overflow-hidden transition-all duration-500 ${
