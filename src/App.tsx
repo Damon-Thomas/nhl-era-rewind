@@ -13,6 +13,7 @@ import StatsDropDown from "./components/DropDown";
 import type { Player } from "./types/player";
 import LeagueToggle from "./components/LeagueToggle";
 import YearInput from "./components/YearInput";
+import Header from "./components/Header";
 import SimulateButton from "./components/SimulateButton";
 
 function App() {
@@ -138,7 +139,7 @@ function App() {
 
   return (
     <div className="h-screen w-screen p-2 md:p-4">
-      <h1>NHL Era Simulator</h1>
+      <Header />
       <div className="w-full">
         <div className="flex  justify-between items-center mb-4 ">
           <h2 className="">Current League</h2>
