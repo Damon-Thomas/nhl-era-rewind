@@ -13,6 +13,7 @@ import StatsDropDown from "./components/DropDown";
 import type { Player } from "./types/player";
 import LeagueToggle from "./components/LeagueToggle";
 import YearInput from "./components/YearInput";
+import SimulateButton from "./components/SimulateButton";
 
 function App() {
   const [currentLeagueSelector, setCurrentLeagueSelector] = useState<
@@ -346,6 +347,7 @@ function App() {
             </StatsDropDown>
           </>
           <YearInput />
+          <SimulateButton />
         </div>
       </div>
     </div>
