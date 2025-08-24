@@ -347,8 +347,10 @@ function App() {
               />
             </StatsDropDown>
           </>
-          <YearInput />
-          <SimulateButton />
+          <div className="flex flex-1 flex-col sm:flex-row  justify-between items-top mt-4 gap-2 md:gap-6">
+            <YearInput />
+            <SimulateButton />
+          </div>
         </div>
       </div>
     </div>
