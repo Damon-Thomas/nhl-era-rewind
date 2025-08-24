@@ -14,6 +14,7 @@ import type { Player } from "./types/player";
 import LeagueToggle from "./components/LeagueToggle";
 import YearInput from "./components/YearInput";
 import Header from "./components/Header";
+import SimulateButton from "./components/SimulateButton";
 
 function App() {
   const [currentLeagueSelector, setCurrentLeagueSelector] = useState<
@@ -346,7 +347,10 @@ function App() {
               />
             </StatsDropDown>
           </>
-          <YearInput />
+          <div className="flex flex-1 flex-col sm:flex-row  justify-between items-top mt-4 gap-2 md:gap-6">
+            <YearInput />
+            <SimulateButton />
+          </div>
         </div>
       </div>
     </div>
