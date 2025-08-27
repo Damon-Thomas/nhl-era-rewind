@@ -3,12 +3,8 @@ import "./App.css";
 import PlayerBar from "./components/PlayerBar";
 import StatPageNav from "./components/StatPageNav";
 import HeadingRow from "./components/HeadingRow";
-import {
-  sortedRoster,
-  sortedForwards,
-  sortedDefensemen,
-  sortedGoalies,
-} from "./data/league/preSortedLeague";
+import { useContext } from "react";
+import { SimulationYearContext } from "./context/League";
 import StatsDropDown from "./components/DropDown";
 import type { Player } from "./types/player";
 import LeagueToggle from "./components/LeagueToggle";
@@ -17,6 +13,13 @@ import Header from "./components/Header";
 import SimulateButton from "./components/SimulateButton";
 
 function App() {
+  const { league } = useContext(SimulationYearContext);
+
+  if (!league) {
+    // Optionally show a loading spinner or error
+    return <div>Loading...</div>;
+  }
+
   const [currentLeagueSelector, setCurrentLeagueSelector] = useState<
     "full" | "position"
   >("full");
@@ -35,12 +38,18 @@ function App() {
   >(10);
 
   // Roster and sort state
-  const [skaterRoster, setSkaterRoster] = useState<Player[]>(sortedRoster);
-  const [goalieRoster, setGoalieRoster] = useState<Player[]>(sortedGoalies);
-  const [forwardsRoster, setForwardsRoster] =
-    useState<Player[]>(sortedForwards);
-  const [defensemenRoster, setDefensemenRoster] =
-    useState<Player[]>(sortedDefensemen);
+  const [skaterRoster, setSkaterRoster] = useState<Player[]>(
+    league.sortedSkaters
+  );
+  const [goalieRoster, setGoalieRoster] = useState<Player[]>(
+    league.sortedGoalies
+  );
+  const [forwardsRoster, setForwardsRoster] = useState<Player[]>(
+    league.sortedForwards
+  );
+  const [defensemenRoster, setDefensemenRoster] = useState<Player[]>(
+    league.sortedDefensemen
+  );
   const [skaterPage, setSkaterPage] = useState(1);
   const [goaliePage, setGoaliePage] = useState(1);
   const [forwardsPage, setForwardsPage] = useState(1);
