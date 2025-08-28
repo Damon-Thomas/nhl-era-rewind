@@ -6,7 +6,11 @@ import {
 } from "react";
 import type { Player, Roster } from "@/types/player";
 import leagueRoster from "../data/staticData/nhl_player_stats_2024_2025.json";
-import { skaterSorter } from "@/data/league/preSortedLeague";
+import {
+  goalieSorter,
+  nationalitySorter,
+  skaterSorter,
+} from "@/data/league/preSortedLeague";
 
 type SimulationYearContextType = {
   year: number;
@@ -25,7 +29,8 @@ class League {
   sortedForwards: ReturnType<typeof skaterSorter>;
   sortedDefensemen: ReturnType<typeof skaterSorter>;
   sortedSkaters: ReturnType<typeof skaterSorter>;
-  sortedGoalies: ReturnType<typeof skaterSorter>;
+  sortedGoalies: ReturnType<typeof goalieSorter>;
+  leagueSortedByNationality: ReturnType<typeof nationalitySorter>;
 
   constructor(year = 2025) {
     this.forwards = leagueRoster.forwards;
@@ -37,7 +42,12 @@ class League {
     this.sortedForwards = skaterSorter(this.forwards);
     this.sortedDefensemen = skaterSorter(this.defensemen);
     this.sortedSkaters = skaterSorter(this.forwards, this.defensemen);
-    this.sortedGoalies = skaterSorter(this.goalies);
+    this.sortedGoalies = goalieSorter(this.goalies);
+    this.leagueSortedByNationality = nationalitySorter([
+      ...this.forwards,
+      ...this.defensemen,
+      ...this.goalies,
+    ]);
   }
 
   getPositionalRoster() {

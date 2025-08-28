@@ -19,3 +19,11 @@ export function goalieSorter(goalies: Player[]) {
     return 0;
   });
 }
+
+export function nationalitySorter(players: Player[]) {
+  return [...players].sort((a, b) => {
+    const aNat = a.nationality;
+    const bNat = b.nationality;
+    return aNat.localeCompare(bNat);
+  });
+}
