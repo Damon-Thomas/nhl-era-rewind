@@ -16,3 +16,9 @@ export type Player = {
     wins?: number | null;
   };
 };
+
+export type Roster = {
+  forwards: Player[];
+  defensemen: Player[];
+  goalies: Player[];
+};

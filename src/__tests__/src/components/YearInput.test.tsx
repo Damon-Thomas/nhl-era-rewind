@@ -1,10 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import YearInput from "@/components/YearInput";
 import { useContext } from "react";
-import {
-  SimulationYearContext,
-  SimulationYearProvider,
-} from "@/context/SimulationYear";
+import { SimulationYearContext, LeagueProvider } from "@/context/League";
 
 function ContextConsumer() {
   const { year } = useContext(SimulationYearContext);
@@ -32,10 +29,10 @@ describe("YearInput", () => {
   });
   test("input value updates context on submit", () => {
     render(
-      <SimulationYearProvider>
+      <LeagueProvider>
         <ContextConsumer />
         <YearInput />
-      </SimulationYearProvider>
+      </LeagueProvider>
     );
     const input = screen.getByRole("spinbutton");
     const submitButton = screen.getByText("Set Year");
@@ -46,10 +43,10 @@ describe("YearInput", () => {
   });
   test("input handles numbers outside of range", () => {
     const { container } = render(
-      <SimulationYearProvider>
+      <LeagueProvider>
         <ContextConsumer />
         <YearInput />
-      </SimulationYearProvider>
+      </LeagueProvider>
     );
     const input = screen.getByRole("spinbutton");
     const submitButton = screen.getByText("Set Year");
@@ -67,10 +64,10 @@ describe("YearInput", () => {
   });
   test("input handles non numbers", () => {
     const { container } = render(
-      <SimulationYearProvider>
+      <LeagueProvider>
         <ContextConsumer />
         <YearInput />
-      </SimulationYearProvider>
+      </LeagueProvider>
     );
     const input = screen.getByRole("spinbutton");
     const submitButton = screen.getByText("Set Year");
@@ -97,10 +94,10 @@ describe("YearInput", () => {
   });
   test("accepts boundary values", () => {
     render(
-      <SimulationYearProvider>
+      <LeagueProvider>
         <ContextConsumer />
         <YearInput />
-      </SimulationYearProvider>
+      </LeagueProvider>
     );
     const input = screen.getByRole("spinbutton");
     const submitButton = screen.getByText("Set Year");
@@ -115,10 +112,10 @@ describe("YearInput", () => {
   // White space text evaluated as NaN so it should default to 2025
   test("handles whitespace", () => {
     render(
-      <SimulationYearProvider>
+      <LeagueProvider>
         <ContextConsumer />
         <YearInput />
-      </SimulationYearProvider>
+      </LeagueProvider>
     );
     const input = screen.getByRole("spinbutton");
     const submitButton = screen.getByText("Set Year");
@@ -129,10 +126,10 @@ describe("YearInput", () => {
 
   test("Rounds down decimal values", () => {
     render(
-      <SimulationYearProvider>
+      <LeagueProvider>
         <ContextConsumer />
         <YearInput />
-      </SimulationYearProvider>
+      </LeagueProvider>
     );
     const input = screen.getByRole("spinbutton");
     const submitButton = screen.getByText("Set Year");
@@ -143,10 +140,10 @@ describe("YearInput", () => {
 
   test("rejects zero and negative numbers", () => {
     const { container } = render(
-      <SimulationYearProvider>
+      <LeagueProvider>
         <ContextConsumer />
         <YearInput />
-      </SimulationYearProvider>
+      </LeagueProvider>
     );
     const input = screen.getByRole("spinbutton");
     const submitButton = screen.getByText("Set Year");
@@ -162,10 +159,10 @@ describe("YearInput", () => {
 
   test("rejects scientific notation", () => {
     const { container } = render(
-      <SimulationYearProvider>
+      <LeagueProvider>
         <ContextConsumer />
         <YearInput />
-      </SimulationYearProvider>
+      </LeagueProvider>
     );
     const input = screen.getByRole("spinbutton");
     const submitButton = screen.getByText("Set Year");
@@ -179,10 +176,10 @@ describe("YearInput", () => {
 
   test("processes only last value on rapid input changes", () => {
     render(
-      <SimulationYearProvider>
+      <LeagueProvider>
         <ContextConsumer />
         <YearInput />
-      </SimulationYearProvider>
+      </LeagueProvider>
     );
     const input = screen.getByRole("spinbutton");
     const submitButton = screen.getByText("Set Year");
@@ -195,10 +192,10 @@ describe("YearInput", () => {
 
   test("shows error on empty submit", () => {
     const { container } = render(
-      <SimulationYearProvider>
+      <LeagueProvider>
         <ContextConsumer />
         <YearInput />
-      </SimulationYearProvider>
+      </LeagueProvider>
     );
     const input = screen.getByRole("spinbutton");
     const submitButton = screen.getByText("Set Year");
@@ -212,10 +209,10 @@ describe("YearInput", () => {
 
   test("validates pasted input", () => {
     render(
-      <SimulationYearProvider>
+      <LeagueProvider>
         <ContextConsumer />
         <YearInput />
-      </SimulationYearProvider>
+      </LeagueProvider>
     );
     const input = screen.getByRole("spinbutton");
     const submitButton = screen.getByText("Set Year");

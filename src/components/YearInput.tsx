@@ -1,4 +1,4 @@
-import { SimulationYearContext } from "@/context/SimulationYear";
+import { SimulationYearContext } from "@/context/League";
 import { useContext, useState } from "react";
 
 export default function YearInput() {
