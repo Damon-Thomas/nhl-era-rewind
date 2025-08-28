@@ -15,11 +15,6 @@ import SimulateButton from "./components/SimulateButton";
 function App() {
   const { league } = useContext(SimulationYearContext);
 
-  if (!league) {
-    // Optionally show a loading spinner or error
-    return <div>Loading...</div>;
-  }
-
   const [currentLeagueSelector, setCurrentLeagueSelector] = useState<
     "full" | "position"
   >("full");
@@ -145,6 +140,11 @@ function App() {
     field: "points",
     asc: false,
   });
+
+  if (!league) {
+    // Optionally show a loading spinner or error
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="h-screen w-screen p-2 md:p-4">
