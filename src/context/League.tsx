@@ -34,6 +34,7 @@ class League {
   sortedSkaters: ReturnType<typeof skaterSorter>;
   sortedGoalies: ReturnType<typeof goalieSorter>;
   leagueSortedByNationality: ReturnType<typeof nationalitySorter>;
+  currentPopulation: populationEntry[];
   populationNumbers: populationEntry[];
 
   constructor(year = 2024) {
@@ -52,6 +53,7 @@ class League {
       ...this.defensemen,
       ...this.goalies,
     ]);
+    this.currentPopulation = getPopulationByYear(2025); // added current population data
     this.populationNumbers = getPopulationByYear(this.year);
   }
 
