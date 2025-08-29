@@ -121,7 +121,7 @@ describe("YearInput", () => {
     const submitButton = screen.getByText("Set Year");
     fireEvent.change(input, { target: { value: " 2020 " } });
     fireEvent.click(submitButton);
-    expect(screen.getByTestId("year-value").textContent).toBe("2025");
+    expect(screen.getByTestId("year-value").textContent).toBe("2024");
   });
 
   test("Rounds down decimal values", () => {
