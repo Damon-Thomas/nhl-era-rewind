@@ -1,5 +1,10 @@
 import { useContext } from "react";
-import { SimulationYearContext, LeagueProvider } from "@/context/League";
+import {
+  SimulationYearContext,
+  LeagueProvider,
+  League,
+} from "@/context/League";
+import type { populationEntry } from "@/data/league/populationsByYear";
 import { render, screen, fireEvent } from "@testing-library/react";
 
 // Test component that uses the context
@@ -78,29 +83,29 @@ const renderWithLeagueProvider = () => {
 
 describe("League Context", () => {
   describe("Context Provider and State Management", () => {
-    test("provides default year of 2025", () => {
+    test("provides default year of 2024", () => {
       renderWithLeagueProvider();
-      expect(screen.getByTestId("year")).toHaveTextContent("The year is: 2025");
+      expect(screen.getByTestId("year")).toHaveTextContent("The year is: 2024");
     });
 
     test("updates year when setYear is called", () => {
       renderWithLeagueProvider();
       const button = screen.getByText("Change Year");
       fireEvent.click(button);
-      expect(screen.getByTestId("year")).toHaveTextContent("The year is: 2015");
+      expect(screen.getByTestId("year")).toHaveTextContent("The year is: 2014");
     });
 
     test("can increase year", () => {
       renderWithLeagueProvider();
       const increaseButton = screen.getByTestId("increase-year");
       fireEvent.click(increaseButton);
-      expect(screen.getByTestId("year")).toHaveTextContent("The year is: 2030");
+      expect(screen.getByTestId("year")).toHaveTextContent("The year is: 2029");
     });
 
     test("league year matches context year", () => {
       renderWithLeagueProvider();
       expect(screen.getByTestId("league-year")).toHaveTextContent(
-        "League year: 2025"
+        "League year: 2024"
       );
     });
 
@@ -109,7 +114,7 @@ describe("League Context", () => {
       const button = screen.getByText("Change Year");
       fireEvent.click(button);
       expect(screen.getByTestId("league-year")).toHaveTextContent(
-        "League year: 2015"
+        "League year: 2014"
       );
     });
   });
@@ -478,7 +483,7 @@ describe("League Context", () => {
 
       render(<TestComponentWithoutProvider />);
 
-      expect(screen.getByTestId("default-year")).toHaveTextContent("2025");
+      expect(screen.getByTestId("default-year")).toHaveTextContent("2024");
       expect(screen.getByTestId("league-exists")).toHaveTextContent(
         "undefined"
       );
@@ -491,7 +496,7 @@ describe("League Context", () => {
 
       // Get initial league year
       expect(screen.getByTestId("league-year")).toHaveTextContent(
-        "League year: 2025"
+        "League year: 2024"
       );
 
       // Change year
@@ -500,7 +505,7 @@ describe("League Context", () => {
 
       // Verify league was reinitialized with new year
       expect(screen.getByTestId("league-year")).toHaveTextContent(
-        "League year: 2015"
+        "League year: 2014"
       );
 
       // Data integrity should remain
@@ -509,6 +514,424 @@ describe("League Context", () => {
       );
       expect(screen.getByTestId("sorted-skaters-count")).toHaveTextContent(
         "Sorted skaters count: 702"
+      );
+    });
+  });
+
+  describe("Population Data Functionality", () => {
+    // Helper component to test population data
+    const PopulationTestComponent = () => {
+      const { league } = useContext(SimulationYearContext);
+
+      return (
+        <div>
+          <div data-testid="population-data-length">
+            Population entries: {league.populationNumbers.length}
+          </div>
+          <div data-testid="population-year">League year: {league.year}</div>
+          {league.populationNumbers.slice(0, 3).map((entry, index) => (
+            <div key={index} data-testid={`population-entry-${index}`}>
+              {entry.Country}: {entry.Population}
+            </div>
+          ))}
+          <div data-testid="canada-population">
+            Canada population:{" "}
+            {
+              league.populationNumbers.find(
+                (p: populationEntry) => p.Country === "Canada"
+              )?.Population
+            }
+          </div>
+          <div data-testid="usa-population">
+            USA population:{" "}
+            {
+              league.populationNumbers.find(
+                (p: populationEntry) => p.Country === "United States"
+              )?.Population
+            }
+          </div>
+        </div>
+      );
+    };
+
+    const PopulationYearTestComponent = ({
+      testYear,
+    }: {
+      testYear: number;
+    }) => {
+      // Create a temporary league instance with the test year
+      const testLeague = new League(testYear);
+
+      return (
+        <div>
+          <div data-testid={`population-data-length-${testYear}`}>
+            Population entries: {testLeague.populationNumbers.length}
+          </div>
+          <div data-testid={`population-year-${testYear}`}>
+            Test year: {testLeague.year}
+          </div>
+          <div data-testid={`canada-population-${testYear}`}>
+            Canada population:{" "}
+            {
+              testLeague.populationNumbers.find(
+                (p: populationEntry) => p.Country === "Canada"
+              )?.Population
+            }
+          </div>
+        </div>
+      );
+    };
+
+    const renderPopulationTestComponent = () => {
+      return render(
+        <LeagueProvider>
+          <PopulationTestComponent />
+        </LeagueProvider>
+      );
+    };
+
+    test("provides population data for default year", () => {
+      renderPopulationTestComponent();
+
+      const populationLength = screen.getByTestId("population-data-length");
+      const lengthValue = parseInt(
+        populationLength.textContent?.split(": ")[1] || "0"
+      );
+
+      expect(lengthValue).toBeGreaterThan(0);
+      expect(screen.getByTestId("population-year")).toHaveTextContent(
+        "League year: 2024"
+      );
+    });
+
+    test("population data contains expected countries", () => {
+      renderPopulationTestComponent();
+
+      const canadaPopulation =
+        screen.getByTestId("canada-population").textContent;
+      const usaPopulation = screen.getByTestId("usa-population").textContent;
+
+      expect(canadaPopulation).toContain("Canada population:");
+      expect(canadaPopulation).not.toContain("undefined");
+      expect(usaPopulation).toContain("USA population:");
+      expect(usaPopulation).not.toContain("undefined");
+
+      // Extract numeric values
+      const canadaValue = parseInt(canadaPopulation?.split(": ")[1] || "0");
+      const usaValue = parseInt(usaPopulation?.split(": ")[1] || "0");
+
+      expect(canadaValue).toBeGreaterThan(0);
+      expect(usaValue).toBeGreaterThan(0);
+    });
+
+    test("population entries have correct structure", () => {
+      renderPopulationTestComponent();
+
+      const populationLength = screen.getByTestId("population-data-length");
+      const lengthValue = parseInt(
+        populationLength.textContent?.split(": ")[1] || "0"
+      );
+      expect(lengthValue).toBeGreaterThan(0);
+
+      // Check that first few population entries have valid structure
+      for (let i = 0; i < 3; i++) {
+        const entryText = screen.getByTestId(
+          `population-entry-${i}`
+        ).textContent;
+        expect(entryText).toMatch(/^[A-Za-z\s]+: \d+$/);
+      }
+    });
+
+    test("handles earliest supported year (1961)", () => {
+      render(
+        <LeagueProvider>
+          <PopulationYearTestComponent testYear={1961} />
+        </LeagueProvider>
+      );
+
+      const populationLength = screen.getByTestId(
+        "population-data-length-1961"
+      );
+      const lengthValue = parseInt(
+        populationLength.textContent?.split(": ")[1] || "0"
+      );
+
+      expect(lengthValue).toBeGreaterThan(0);
+      expect(screen.getByTestId("population-year-1961")).toHaveTextContent(
+        "Test year: 1961"
+      );
+
+      // Should have Canada data for 1961
+      const canadaPopulation = screen.getByTestId(
+        "canada-population-1961"
+      ).textContent;
+      expect(canadaPopulation).toContain("Canada population:");
+      expect(canadaPopulation).not.toContain("undefined");
+    });
+
+    test("handles latest supported year (2024)", () => {
+      render(
+        <LeagueProvider>
+          <PopulationYearTestComponent testYear={2024} />
+        </LeagueProvider>
+      );
+
+      const populationLength = screen.getByTestId(
+        "population-data-length-2024"
+      );
+      const lengthValue = parseInt(
+        populationLength.textContent?.split(": ")[1] || "0"
+      );
+
+      expect(lengthValue).toBeGreaterThan(0);
+      expect(screen.getByTestId("population-year-2024")).toHaveTextContent(
+        "Test year: 2024"
+      );
+
+      // Should have Canada data for 2024 (using 2023-24 data)
+      const canadaPopulation = screen.getByTestId(
+        "canada-population-2024"
+      ).textContent;
+      expect(canadaPopulation).toContain("Canada population:");
+      expect(canadaPopulation).not.toContain("undefined");
+    });
+
+    test("handles future year (2025) by returning most recent data", () => {
+      render(
+        <LeagueProvider>
+          <PopulationYearTestComponent testYear={2025} />
+        </LeagueProvider>
+      );
+
+      const populationLength = screen.getByTestId(
+        "population-data-length-2025"
+      );
+      const lengthValue = parseInt(
+        populationLength.textContent?.split(": ")[1] || "0"
+      );
+
+      expect(lengthValue).toBeGreaterThan(0);
+      expect(screen.getByTestId("population-year-2025")).toHaveTextContent(
+        "Test year: 2025"
+      );
+
+      // Should have Canada data for 2025 (using 2023-24 data)
+      const canadaPopulation = screen.getByTestId(
+        "canada-population-2025"
+      ).textContent;
+      expect(canadaPopulation).toContain("Canada population:");
+      expect(canadaPopulation).not.toContain("undefined");
+
+      // Should return the same data as 2024 (both use 2023-24 data)
+      const canada2025Value = parseInt(canadaPopulation?.split(": ")[1] || "0");
+      expect(canada2025Value).toBeGreaterThan(30000000);
+      expect(canada2025Value).toBeLessThan(50000000);
+    });
+
+    test("handles year with available data (2023)", () => {
+      render(
+        <LeagueProvider>
+          <PopulationYearTestComponent testYear={2023} />
+        </LeagueProvider>
+      );
+
+      const populationLength = screen.getByTestId(
+        "population-data-length-2023"
+      );
+      const lengthValue = parseInt(
+        populationLength.textContent?.split(": ")[1] || "0"
+      );
+
+      expect(lengthValue).toBeGreaterThan(0);
+      expect(screen.getByTestId("population-year-2023")).toHaveTextContent(
+        "Test year: 2023"
+      );
+
+      // Should have Canada data for 2023
+      const canadaPopulation = screen.getByTestId(
+        "canada-population-2023"
+      ).textContent;
+      expect(canadaPopulation).toContain("Canada population:");
+      expect(canadaPopulation).not.toContain("undefined");
+
+      // Should have realistic population values
+      const canadaValue = parseInt(canadaPopulation?.split(": ")[1] || "0");
+      expect(canadaValue).toBeGreaterThan(30000000);
+      expect(canadaValue).toBeLessThan(50000000);
+    });
+
+    test("handles year before available data (1950) with growth rate calculation", () => {
+      render(
+        <LeagueProvider>
+          <PopulationYearTestComponent testYear={1950} />
+        </LeagueProvider>
+      );
+
+      const populationLength = screen.getByTestId(
+        "population-data-length-1950"
+      );
+      const lengthValue = parseInt(
+        populationLength.textContent?.split(": ")[1] || "0"
+      );
+
+      expect(lengthValue).toBeGreaterThan(0);
+      expect(screen.getByTestId("population-year-1950")).toHaveTextContent(
+        "Test year: 1950"
+      );
+
+      // Should have calculated Canada data for 1950
+      const canadaPopulation = screen.getByTestId(
+        "canada-population-1950"
+      ).textContent;
+      expect(canadaPopulation).toContain("Canada population:");
+      expect(canadaPopulation).not.toContain("undefined");
+
+      // Population should be smaller for 1950 than modern years
+      const canadaValue1950 = parseInt(canadaPopulation?.split(": ")[1] || "0");
+      expect(canadaValue1950).toBeGreaterThan(0);
+      expect(canadaValue1950).toBeLessThan(40000000); // Should be less than modern Canada population
+    });
+
+    test("population values are reasonable and numeric", () => {
+      renderPopulationTestComponent();
+
+      const canadaPopulationText =
+        screen.getByTestId("canada-population").textContent;
+      const usaPopulationText =
+        screen.getByTestId("usa-population").textContent;
+
+      const canadaValue = parseInt(canadaPopulationText?.split(": ")[1] || "0");
+      const usaValue = parseInt(usaPopulationText?.split(": ")[1] || "0");
+
+      // Canada population should be reasonable (between 30-50 million)
+      expect(canadaValue).toBeGreaterThan(30000000);
+      expect(canadaValue).toBeLessThan(50000000);
+
+      // USA population should be reasonable (between 300-400 million)
+      expect(usaValue).toBeGreaterThan(300000000);
+      expect(usaValue).toBeLessThan(400000000);
+
+      // USA should have larger population than Canada
+      expect(usaValue).toBeGreaterThan(canadaValue);
+    });
+
+    test("population data updates when league year changes", () => {
+      const YearChangeTestComponent = () => {
+        const { year, setYear, league } = useContext(SimulationYearContext);
+
+        return (
+          <div>
+            <div data-testid="current-year">Current year: {year}</div>
+            <div data-testid="current-canada-population">
+              Canada population:{" "}
+              {
+                league.populationNumbers.find(
+                  (p: populationEntry) => p.Country === "Canada"
+                )?.Population
+              }
+            </div>
+            <button onClick={() => setYear(1980)} data-testid="change-to-1980">
+              Change to 1980
+            </button>
+          </div>
+        );
+      };
+
+      render(
+        <LeagueProvider>
+          <YearChangeTestComponent />
+        </LeagueProvider>
+      );
+
+      // Get initial population (should have data for 2024, using 2023-24 data)
+      const initialPopulationText = screen.getByTestId(
+        "current-canada-population"
+      ).textContent;
+      const initialPopulation = parseInt(
+        initialPopulationText?.split(": ")[1] || "0"
+      );
+
+      expect(initialPopulation).toBeGreaterThan(0);
+
+      // Change year to 1980
+      const changeButton = screen.getByTestId("change-to-1980");
+      fireEvent.click(changeButton);
+
+      // Check that year changed
+      expect(screen.getByTestId("current-year")).toHaveTextContent(
+        "Current year: 1980"
+      );
+
+      // Check that population data updated
+      const newPopulationText = screen.getByTestId(
+        "current-canada-population"
+      ).textContent;
+      const newPopulation = parseInt(newPopulationText?.split(": ")[1] || "0");
+
+      expect(newPopulation).toBeGreaterThan(0);
+      // Data should be different between 2024 and 1980
+      expect(newPopulation).not.toBe(initialPopulation);
+      // 1980 should likely have smaller population than 2024
+      expect(newPopulation).toBeLessThan(initialPopulation);
+    });
+
+    test("handles edge case years gracefully", () => {
+      const EdgeCaseTestComponent = ({ testYear }: { testYear: number }) => {
+        const testLeague = new League(testYear);
+
+        return (
+          <div>
+            <div data-testid={`population-length-${testYear}`}>
+              {testLeague.populationNumbers.length}
+            </div>
+          </div>
+        );
+      };
+
+      // Test very early year
+      render(<EdgeCaseTestComponent testYear={1900} />);
+      const length1900 = parseInt(
+        screen.getByTestId("population-length-1900").textContent || "0"
+      );
+
+      // Test future year beyond available data
+      render(<EdgeCaseTestComponent testYear={2030} />);
+      const length2030 = parseInt(
+        screen.getByTestId("population-length-2030").textContent || "0"
+      );
+
+      // Should handle gracefully - either return data or empty array
+      expect(length1900).toBeGreaterThanOrEqual(0);
+      expect(length2030).toBeGreaterThanOrEqual(0);
+    });
+
+    test("population data is consistent across multiple league instances", () => {
+      const ConsistencyTestComponent = () => {
+        const league1 = new League(2020);
+        const league2 = new League(2020);
+
+        const canada1 = league1.populationNumbers.find(
+          (p: populationEntry) => p.Country === "Canada"
+        )?.Population;
+        const canada2 = league2.populationNumbers.find(
+          (p: populationEntry) => p.Country === "Canada"
+        )?.Population;
+
+        return (
+          <div>
+            <div data-testid="league1-canada">{canada1}</div>
+            <div data-testid="league2-canada">{canada2}</div>
+            <div data-testid="populations-match">
+              {canada1 === canada2 ? "match" : "differ"}
+            </div>
+          </div>
+        );
+      };
+
+      render(<ConsistencyTestComponent />);
+
+      expect(screen.getByTestId("populations-match")).toHaveTextContent(
+        "match"
       );
     });
   });
