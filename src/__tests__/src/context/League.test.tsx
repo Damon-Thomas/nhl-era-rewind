@@ -1401,4 +1401,65 @@ describe("League Context", () => {
       expect(totalNationalities).toBeLessThan(50); // But reasonable number for NHL
     });
   });
+
+  describe("teamsFromYear property", () => {
+    it("should return an array of teams for a valid year", () => {
+      const league = new League(2024);
+      expect(Array.isArray(league.teamsFromYear)).toBe(true);
+      expect(league.teamsFromYear.length).toBeGreaterThan(0);
+    });
+
+    it("should return teams with correct structure", () => {
+      const league = new League(2024);
+      const teams = league.teamsFromYear;
+
+      if (teams.length > 0) {
+        teams.forEach((team) => {
+          expect(team).toHaveProperty("name");
+          expect(team).toHaveProperty("abbreviation");
+          expect(team).toHaveProperty("logo");
+          expect(typeof team.name).toBe("string");
+          expect(typeof team.abbreviation).toBe("string");
+          expect(typeof team.logo).toBe("string");
+        });
+      }
+    });
+
+    it("should return empty array for years outside valid boundaries", () => {
+      const yearTooEarly = new League(1917); // Before NHL founded
+      const yearTooLate = new League(2026); // Future year not in data
+
+      expect(yearTooEarly.teamsFromYear).toEqual([]);
+      expect(yearTooLate.teamsFromYear).toEqual([]);
+    });
+
+    it("should return different teams for different years", () => {
+      const league1918 = new League(1918); // First NHL season
+      const league2024 = new League(2024); // Recent season
+
+      expect(league1918.teamsFromYear).not.toEqual(league2024.teamsFromYear);
+      expect(league1918.teamsFromYear.length).toBeLessThan(
+        league2024.teamsFromYear.length
+      );
+    });
+
+    it("should return teams for the year specified in constructor", () => {
+      const testYear = 2023;
+      const league = new League(testYear);
+
+      expect(league.year).toBe(testYear);
+      // The teamsFromYear should correspond to the year passed to constructor
+      expect(Array.isArray(league.teamsFromYear)).toBe(true);
+    });
+
+    it("should handle edge case years within valid range", () => {
+      const firstYear = new League(1918); // First year in data
+      const lastYear = new League(2025); // Last year in data
+
+      expect(Array.isArray(firstYear.teamsFromYear)).toBe(true);
+      expect(Array.isArray(lastYear.teamsFromYear)).toBe(true);
+      expect(firstYear.teamsFromYear.length).toBeGreaterThan(0);
+      expect(lastYear.teamsFromYear.length).toBeGreaterThan(0);
+    });
+  });
 });
