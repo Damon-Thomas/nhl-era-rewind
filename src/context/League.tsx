@@ -14,6 +14,7 @@ import {
 import getPopulationByYear, {
   type populationEntry,
 } from "@/data/league/populationsByYear";
+import getLeagueNationalityByYear from "@/data/league/leagueNationaltyByYear";
 
 type SimulationYearContextType = {
   year: number;
@@ -36,6 +37,7 @@ class League {
   leagueSortedByNationality: ReturnType<typeof nationalitySorter>;
   currentPopulation: populationEntry[];
   populationNumbers: populationEntry[];
+  nationalityOfLeague: ReturnType<typeof getLeagueNationalityByYear>;
 
   constructor(year = 2024) {
     this.forwards = leagueRoster.forwards;
@@ -53,8 +55,9 @@ class League {
       ...this.defensemen,
       ...this.goalies,
     ]);
-    this.currentPopulation = getPopulationByYear(2025); // added current population data
+    this.currentPopulation = getPopulationByYear(2025);
     this.populationNumbers = getPopulationByYear(this.year);
+    this.nationalityOfLeague = getLeagueNationalityByYear(this.year);
   }
 
   getPositionalRoster() {
@@ -85,6 +88,7 @@ export function LeagueProvider({ children }: { children: React.ReactNode }) {
   // Re-instantiate league when year changes
   const league = new League(year);
   console.log("New league instantiated for year:", year);
+  console.log(league.nationalityOfLeague);
   return (
     <SimulationYearContext.Provider value={{ year, setYear, league }}>
       {children}

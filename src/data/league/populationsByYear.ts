@@ -19,7 +19,7 @@ export type growthRateDataType = {
   [key: string]: GrowthRateEntry[];
 };
 
-function formatYear(year: number): string {
+export function formatYear(year: number): string {
   const firstYearInRange = (year - 1).toString();
   const yearString = year.toString().slice(-2);
   return `${firstYearInRange}-${yearString}`;
