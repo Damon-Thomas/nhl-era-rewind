@@ -142,7 +142,7 @@ describe("League Context", () => {
       );
     });
 
-    test("provides nationality data for future year (2030) using most recent data", () => {
+    test("provides no data for future year (2030)", () => {
       render(<NationalityByYearTestComponent testYear={2030} />);
       const length = parseInt(
         screen

@@ -55,7 +55,7 @@ class League {
       ...this.defensemen,
       ...this.goalies,
     ]);
-    this.currentPopulation = getPopulationByYear(2025); // added current population data
+    this.currentPopulation = getPopulationByYear(2025);
     this.populationNumbers = getPopulationByYear(this.year);
     this.nationalityOfLeague = getLeagueNationalityByYear(this.year);
   }
