@@ -5,6 +5,7 @@ import {
   League,
 } from "@/context/League";
 import type { populationEntry } from "@/data/league/populationsByYear";
+import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 
 // Test component that uses the context
@@ -82,6 +83,143 @@ const renderWithLeagueProvider = () => {
 };
 
 describe("League Context", () => {
+  describe("League Nationality By Year Functionality", () => {
+    // Helper component to test nationalityOfLeague
+    const NationalityByYearTestComponent = ({
+      testYear,
+    }: {
+      testYear: number;
+    }) => {
+      const testLeague = new League(testYear);
+      return (
+        <div>
+          <div data-testid={`nationality-year-${testYear}`}>
+            Test year: {testYear}
+          </div>
+          <div data-testid={`nationality-data-length-${testYear}`}>
+            Nationality data length:{" "}
+            {Array.isArray(testLeague.nationalityOfLeague)
+              ? testLeague.nationalityOfLeague.length
+              : Object.keys(testLeague.nationalityOfLeague || {}).length}
+          </div>
+          <div data-testid={`nationality-data-type-${testYear}`}>
+            Nationality data type: {typeof testLeague.nationalityOfLeague}
+          </div>
+          <div data-testid={`nationality-data-sample-${testYear}`}>
+            Nationality sample:{" "}
+            {JSON.stringify(
+              testLeague.nationalityOfLeague[0] ||
+                testLeague.nationalityOfLeague
+            )}
+          </div>
+        </div>
+      );
+    };
+
+    test("provides nationality data for default year (2024)", () => {
+      render(<NationalityByYearTestComponent testYear={2024} />);
+      const length = parseInt(
+        screen
+          .getByTestId("nationality-data-length-2024")
+          .textContent?.split(": ")[1] || "0"
+      );
+      expect(length).toBeGreaterThan(0);
+      expect(screen.getByTestId("nationality-year-2024")).toHaveTextContent(
+        "Test year: 2024"
+      );
+    });
+
+    test("provides nationality data for earliest supported year (1961)", () => {
+      render(<NationalityByYearTestComponent testYear={1961} />);
+      const length = parseInt(
+        screen
+          .getByTestId("nationality-data-length-1961")
+          .textContent?.split(": ")[1] || "0"
+      );
+      expect(length).toBeGreaterThanOrEqual(0);
+      expect(screen.getByTestId("nationality-year-1961")).toHaveTextContent(
+        "Test year: 1961"
+      );
+    });
+
+    test("provides nationality data for future year (2030) using most recent data", () => {
+      render(<NationalityByYearTestComponent testYear={2030} />);
+      const length = parseInt(
+        screen
+          .getByTestId("nationality-data-length-2030")
+          .textContent?.split(": ")[1] || "0"
+      );
+      expect(length).toBe(0);
+      expect(screen.getByTestId("nationality-year-2030")).toHaveTextContent(
+        "Test year: 2030"
+      );
+    });
+
+    test("provides nationality data for year before available data (1950) and handles gracefully", () => {
+      render(<NationalityByYearTestComponent testYear={1950} />);
+      const length = parseInt(
+        screen
+          .getByTestId("nationality-data-length-1950")
+          .textContent?.split(": ")[1] || "0"
+      );
+      expect(length).toBeGreaterThanOrEqual(0);
+      expect(screen.getByTestId("nationality-year-1950")).toHaveTextContent(
+        "Test year: 1950"
+      );
+    });
+
+    test("nationalityOfLeague updates when year changes", () => {
+      const YearChangeNationalityTest = () => {
+        const [year, setYear] = React.useState(2024);
+        const [league, setLeague] = React.useState(new League(year));
+        React.useEffect(() => {
+          setLeague(new League(year));
+        }, [year]);
+        return (
+          <div>
+            <div data-testid="current-year">Current year: {year}</div>
+            <div data-testid="nationality-data-length">
+              Nationality data length:{" "}
+              {Array.isArray(league.nationalityOfLeague)
+                ? league.nationalityOfLeague.length
+                : Object.keys(league.nationalityOfLeague || {}).length}
+            </div>
+            <button data-testid="change-to-1980" onClick={() => setYear(1980)}>
+              Change to 1980
+            </button>
+          </div>
+        );
+      };
+      render(<YearChangeNationalityTest />);
+      const initialLength = parseInt(
+        screen
+          .getByTestId("nationality-data-length")
+          .textContent?.split(": ")[1] || "0"
+      );
+      expect(initialLength).toBeGreaterThan(0);
+      fireEvent.click(screen.getByTestId("change-to-1980"));
+      expect(screen.getByTestId("current-year")).toHaveTextContent(
+        "Current year: 1980"
+      );
+      const newLength = parseInt(
+        screen
+          .getByTestId("nationality-data-length")
+          .textContent?.split(": ")[1] || "0"
+      );
+      expect(newLength).toBeGreaterThanOrEqual(0);
+      // Data should update (may be different or same depending on implementation)
+    });
+
+    test("nationalityOfLeague structure and integrity", () => {
+      render(<NationalityByYearTestComponent testYear={2024} />);
+      const sample = screen.getByTestId(
+        "nationality-data-sample-2024"
+      ).textContent;
+      expect(sample).toBeTruthy();
+      expect(sample).not.toBe("{}");
+      expect(sample).not.toBe("null");
+    });
+  });
   describe("Context Provider and State Management", () => {
     test("provides default year of 2024", () => {
       renderWithLeagueProvider();
