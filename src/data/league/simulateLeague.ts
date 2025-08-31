@@ -144,7 +144,6 @@ export default function simulateLeague({
     const goalies = goalieSorter(
       playersFromCountry.filter((player) => player.position === "G")
     );
-    let count = 0;
     let playerIdx = 0;
     let goalieIdx = 0;
     const playersBeingAdded = [];
@@ -152,12 +151,10 @@ export default function simulateLeague({
       if (playerIdx < players.length) {
         playersBeingAdded.push(players[playerIdx]);
         playerIdx++;
-        count++;
       }
       if (goalieIdx < goalies.length) {
         playersBeingAdded.push(goalies[goalieIdx]);
         goalieIdx++;
-        count++;
       }
       if (goalieIdx >= goalies.length) {
         playersBeingAdded.push(

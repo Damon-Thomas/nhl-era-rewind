@@ -58,7 +58,13 @@ function App() {
     setGoaliePage(1);
     setForwardsPage(1);
     setDefensemenPage(1);
-  }, [league.sortedSkaters]);
+  }, [
+    league.sortedSkaters,
+    league.sortedGoalies,
+    league.sortedForwards,
+    league.sortedDefensemen,
+    league.year,
+  ]);
 
   function handlePageChange(
     type: "skater" | "goalie" | "forwards" | "defensemen",
