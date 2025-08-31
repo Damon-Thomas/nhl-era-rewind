@@ -7,7 +7,7 @@ const nationalityDataJson: NationalityDataType =
 type NationalityDataType = {
   [key: string]: NationalityEntry[];
 };
-type NationalityEntry = {
+export type NationalityEntry = {
   Nationality: string;
   Players: number;
 };

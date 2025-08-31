@@ -7,10 +7,10 @@ const relevantCountries = new Set([
   "Canada",
   "United States",
   "Sweden",
-  "Russia",
+  "Russian Federation", // Russia in CSV
   "Finland",
-  "Czech Republic",
-  "Slovakia",
+  "Czechia", // Czech Republic in CSV
+  "Slovak Republic", // Slovakia in CSV
   "Belarus",
   "Germany",
   "Austria",
@@ -27,11 +27,23 @@ const relevantCountries = new Set([
   "Croatia",
   "Netherlands",
   "Australia",
+  "United Kingdom",
+  "Uzbekistan",
 ]);
 
+// Map CSV country names to the names used in your NHL data
+const countryNameMapping = {
+  "Russian Federation": "Russia",
+  Czechia: "Czech Republic",
+  "Slovak Republic": "Slovakia",
+  // Add more mappings as needed
+};
+
 // Input and output file paths
-const inputCsvPath = path.join("population.csv");
-const outputJsonPath = path.join("filtered_population.json");
+const inputCsvPath = path.join("src/data/staticData/population.csv");
+const outputJsonPath = path.join(
+  "src/data/staticData/filtered_population.json"
+);
 
 const parseCsv = async () => {
   const fileStream = fs.createReadStream(inputCsvPath);
@@ -53,7 +65,12 @@ const parseCsv = async () => {
     const seasonKey = `${year}-${(year + 1).toString().slice(2)}`;
     if (!result[seasonKey]) result[seasonKey] = [];
 
-    result[seasonKey].push({ Country: country, Population: population });
+    // Use mapped name if available, otherwise use original name
+    const mappedCountryName = countryNameMapping[country] || country;
+    result[seasonKey].push({
+      Country: mappedCountryName,
+      Population: population,
+    });
   }
 
   fs.writeFileSync(outputJsonPath, JSON.stringify(result, null, 2));

@@ -16,6 +16,8 @@ import getPopulationByYear, {
 } from "@/data/league/populationsByYear";
 import getLeagueNationalityByYear from "@/data/league/leagueNationaltyByYear";
 import getTeamsByYear from "@/data/league/leagueTeamsByYear";
+import simulateLeague from "@/data/league/simulateLeague";
+
 
 type SimulationYearContextType = {
   year: number;
@@ -40,14 +42,30 @@ class League {
   populationNumbers: populationEntry[];
   nationalityOfLeague: ReturnType<typeof getLeagueNationalityByYear>;
   teamsFromYear: ReturnType<typeof getTeamsByYear>;
+  league: ReturnType<typeof simulateLeague>;
+
 
   constructor(year = 2024) {
-    this.forwards = leagueRoster.forwards;
-    this.defensemen = leagueRoster.defensemen;
-    this.goalies = leagueRoster.goalies;
-    this.initialLeague = leagueRoster;
-    this.currentLeague = leagueRoster;
     this.year = year;
+    this.currentPopulation = getPopulationByYear(2025);
+    this.populationNumbers = getPopulationByYear(this.year);
+    this.nationalityOfLeague = getLeagueNationalityByYear(this.year);
+    this.league = simulateLeague({
+      currentPopulations: this.currentPopulation,
+      simulatedPopulations: this.populationNumbers,
+      initialLeague: [
+        ...leagueRoster.forwards,
+        ...leagueRoster.defensemen,
+        ...leagueRoster.goalies,
+      ],
+      simulatedNationalityNumbers: this.nationalityOfLeague,
+    });
+    this.forwards = this.league.forwards;
+    this.defensemen = this.league.defensemen;
+    this.goalies = this.league.goalies;
+    this.initialLeague = leagueRoster;
+    this.currentLeague = this.league;
+
     this.sortedForwards = skaterSorter(this.forwards);
     this.sortedDefensemen = skaterSorter(this.defensemen);
     this.sortedSkaters = skaterSorter(this.forwards, this.defensemen);
@@ -57,9 +75,7 @@ class League {
       ...this.defensemen,
       ...this.goalies,
     ]);
-    this.currentPopulation = getPopulationByYear(2025);
-    this.populationNumbers = getPopulationByYear(this.year);
-    this.nationalityOfLeague = getLeagueNationalityByYear(this.year);
+
     this.teamsFromYear = getTeamsByYear(this.year);
   }
 
@@ -91,7 +107,8 @@ export function LeagueProvider({ children }: { children: React.ReactNode }) {
   // Re-instantiate league when year changes
   const league = new League(year);
   console.log("New league instantiated for year:", year);
-  console.log(league.teamsFromYear);
+  console.log(league);
+
   return (
     <SimulationYearContext.Provider value={{ year, setYear, league }}>
       {children}

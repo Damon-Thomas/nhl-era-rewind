@@ -21,6 +21,10 @@
       "Population": 5327827
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9602006
+    },
+    {
       "Country": "Germany",
       "Population": 72814900
     },
@@ -35,6 +39,10 @@
     {
       "Country": "France",
       "Population": 47412964
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 52400000
     },
     {
       "Country": "Croatia",
@@ -61,6 +69,14 @@
       "Population": 3581239
     },
     {
+      "Country": "Russia",
+      "Population": 119897000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4068095
+    },
+    {
       "Country": "Slovenia",
       "Population": 1584720
     },
@@ -75,6 +91,10 @@
     {
       "Country": "United States",
       "Population": 180671000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 8209109
     }
   ],
   "1961-62": [
@@ -99,6 +119,10 @@
       "Population": 5434294
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9586651
+    },
+    {
       "Country": "Germany",
       "Population": 73377632
     },
@@ -113,6 +137,10 @@
     {
       "Country": "France",
       "Population": 47905982
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 52800000
     },
     {
       "Country": "Croatia",
@@ -139,6 +167,14 @@
       "Population": 3609800
     },
     {
+      "Country": "Russia",
+      "Population": 121236000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4191667
+    },
+    {
       "Country": "Slovenia",
       "Population": 1594131
     },
@@ -153,6 +189,10 @@
     {
       "Country": "United States",
       "Population": 183691000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 8517711
     }
   ],
   "1962-63": [
@@ -177,6 +217,10 @@
       "Population": 5573815
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9624660
+    },
+    {
       "Country": "Germany",
       "Population": 74025784
     },
@@ -191,6 +235,10 @@
     {
       "Country": "France",
       "Population": 48389516
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 53250000
     },
     {
       "Country": "Croatia",
@@ -217,6 +265,14 @@
       "Population": 3638918
     },
     {
+      "Country": "Russia",
+      "Population": 122591000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4238188
+    },
+    {
       "Country": "Slovenia",
       "Population": 1603649
     },
@@ -231,6 +287,10 @@
     {
       "Country": "United States",
       "Population": 186538000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 8854368
     }
   ],
   "1963-64": [
@@ -255,6 +315,10 @@
       "Population": 5694247
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9670685
+    },
+    {
       "Country": "Germany",
       "Population": 74714353
     },
@@ -269,6 +333,10 @@
     {
       "Country": "France",
       "Population": 48877567
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 53650000
     },
     {
       "Country": "Croatia",
@@ -295,6 +363,14 @@
       "Population": 3666537
     },
     {
+      "Country": "Russia",
+      "Population": 123960000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4282017
+    },
+    {
       "Country": "Slovenia",
       "Population": 1616971
     },
@@ -309,6 +385,10 @@
     {
       "Country": "United States",
       "Population": 189242000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 9202246
     }
   ],
   "1964-65": [
@@ -333,6 +413,10 @@
       "Population": 5789228
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9727804
+    },
+    {
       "Country": "Germany",
       "Population": 75318337
     },
@@ -347,6 +431,10 @@
     {
       "Country": "France",
       "Population": 49401492
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 54000000
     },
     {
       "Country": "Croatia",
@@ -373,6 +461,14 @@
       "Population": 3694339
     },
     {
+      "Country": "Russia",
+      "Population": 125345000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4327341
+    },
+    {
       "Country": "Slovenia",
       "Population": 1632114
     },
@@ -387,6 +483,10 @@
     {
       "Country": "United States",
       "Population": 191889000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 9557611
     }
   ],
   "1965-66": [
@@ -411,6 +511,10 @@
       "Population": 5856472
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9779358
+    },
+    {
       "Country": "Germany",
       "Population": 75963695
     },
@@ -425,6 +529,10 @@
     {
       "Country": "France",
       "Population": 49877725
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 54348050
     },
     {
       "Country": "Croatia",
@@ -451,6 +559,14 @@
       "Population": 3723168
     },
     {
+      "Country": "Russia",
+      "Population": 126745000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4370983
+    },
+    {
       "Country": "Slovenia",
       "Population": 1649160
     },
@@ -465,6 +581,10 @@
     {
       "Country": "United States",
       "Population": 194303000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 9921681
     }
   ],
   "1966-67": [
@@ -489,6 +609,10 @@
       "Population": 5918002
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9821040
+    },
+    {
       "Country": "Germany",
       "Population": 76600311
     },
@@ -503,6 +627,10 @@
     {
       "Country": "France",
       "Population": 50311637
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 54648500
     },
     {
       "Country": "Croatia",
@@ -529,6 +657,14 @@
       "Population": 3753012
     },
     {
+      "Country": "Russia",
+      "Population": 127468000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4411666
+    },
+    {
       "Country": "Slovenia",
       "Population": 1669905
     },
@@ -543,6 +679,10 @@
     {
       "Country": "United States",
       "Population": 196560000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 10289294
     }
   ],
   "1967-68": [
@@ -567,6 +707,10 @@
       "Population": 5991785
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9852899
+    },
+    {
       "Country": "Germany",
       "Population": 76951336
     },
@@ -581,6 +725,10 @@
     {
       "Country": "France",
       "Population": 50722791
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 54943600
     },
     {
       "Country": "Croatia",
@@ -607,6 +755,14 @@
       "Population": 3784539
     },
     {
+      "Country": "Russia",
+      "Population": 128196000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4449367
+    },
+    {
       "Country": "Slovenia",
       "Population": 1689528
     },
@@ -621,6 +777,10 @@
     {
       "Country": "United States",
       "Population": 198712000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 10659180
     }
   ],
   "1968-69": [
@@ -645,6 +805,10 @@
       "Population": 6067714
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9876346
+    },
+    {
       "Country": "Germany",
       "Population": 77294314
     },
@@ -659,6 +823,10 @@
     {
       "Country": "France",
       "Population": 51112980
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 55211700
     },
     {
       "Country": "Croatia",
@@ -685,6 +853,14 @@
       "Population": 3816486
     },
     {
+      "Country": "Russia",
+      "Population": 128928000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4483915
+    },
+    {
       "Country": "Slovenia",
       "Population": 1704546
     },
@@ -699,6 +875,10 @@
     {
       "Country": "United States",
       "Population": 200706000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 11032155
     }
   ],
   "1969-70": [
@@ -723,6 +903,10 @@
       "Population": 6136387
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9896580
+    },
+    {
       "Country": "Germany",
       "Population": 77909682
     },
@@ -737,6 +921,10 @@
     {
       "Country": "France",
       "Population": 51536014
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 55441750
     },
     {
       "Country": "Croatia",
@@ -763,6 +951,14 @@
       "Population": 3847707
     },
     {
+      "Country": "Russia",
+      "Population": 129664000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4518607
+    },
+    {
       "Country": "Slovenia",
       "Population": 1713874
     },
@@ -777,6 +973,10 @@
     {
       "Country": "United States",
       "Population": 202677000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 11403150
     }
   ],
   "1970-71": [
@@ -801,6 +1001,10 @@
       "Population": 6180877
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9858071
+    },
+    {
       "Country": "Germany",
       "Population": 78169289
     },
@@ -815,6 +1019,10 @@
     {
       "Country": "France",
       "Population": 52007169
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 55663250
     },
     {
       "Country": "Croatia",
@@ -841,6 +1049,14 @@
       "Population": 3875763
     },
     {
+      "Country": "Russia",
+      "Population": 130404000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4538223
+    },
+    {
       "Country": "Slovenia",
       "Population": 1724891
     },
@@ -855,6 +1071,10 @@
     {
       "Country": "United States",
       "Population": 205052000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 11762638
     }
   ],
   "1971-72": [
@@ -879,6 +1099,10 @@
       "Population": 6213399
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9826815
+    },
+    {
       "Country": "Germany",
       "Population": 78312842
     },
@@ -893,6 +1117,10 @@
     {
       "Country": "France",
       "Population": 52499553
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 55896223
     },
     {
       "Country": "Croatia",
@@ -919,6 +1147,14 @@
       "Population": 3903039
     },
     {
+      "Country": "Russia",
+      "Population": 131155000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4557449
+    },
+    {
       "Country": "Slovenia",
       "Population": 1738335
     },
@@ -933,6 +1169,10 @@
     {
       "Country": "United States",
       "Population": 207661000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 12111511
     }
   ],
   "1972-73": [
@@ -957,6 +1197,10 @@
       "Population": 6260956
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9867632
+    },
+    {
       "Country": "Germany",
       "Population": 78688452
     },
@@ -971,6 +1215,10 @@
     {
       "Country": "France",
       "Population": 52962356
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56086065
     },
     {
       "Country": "Croatia",
@@ -997,6 +1245,14 @@
       "Population": 3933004
     },
     {
+      "Country": "Russia",
+      "Population": 131909000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4596622
+    },
+    {
       "Country": "Slovenia",
       "Population": 1752233
     },
@@ -1011,6 +1267,10 @@
     {
       "Country": "United States",
       "Population": 209896000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 12465106
     }
   ],
   "1973-74": [
@@ -1035,6 +1295,10 @@
       "Population": 6307347
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9922266
+    },
+    {
       "Country": "Germany",
       "Population": 78936666
     },
@@ -1049,6 +1313,10 @@
     {
       "Country": "France",
       "Population": 53392161
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56194527
     },
     {
       "Country": "Croatia",
@@ -1075,6 +1343,14 @@
       "Population": 3960612
     },
     {
+      "Country": "Russia",
+      "Population": 132669000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4641445
+    },
+    {
       "Country": "Slovenia",
       "Population": 1766697
     },
@@ -1089,6 +1365,10 @@
     {
       "Country": "United States",
       "Population": 211909000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 12831047
     }
   ],
   "1974-75": [
@@ -1113,6 +1393,10 @@
       "Population": 6341405
     },
     {
+      "Country": "Czech Republic",
+      "Population": 9988459
+    },
+    {
       "Country": "Germany",
       "Population": 78967433
     },
@@ -1127,6 +1411,10 @@
     {
       "Country": "France",
       "Population": 53746571
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56229974
     },
     {
       "Country": "Croatia",
@@ -1153,6 +1441,14 @@
       "Population": 3985258
     },
     {
+      "Country": "Russia",
+      "Population": 133432000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4689623
+    },
+    {
       "Country": "Slovenia",
       "Population": 1776132
     },
@@ -1167,6 +1463,10 @@
     {
       "Country": "United States",
       "Population": 213854000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 13209011
     }
   ],
   "1975-76": [
@@ -1191,6 +1491,10 @@
       "Population": 6338632
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10058620
+    },
+    {
       "Country": "Germany",
       "Population": 78673554
     },
@@ -1205,6 +1509,10 @@
     {
       "Country": "France",
       "Population": 54002853
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56225800
     },
     {
       "Country": "Croatia",
@@ -1231,6 +1539,14 @@
       "Population": 4007313
     },
     {
+      "Country": "Russia",
+      "Population": 134200000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4739105
+    },
+    {
       "Country": "Slovenia",
       "Population": 1793581
     },
@@ -1245,6 +1561,10 @@
     {
       "Country": "United States",
       "Population": 215973000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 13598521
     }
   ],
   "1976-77": [
@@ -1269,6 +1589,10 @@
       "Population": 6302504
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10125939
+    },
+    {
       "Country": "Germany",
       "Population": 78336950
     },
@@ -1283,6 +1607,10 @@
     {
       "Country": "France",
       "Population": 54232383
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56211968
     },
     {
       "Country": "Croatia",
@@ -1309,6 +1637,14 @@
       "Population": 4026152
     },
     {
+      "Country": "Russia",
+      "Population": 135147000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4789507
+    },
+    {
       "Country": "Slovenia",
       "Population": 1820249
     },
@@ -1323,6 +1659,10 @@
     {
       "Country": "United States",
       "Population": 218035000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 13998620
     }
   ],
   "1977-78": [
@@ -1347,6 +1687,10 @@
       "Population": 6281174
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10186755
+    },
+    {
       "Country": "Germany",
       "Population": 78159814
     },
@@ -1361,6 +1705,10 @@
     {
       "Country": "France",
       "Population": 54486467
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56193492
     },
     {
       "Country": "Croatia",
@@ -1387,6 +1735,14 @@
       "Population": 4043205
     },
     {
+      "Country": "Russia",
+      "Population": 136100000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4840501
+    },
+    {
       "Country": "Slovenia",
       "Population": 1842377
     },
@@ -1401,6 +1757,10 @@
     {
       "Country": "United States",
       "Population": 220239000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 14408822
     }
   ],
   "1978-79": [
@@ -1425,6 +1785,10 @@
       "Population": 6281738
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10242098
+    },
+    {
       "Country": "Germany",
       "Population": 78091820
     },
@@ -1439,6 +1803,10 @@
     {
       "Country": "France",
       "Population": 54734030
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56196504
     },
     {
       "Country": "Croatia",
@@ -1465,6 +1833,14 @@
       "Population": 4058671
     },
     {
+      "Country": "Russia",
+      "Population": 137060000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4890125
+    },
+    {
       "Country": "Slovenia",
       "Population": 1862548
     },
@@ -1479,6 +1855,10 @@
     {
       "Country": "United States",
       "Population": 222585000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 14816349
     }
   ],
   "1979-80": [
@@ -1503,6 +1883,10 @@
       "Population": 6294365
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10292341
+    },
+    {
       "Country": "Germany",
       "Population": 78126350
     },
@@ -1517,6 +1901,10 @@
     {
       "Country": "France",
       "Population": 54979851
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56246951
     },
     {
       "Country": "Croatia",
@@ -1543,6 +1931,14 @@
       "Population": 4072517
     },
     {
+      "Country": "Russia",
+      "Population": 138027000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4938973
+    },
+    {
       "Country": "Slovenia",
       "Population": 1882599
     },
@@ -1557,6 +1953,10 @@
     {
       "Country": "United States",
       "Population": 225055000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 15215587
     }
   ],
   "1980-81": [
@@ -1581,6 +1981,10 @@
       "Population": 6319408
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10304193
+    },
+    {
       "Country": "Germany",
       "Population": 78288576
     },
@@ -1595,6 +1999,10 @@
     {
       "Country": "France",
       "Population": 55274184
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56314216
     },
     {
       "Country": "Croatia",
@@ -1621,6 +2029,14 @@
       "Population": 4085620
     },
     {
+      "Country": "Russia",
+      "Population": 139010000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 4979815
+    },
+    {
       "Country": "Slovenia",
       "Population": 1901315
     },
@@ -1635,6 +2051,10 @@
     {
       "Country": "United States",
       "Population": 227225000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 15619936
     }
   ],
   "1981-82": [
@@ -1659,6 +2079,10 @@
       "Population": 6354074
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10300591
+    },
+    {
       "Country": "Germany",
       "Population": 78407907
     },
@@ -1673,6 +2097,10 @@
     {
       "Country": "France",
       "Population": 55603353
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56333829
     },
     {
       "Country": "Croatia",
@@ -1699,6 +2127,14 @@
       "Population": 4099702
     },
     {
+      "Country": "Russia",
+      "Population": 139941000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5016105
+    },
+    {
       "Country": "Slovenia",
       "Population": 1906531
     },
@@ -1713,6 +2149,10 @@
     {
       "Country": "United States",
       "Population": 229466000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 16035032
     }
   ],
   "1982-83": [
@@ -1737,6 +2177,10 @@
       "Population": 6391309
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10314826
+    },
+    {
       "Country": "Germany",
       "Population": 78333366
     },
@@ -1751,6 +2195,10 @@
     {
       "Country": "France",
       "Population": 55806789
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56313641
     },
     {
       "Country": "Croatia",
@@ -1777,6 +2225,14 @@
       "Population": 4114787
     },
     {
+      "Country": "Russia",
+      "Population": 140823000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5055099
+    },
+    {
       "Country": "Slovenia",
       "Population": 1910334
     },
@@ -1791,6 +2247,10 @@
     {
       "Country": "United States",
       "Population": 231664000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 16462736
     }
   ],
   "1983-84": [
@@ -1815,6 +2275,10 @@
       "Population": 6418773
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10323856
+    },
+    {
       "Country": "Germany",
       "Population": 78128282
     },
@@ -1829,6 +2293,10 @@
     {
       "Country": "France",
       "Population": 56108330
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56332848
     },
     {
       "Country": "Croatia",
@@ -1855,6 +2323,14 @@
       "Population": 4128432
     },
     {
+      "Country": "Russia",
+      "Population": 141668000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5091971
+    },
+    {
       "Country": "Slovenia",
       "Population": 1922321
     },
@@ -1869,6 +2345,10 @@
     {
       "Country": "United States",
       "Population": 233792000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 16908400
     }
   ],
   "1984-85": [
@@ -1893,6 +2373,10 @@
       "Population": 6441865
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10330213
+    },
+    {
       "Country": "Germany",
       "Population": 77858685
     },
@@ -1907,6 +2391,10 @@
     {
       "Country": "France",
       "Population": 56383085
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56422072
     },
     {
       "Country": "Croatia",
@@ -1933,6 +2421,14 @@
       "Population": 4140099
     },
     {
+      "Country": "Russia",
+      "Population": 142745000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5127097
+    },
+    {
       "Country": "Slovenia",
       "Population": 1932154
     },
@@ -1947,6 +2443,10 @@
     {
       "Country": "United States",
       "Population": 235825000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 17378846
     }
   ],
   "1985-86": [
@@ -1971,6 +2471,10 @@
       "Population": 6470365
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10337118
+    },
+    {
       "Country": "Germany",
       "Population": 77684873
     },
@@ -1985,6 +2489,10 @@
     {
       "Country": "France",
       "Population": 56665619
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56550268
     },
     {
       "Country": "Croatia",
@@ -2011,6 +2519,14 @@
       "Population": 4152516
     },
     {
+      "Country": "Russia",
+      "Population": 143858000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5161768
+    },
+    {
       "Country": "Slovenia",
       "Population": 1941641
     },
@@ -2025,6 +2541,10 @@
     {
       "Country": "United States",
       "Population": 237924000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 17875339
     }
   ],
   "1986-87": [
@@ -2049,6 +2569,10 @@
       "Population": 6504124
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10342227
+    },
+    {
       "Country": "Germany",
       "Population": 77720436
     },
@@ -2063,6 +2587,10 @@
     {
       "Country": "France",
       "Population": 56956002
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56681396
     },
     {
       "Country": "Croatia",
@@ -2089,6 +2617,14 @@
       "Population": 4167354
     },
     {
+      "Country": "Russia",
+      "Population": 144894000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5193838
+    },
+    {
       "Country": "Slovenia",
       "Population": 1965964
     },
@@ -2103,6 +2639,10 @@
     {
       "Country": "United States",
       "Population": 240133000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 18395621
     }
   ],
   "1987-88": [
@@ -2127,6 +2667,10 @@
       "Population": 6545106
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10347318
+    },
+    {
       "Country": "Germany",
       "Population": 77839920
     },
@@ -2141,6 +2685,10 @@
     {
       "Country": "France",
       "Population": 57266167
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56802050
     },
     {
       "Country": "Croatia",
@@ -2167,6 +2715,14 @@
       "Population": 4186905
     },
     {
+      "Country": "Russia",
+      "Population": 145908000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5222840
+    },
+    {
       "Country": "Slovenia",
       "Population": 1989776
     },
@@ -2181,6 +2737,10 @@
     {
       "Country": "United States",
       "Population": 242289000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 18930070
     }
   ],
   "1988-89": [
@@ -2205,6 +2765,10 @@
       "Population": 6593386
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10355276
+    },
+    {
       "Country": "Germany",
       "Population": 78144619
     },
@@ -2219,6 +2783,10 @@
     {
       "Country": "France",
       "Population": 57598186
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 56928327
     },
     {
       "Country": "Croatia",
@@ -2245,6 +2813,14 @@
       "Population": 4209488
     },
     {
+      "Country": "Russia",
+      "Population": 146857000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5250596
+    },
+    {
       "Country": "Slovenia",
       "Population": 1995196
     },
@@ -2259,6 +2835,10 @@
     {
       "Country": "United States",
       "Population": 244499000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 19460630
     }
   ],
   "1989-90": [
@@ -2283,6 +2863,10 @@
       "Population": 6646912
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10361068
+    },
+    {
       "Country": "Germany",
       "Population": 78751283
     },
@@ -2297,6 +2881,10 @@
     {
       "Country": "France",
       "Population": 57943062
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 57076711
     },
     {
       "Country": "Croatia",
@@ -2323,6 +2911,14 @@
       "Population": 4226901
     },
     {
+      "Country": "Russia",
+      "Population": 147721000
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5275942
+    },
+    {
       "Country": "Slovenia",
       "Population": 1996351
     },
@@ -2337,6 +2933,10 @@
     {
       "Country": "United States",
       "Population": 246819000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 19977183
     }
   ],
   "1990-91": [
@@ -2361,6 +2961,10 @@
       "Population": 6715519
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10333355
+    },
+    {
       "Country": "Germany",
       "Population": 79433029
     },
@@ -2375,6 +2979,10 @@
     {
       "Country": "France",
       "Population": 58261012
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 57247586
     },
     {
       "Country": "Croatia",
@@ -2401,6 +3009,14 @@
       "Population": 4241473
     },
     {
+      "Country": "Russia",
+      "Population": 147969406
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5299187
+    },
+    {
       "Country": "Slovenia",
       "Population": 1998161
     },
@@ -2415,6 +3031,10 @@
     {
       "Country": "United States",
       "Population": 249623000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 20464956
     }
   ],
   "1991-92": [
@@ -2439,6 +3059,10 @@
       "Population": 6799978
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10308578
+    },
+    {
       "Country": "Germany",
       "Population": 80013896
     },
@@ -2453,6 +3077,10 @@
     {
       "Country": "France",
       "Population": 58554242
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 57424897
     },
     {
       "Country": "Croatia",
@@ -2479,6 +3107,14 @@
       "Population": 4261732
     },
     {
+      "Country": "Russia",
+      "Population": 148394216
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5303294
+    },
+    {
       "Country": "Slovenia",
       "Population": 1999429
     },
@@ -2493,6 +3129,10 @@
     {
       "Country": "United States",
       "Population": 252981000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 20962910
     }
   ],
   "1992-93": [
@@ -2517,6 +3157,10 @@
       "Population": 6875364
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10319123
+    },
+    {
       "Country": "Germany",
       "Population": 80624598
     },
@@ -2531,6 +3175,10 @@
     {
       "Country": "France",
       "Population": 58846584
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 57580402
     },
     {
       "Country": "Croatia",
@@ -2557,6 +3205,14 @@
       "Population": 4286401
     },
     {
+      "Country": "Russia",
+      "Population": 148538197
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5305016
+    },
+    {
       "Country": "Slovenia",
       "Population": 1996498
     },
@@ -2571,6 +3227,10 @@
     {
       "Country": "United States",
       "Population": 256514000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 21485090
     }
   ],
   "1993-94": [
@@ -2595,6 +3255,10 @@
       "Population": 6938265
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10329855
+    },
+    {
       "Country": "Germany",
       "Population": 81156363
     },
@@ -2609,6 +3273,10 @@
     {
       "Country": "France",
       "Population": 59103094
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 57718614
     },
     {
       "Country": "Croatia",
@@ -2635,6 +3303,14 @@
       "Population": 4311991
     },
     {
+      "Country": "Russia",
+      "Population": 148458777
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5325305
+    },
+    {
       "Country": "Slovenia",
       "Population": 1991746
     },
@@ -2649,6 +3325,10 @@
     {
       "Country": "United States",
       "Population": 259919000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 21987955
     }
   ],
   "1994-95": [
@@ -2673,6 +3353,10 @@
       "Population": 6993795
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10333587
+    },
+    {
       "Country": "Germany",
       "Population": 81438348
     },
@@ -2687,6 +3371,10 @@
     {
       "Country": "France",
       "Population": 59324863
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 57865745
     },
     {
       "Country": "Croatia",
@@ -2713,6 +3401,14 @@
       "Population": 4336613
     },
     {
+      "Country": "Russia",
+      "Population": 148407912
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5346331
+    },
+    {
       "Country": "Slovenia",
       "Population": 1989443
     },
@@ -2727,6 +3423,10 @@
     {
       "Country": "United States",
       "Population": 263126000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 22463291
     }
   ],
   "1995-96": [
@@ -2751,6 +3451,10 @@
       "Population": 7040687
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10327253
+    },
+    {
       "Country": "Germany",
       "Population": 81678051
     },
@@ -2765,6 +3469,10 @@
     {
       "Country": "France",
       "Population": 59541294
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 58019030
     },
     {
       "Country": "Croatia",
@@ -2791,6 +3499,14 @@
       "Population": 4359184
     },
     {
+      "Country": "Russia",
+      "Population": 148375787
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5361999
+    },
+    {
       "Country": "Slovenia",
       "Population": 1989872
     },
@@ -2805,6 +3521,10 @@
     {
       "Country": "United States",
       "Population": 266278000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 22917589
     }
   ],
   "1996-97": [
@@ -2829,6 +3549,10 @@
       "Population": 7071850
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10315241
+    },
+    {
       "Country": "Germany",
       "Population": 81914831
     },
@@ -2843,6 +3567,10 @@
     {
       "Country": "France",
       "Population": 59754504
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 58166950
     },
     {
       "Country": "Croatia",
@@ -2869,6 +3597,14 @@
       "Population": 4381336
     },
     {
+      "Country": "Russia",
+      "Population": 148160129
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5373361
+    },
+    {
       "Country": "Slovenia",
       "Population": 1988628
     },
@@ -2883,6 +3619,10 @@
     {
       "Country": "United States",
       "Population": 269394000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 23351981
     }
   ],
   "1997-98": [
@@ -2907,6 +3647,10 @@
       "Population": 7088906
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10304131
+    },
+    {
       "Country": "Germany",
       "Population": 82034771
     },
@@ -2921,6 +3665,10 @@
     {
       "Country": "France",
       "Population": 59968066
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 58316954
     },
     {
       "Country": "Croatia",
@@ -2947,6 +3695,14 @@
       "Population": 4405157
     },
     {
+      "Country": "Russia",
+      "Population": 147915361
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5383291
+    },
+    {
       "Country": "Slovenia",
       "Population": 1985956
     },
@@ -2961,6 +3717,10 @@
     {
       "Country": "United States",
       "Population": 272657000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 23758960
     }
   ],
   "1998-99": [
@@ -2985,6 +3745,10 @@
       "Population": 7110001
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10294373
+    },
+    {
       "Country": "Germany",
       "Population": 82047195
     },
@@ -2999,6 +3763,10 @@
     {
       "Country": "France",
       "Population": 60190684
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 58487141
     },
     {
       "Country": "Croatia",
@@ -3025,6 +3793,14 @@
       "Population": 4431464
     },
     {
+      "Country": "Russia",
+      "Population": 147670784
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5390516
+    },
+    {
       "Country": "Slovenia",
       "Population": 1981629
     },
@@ -3039,6 +3815,10 @@
     {
       "Country": "United States",
       "Population": 275854000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 24134929
     }
   ],
   "1999-00": [
@@ -3063,6 +3843,10 @@
       "Population": 7143991
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10283860
+    },
+    {
       "Country": "Germany",
       "Population": 82100243
     },
@@ -3077,6 +3861,10 @@
     {
       "Country": "France",
       "Population": 60501986
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 58682466
     },
     {
       "Country": "Croatia",
@@ -3103,6 +3891,14 @@
       "Population": 4461913
     },
     {
+      "Country": "Russia",
+      "Population": 147214776
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5396020
+    },
+    {
       "Country": "Slovenia",
       "Population": 1983045
     },
@@ -3117,6 +3913,10 @@
     {
       "Country": "United States",
       "Population": 279040000
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 24476008
     }
   ],
   "2000-01": [
@@ -3141,6 +3941,10 @@
       "Population": 7184250
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10255063
+    },
+    {
       "Country": "Germany",
       "Population": 82211508
     },
@@ -3155,6 +3959,10 @@
     {
       "Country": "France",
       "Population": 60918661
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 58892514
     },
     {
       "Country": "Croatia",
@@ -3181,6 +3989,14 @@
       "Population": 4490967
     },
     {
+      "Country": "Russia",
+      "Population": 146596869
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5388720
+    },
+    {
       "Country": "Slovenia",
       "Population": 1988925
     },
@@ -3195,6 +4011,10 @@
     {
       "Country": "United States",
       "Population": 282162411
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 24787054
     }
   ],
   "2001-02": [
@@ -3219,6 +4039,10 @@
       "Population": 7229854
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10216605
+    },
+    {
       "Country": "Germany",
       "Population": 82349925
     },
@@ -3233,6 +4057,10 @@
     {
       "Country": "France",
       "Population": 61364377
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 59119673
     },
     {
       "Country": "Croatia",
@@ -3259,6 +4087,14 @@
       "Population": 4513751
     },
     {
+      "Country": "Russia",
+      "Population": 145976482
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5378867
+    },
+    {
       "Country": "Slovenia",
       "Population": 1992060
     },
@@ -3273,6 +4109,10 @@
     {
       "Country": "United States",
       "Population": 284968955
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 25090283
     }
   ],
   "2002-03": [
@@ -3297,6 +4137,10 @@
       "Population": 7284753
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10196916
+    },
+    {
       "Country": "Germany",
       "Population": 82488495
     },
@@ -3311,6 +4155,10 @@
     {
       "Country": "France",
       "Population": 61812142
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 59370479
     },
     {
       "Country": "Croatia",
@@ -3337,6 +4185,14 @@
       "Population": 4538159
     },
     {
+      "Country": "Russia",
+      "Population": 145306497
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5376912
+    },
+    {
       "Country": "Slovenia",
       "Population": 1994530
     },
@@ -3351,6 +4207,10 @@
     {
       "Country": "United States",
       "Population": 287625193
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 25399980
     }
   ],
   "2003-04": [
@@ -3375,6 +4235,10 @@
       "Population": 7339001
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10193998
+    },
+    {
       "Country": "Germany",
       "Population": 82534176
     },
@@ -3389,6 +4253,10 @@
     {
       "Country": "France",
       "Population": 62249855
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 59647577
     },
     {
       "Country": "Croatia",
@@ -3415,6 +4283,14 @@
       "Population": 4564855
     },
     {
+      "Country": "Russia",
+      "Population": 144648618
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5373374
+    },
+    {
       "Country": "Slovenia",
       "Population": 1995733
     },
@@ -3429,6 +4305,10 @@
     {
       "Country": "United States",
       "Population": 290107933
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 25711259
     }
   ],
   "2004-05": [
@@ -3453,6 +4333,10 @@
       "Population": 7389625
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10197101
+    },
+    {
       "Country": "Germany",
       "Population": 82516260
     },
@@ -3467,6 +4351,10 @@
     {
       "Country": "France",
       "Population": 62707588
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 59987905
     },
     {
       "Country": "Croatia",
@@ -3493,6 +4381,14 @@
       "Population": 4591910
     },
     {
+      "Country": "Russia",
+      "Population": 144067316
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5372280
+    },
+    {
       "Country": "Slovenia",
       "Population": 1997012
     },
@@ -3507,6 +4403,10 @@
     {
       "Country": "United States",
       "Population": 292805298
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 26029350
     }
   ],
   "2005-06": [
@@ -3531,6 +4431,10 @@
       "Population": 7437115
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10211216
+    },
+    {
       "Country": "Germany",
       "Population": 82469422
     },
@@ -3545,6 +4449,10 @@
     {
       "Country": "France",
       "Population": 63180854
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 60401206
     },
     {
       "Country": "Croatia",
@@ -3571,6 +4479,14 @@
       "Population": 4623291
     },
     {
+      "Country": "Russia",
+      "Population": 143518814
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5372807
+    },
+    {
       "Country": "Slovenia",
       "Population": 2000474
     },
@@ -3585,6 +4501,10 @@
     {
       "Country": "United States",
       "Population": 295516599
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 26356975
     }
   ],
   "2006-07": [
@@ -3609,6 +4529,10 @@
       "Population": 7483934
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10238905
+    },
+    {
       "Country": "Germany",
       "Population": 82376451
     },
@@ -3623,6 +4547,10 @@
     {
       "Country": "France",
       "Population": 63622342
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 60846820
     },
     {
       "Country": "Croatia",
@@ -3649,6 +4577,14 @@
       "Population": 4660677
     },
     {
+      "Country": "Russia",
+      "Population": 143049637
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5373054
+    },
+    {
       "Country": "Slovenia",
       "Population": 2006868
     },
@@ -3663,6 +4599,10 @@
     {
       "Country": "United States",
       "Population": 298379912
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 26699043
     }
   ],
   "2007-08": [
@@ -3687,6 +4627,10 @@
       "Population": 7551117
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10298828
+    },
+    {
       "Country": "Germany",
       "Population": 82266372
     },
@@ -3701,6 +4645,10 @@
     {
       "Country": "France",
       "Population": 64016890
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 61322463
     },
     {
       "Country": "Croatia",
@@ -3727,6 +4675,14 @@
       "Population": 4709153
     },
     {
+      "Country": "Russia",
+      "Population": 142805114
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5374622
+    },
+    {
       "Country": "Slovenia",
       "Population": 2018122
     },
@@ -3741,6 +4697,10 @@
     {
       "Country": "United States",
       "Population": 301231207
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 27076008
     }
   ],
   "2008-09": [
@@ -3765,6 +4725,10 @@
       "Population": 7647675
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10384603
+    },
+    {
       "Country": "Germany",
       "Population": 82110097
     },
@@ -3779,6 +4743,10 @@
     {
       "Country": "France",
       "Population": 64375116
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 61806995
     },
     {
       "Country": "Croatia",
@@ -3805,6 +4773,14 @@
       "Population": 4768212
     },
     {
+      "Country": "Russia",
+      "Population": 142742366
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5379233
+    },
+    {
       "Country": "Slovenia",
       "Population": 2021316
     },
@@ -3819,6 +4795,10 @@
     {
       "Country": "United States",
       "Population": 304093966
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 27494774
     }
   ],
   "2009-10": [
@@ -3843,6 +4823,10 @@
       "Population": 7743831
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10443936
+    },
+    {
       "Country": "Germany",
       "Population": 81902307
     },
@@ -3857,6 +4841,10 @@
     {
       "Country": "France",
       "Population": 64706436
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 62276270
     },
     {
       "Country": "Croatia",
@@ -3883,6 +4871,14 @@
       "Population": 4828726
     },
     {
+      "Country": "Russia",
+      "Population": 142785348
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5386406
+    },
+    {
       "Country": "Slovenia",
       "Population": 2039669
     },
@@ -3897,6 +4893,10 @@
     {
       "Country": "United States",
       "Population": 306771529
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 27939328
     }
   ],
   "2010-11": [
@@ -3921,6 +4921,10 @@
       "Population": 7824909
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10474410
+    },
+    {
       "Country": "Germany",
       "Population": 81776930
     },
@@ -3935,6 +4939,10 @@
     {
       "Country": "France",
       "Population": 65026211
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 62766365
     },
     {
       "Country": "Croatia",
@@ -3961,6 +4969,14 @@
       "Population": 4889252
     },
     {
+      "Country": "Russia",
+      "Population": 142849468
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5391428
+    },
+    {
       "Country": "Slovenia",
       "Population": 2048583
     },
@@ -3975,6 +4991,10 @@
     {
       "Country": "United States",
       "Population": 309327143
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 28385506
     }
   ],
   "2011-12": [
@@ -3999,6 +5019,10 @@
       "Population": 7912398
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10496088
+    },
+    {
       "Country": "Germany",
       "Population": 80274983
     },
@@ -4013,6 +5037,10 @@
     {
       "Country": "France",
       "Population": 65340830
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 63258810
     },
     {
       "Country": "Croatia",
@@ -4039,6 +5067,14 @@
       "Population": 4953088
     },
     {
+      "Country": "Russia",
+      "Population": 143018195
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5398384
+    },
+    {
       "Country": "Slovenia",
       "Population": 2052843
     },
@@ -4053,6 +5089,10 @@
     {
       "Country": "United States",
       "Population": 311583481
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 28823196
     }
   ],
   "2012-13": [
@@ -4077,6 +5117,10 @@
       "Population": 7996861
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10510785
+    },
+    {
       "Country": "Germany",
       "Population": 80425823
     },
@@ -4091,6 +5135,10 @@
     {
       "Country": "France",
       "Population": 65657659
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 63700215
     },
     {
       "Country": "Croatia",
@@ -4117,6 +5165,14 @@
       "Population": 5018573
     },
     {
+      "Country": "Russia",
+      "Population": 143378447
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5407579
+    },
+    {
       "Country": "Slovenia",
       "Population": 2057159
     },
@@ -4131,6 +5187,10 @@
     {
       "Country": "United States",
       "Population": 313877662
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 29261903
     }
   ],
   "2013-14": [
@@ -4155,6 +5215,10 @@
       "Population": 8089346
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10514272
+    },
+    {
       "Country": "Germany",
       "Population": 80645605
     },
@@ -4169,6 +5233,10 @@
     {
       "Country": "France",
       "Population": 65997932
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 64128273
     },
     {
       "Country": "Croatia",
@@ -4195,6 +5263,14 @@
       "Population": 5079623
     },
     {
+      "Country": "Russia",
+      "Population": 143805638
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5413393
+    },
+    {
       "Country": "Slovenia",
       "Population": 2059953
     },
@@ -4209,6 +5285,10 @@
     {
       "Country": "United States",
       "Population": 316059947
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 29724065
     }
   ],
   "2014-15": [
@@ -4233,6 +5313,10 @@
       "Population": 8188649
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10525347
+    },
+    {
       "Country": "Germany",
       "Population": 80982500
     },
@@ -4247,6 +5331,10 @@
     {
       "Country": "France",
       "Population": 66312067
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 64602298
     },
     {
       "Country": "Croatia",
@@ -4273,6 +5361,14 @@
       "Population": 5137232
     },
     {
+      "Country": "Russia",
+      "Population": 144237223
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5418649
+    },
+    {
       "Country": "Slovenia",
       "Population": 2061980
     },
@@ -4287,6 +5383,10 @@
     {
       "Country": "United States",
       "Population": 318386329
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 30222994
     }
   ],
   "2015-16": [
@@ -4311,6 +5411,10 @@
       "Population": 8282396
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10546059
+    },
+    {
       "Country": "Germany",
       "Population": 81686611
     },
@@ -4325,6 +5429,10 @@
     {
       "Country": "France",
       "Population": 66548272
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 65116219
     },
     {
       "Country": "Croatia",
@@ -4351,6 +5459,14 @@
       "Population": 5188607
     },
     {
+      "Country": "Russia",
+      "Population": 144640716
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5423801
+    },
+    {
       "Country": "Slovenia",
       "Population": 2063531
     },
@@ -4365,6 +5481,10 @@
     {
       "Country": "United States",
       "Population": 320738994
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 30749346
     }
   ],
   "2016-17": [
@@ -4389,6 +5509,10 @@
       "Population": 8373338
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10566332
+    },
+    {
       "Country": "Germany",
       "Population": 82348669
     },
@@ -4403,6 +5527,10 @@
     {
       "Country": "France",
       "Population": 66724104
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 65611593
     },
     {
       "Country": "Croatia",
@@ -4429,6 +5557,14 @@
       "Population": 5234519
     },
     {
+      "Country": "Russia",
+      "Population": 145015460
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5430798
+    },
+    {
       "Country": "Slovenia",
       "Population": 2065042
     },
@@ -4443,6 +5579,10 @@
     {
       "Country": "United States",
       "Population": 323071755
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 31284568
     }
   ],
   "2017-18": [
@@ -4467,6 +5607,10 @@
       "Population": 8451840
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10594438
+    },
+    {
       "Country": "Germany",
       "Population": 82657002
     },
@@ -4481,6 +5625,10 @@
     {
       "Country": "France",
       "Population": 66918020
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 66058859
     },
     {
       "Country": "Croatia",
@@ -4507,6 +5655,14 @@
       "Population": 5276968
     },
     {
+      "Country": "Russia",
+      "Population": 145293260
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5439232
+    },
+    {
       "Country": "Slovenia",
       "Population": 2066388
     },
@@ -4521,6 +5677,10 @@
     {
       "Country": "United States",
       "Population": 325122128
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 31819178
     }
   ],
   "2018-19": [
@@ -4545,6 +5705,10 @@
       "Population": 8514329
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10629928
+    },
+    {
       "Country": "Germany",
       "Population": 82905782
     },
@@ -4559,6 +5723,10 @@
     {
       "Country": "France",
       "Population": 67158348
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 66460344
     },
     {
       "Country": "Croatia",
@@ -4585,6 +5753,14 @@
       "Population": 5311916
     },
     {
+      "Country": "Russia",
+      "Population": 145398106
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5446771
+    },
+    {
       "Country": "Slovenia",
       "Population": 2073894
     },
@@ -4599,6 +5775,10 @@
     {
       "Country": "United States",
       "Population": 326838199
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 32373490
     }
   ],
   "2019-20": [
@@ -4623,6 +5803,10 @@
       "Population": 8575280
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10671870
+    },
+    {
       "Country": "Germany",
       "Population": 83092962
     },
@@ -4637,6 +5821,10 @@
     {
       "Country": "France",
       "Population": 67382061
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 66836327
     },
     {
       "Country": "Croatia",
@@ -4663,6 +5851,14 @@
       "Population": 5347896
     },
     {
+      "Country": "Russia",
+      "Population": 145453291
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5454147
+    },
+    {
       "Country": "Slovenia",
       "Population": 2088385
     },
@@ -4677,6 +5873,10 @@
     {
       "Country": "United States",
       "Population": 328329953
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 32964701
     }
   ],
   "2020-21": [
@@ -4701,6 +5901,10 @@
       "Population": 8638167
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10697858
+    },
+    {
       "Country": "Germany",
       "Population": 83160871
     },
@@ -4715,6 +5919,10 @@
     {
       "Country": "France",
       "Population": 67601110
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 67081234
     },
     {
       "Country": "Croatia",
@@ -4741,6 +5949,14 @@
       "Population": 5379475
     },
     {
+      "Country": "Russia",
+      "Population": 145245148
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5458827
+    },
+    {
       "Country": "Slovenia",
       "Population": 2102419
     },
@@ -4755,6 +5971,10 @@
     {
       "Country": "United States",
       "Population": 331526933
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 33586372
     }
   ],
   "2021-22": [
@@ -4779,6 +5999,10 @@
       "Population": 8704546
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10505772
+    },
+    {
       "Country": "Germany",
       "Population": 83196078
     },
@@ -4793,6 +6017,10 @@
     {
       "Country": "France",
       "Population": 67842811
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 67026292
     },
     {
       "Country": "Croatia",
@@ -4819,6 +6047,14 @@
       "Population": 5408320
     },
     {
+      "Country": "Russia",
+      "Population": 144746762
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5447247
+    },
+    {
       "Country": "Slovenia",
       "Population": 2108079
     },
@@ -4833,6 +6069,10 @@
     {
       "Country": "United States",
       "Population": 332048977
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 34243696
     }
   ],
   "2022-23": [
@@ -4857,6 +6097,10 @@
       "Population": 8777088
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10672118
+    },
+    {
       "Country": "Germany",
       "Population": 83797985
     },
@@ -4871,6 +6115,10 @@
     {
       "Country": "France",
       "Population": 68065015
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 67791000
     },
     {
       "Country": "Croatia",
@@ -4897,6 +6145,14 @@
       "Population": 5457127
     },
     {
+      "Country": "Russia",
+      "Population": 144236933
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5431752
+    },
+    {
       "Country": "Slovenia",
       "Population": 2112076
     },
@@ -4911,6 +6167,10 @@
     {
       "Country": "United States",
       "Population": 333271411
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 34938955
     }
   ],
   "2023-24": [
@@ -4935,6 +6195,10 @@
       "Population": 8888093
     },
     {
+      "Country": "Czech Republic",
+      "Population": 10864042
+    },
+    {
       "Country": "Germany",
       "Population": 83280000
     },
@@ -4949,6 +6213,10 @@
     {
       "Country": "France",
       "Population": 68287487
+    },
+    {
+      "Country": "United Kingdom",
+      "Population": 68350000
     },
     {
       "Country": "Croatia",
@@ -4975,6 +6243,14 @@
       "Population": 5519594
     },
     {
+      "Country": "Russia",
+      "Population": 143826130
+    },
+    {
+      "Country": "Slovakia",
+      "Population": 5426740
+    },
+    {
       "Country": "Slovenia",
       "Population": 2120461
     },
@@ -4989,6 +6265,10 @@
     {
       "Country": "United States",
       "Population": 334914895
+    },
+    {
+      "Country": "Uzbekistan",
+      "Population": 35652307
     }
   ]
 }
