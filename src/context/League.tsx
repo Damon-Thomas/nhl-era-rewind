@@ -18,6 +18,7 @@ import getLeagueNationalityByYear from "@/data/league/leagueNationaltyByYear";
 import getTeamsByYear from "@/data/league/leagueTeamsByYear";
 import simulateLeague from "@/data/league/simulateLeague";
 
+
 type SimulationYearContextType = {
   year: number;
   setYear: Dispatch<SetStateAction<number>>;
@@ -42,6 +43,7 @@ class League {
   nationalityOfLeague: ReturnType<typeof getLeagueNationalityByYear>;
   teamsFromYear: ReturnType<typeof getTeamsByYear>;
   league: ReturnType<typeof simulateLeague>;
+
 
   constructor(year = 2024) {
     this.year = year;
@@ -106,6 +108,7 @@ export function LeagueProvider({ children }: { children: React.ReactNode }) {
   const league = new League(year);
   console.log("New league instantiated for year:", year);
   console.log(league);
+
   return (
     <SimulationYearContext.Provider value={{ year, setYear, league }}>
       {children}
