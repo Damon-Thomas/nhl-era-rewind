@@ -105,7 +105,7 @@ export function LeagueProvider({ children }: { children: React.ReactNode }) {
   // Re-instantiate league when year changes
   const league = new League(year);
   console.log("New league instantiated for year:", year);
-  console.log(league.league);
+  console.log(league);
   return (
     <SimulationYearContext.Provider value={{ year, setYear, league }}>
       {children}

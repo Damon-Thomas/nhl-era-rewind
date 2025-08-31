@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import PlayerBar from "./components/PlayerBar";
 import StatPageNav from "./components/StatPageNav";
@@ -31,7 +31,6 @@ function App() {
   const [defensemenLeagueSelection, setDefensemenLeagueSelection] = useState<
     10 | 25 | 50 | 100
   >(10);
-
   // Roster and sort state
   const [skaterRoster, setSkaterRoster] = useState<Player[]>(
     league.sortedSkaters
@@ -49,6 +48,17 @@ function App() {
   const [goaliePage, setGoaliePage] = useState(1);
   const [forwardsPage, setForwardsPage] = useState(1);
   const [defensemenPage, setDefensemenPage] = useState(1);
+
+  useEffect(() => {
+    setSkaterRoster(league.sortedSkaters);
+    setGoalieRoster(league.sortedGoalies);
+    setForwardsRoster(league.sortedForwards);
+    setDefensemenRoster(league.sortedDefensemen);
+    setSkaterPage(1);
+    setGoaliePage(1);
+    setForwardsPage(1);
+    setDefensemenPage(1);
+  }, [league.sortedSkaters]);
 
   function handlePageChange(
     type: "skater" | "goalie" | "forwards" | "defensemen",

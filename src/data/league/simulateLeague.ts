@@ -80,7 +80,7 @@ export default function simulateLeague({
     const shrinkRate =
       simulatedPopulation.Population / currentPopulation.Population;
     shrinkRates[simulatedPopulation.Country] =
-      shrinkRate <= 0.95 ? shrinkRate : 1;
+      shrinkRate <= 0.9 ? shrinkRate : 1;
   });
   // Now apply shrink rates to initial league to create simulated league. Players are removed randomly based on shrink rate.
   const thanosSnapped = { league: [] } as { league: Player[] };
@@ -97,107 +97,102 @@ export default function simulateLeague({
     );
     thanosSnapped.league.push(...playersToKeep);
   });
-  debugger;
 
   // Players from countries not in shrinkRates are not included in the simulated league, so they are ignored.
   // Ensure the simulated league has the correct number of players from each country based on simulatedNationalityNumbers.
   const finalLeague = [] as Player[];
-  let remainingPlayers = 0;
-  let numberNeeded = 0;
+  const extraPlayers = [] as Player[];
+
   simulatedNationalityNumbers.forEach((nationality) => {
     const country = nationality.Nationality;
+    const canadian = country === "Canada";
+
+    // Debug logging
+    console.log("Nationality:", country);
+    console.log(
+      "Player nationalities:",
+      [
+        ...new Set(
+          thanosSnapped.league.map((p) => NHL_COUNTRY_NAMES[p.nationality])
+        ),
+      ].slice(0, 5)
+    );
+    console.log(
+      "Exact match count:",
+      thanosSnapped.league.filter(
+        (p) => NHL_COUNTRY_NAMES[p.nationality] === country
+      ).length
+    );
+    console.log(
+      "Contains match count:",
+      thanosSnapped.league.filter((p) =>
+        NHL_COUNTRY_NAMES[p.nationality]?.includes(country)
+      ).length
+    );
+
     const playersFromCountry = thanosSnapped.league.filter(
       (player) => NHL_COUNTRY_NAMES[player.nationality] === country
     );
-    numberNeeded += nationality.Players as number;
-    if (playersFromCountry.length <= numberNeeded) {
+    if (playersFromCountry.length === 0) return;
+    if (playersFromCountry.length < nationality.Players) {
       finalLeague.push(...playersFromCountry);
-      remainingPlayers = numberNeeded - playersFromCountry.length;
-    } else {
-      const players = skaterSorter(
-        playersFromCountry.filter((player) => player.position !== "G")
-      );
-      const goalies = goalieSorter(
-        playersFromCountry.filter((player) => player.position === "G")
-      );
-      let count = 0;
-      let playerIdx = 0;
-      let goalieIdx = 0;
-      const playersBeingAdded = [];
-      while (
-        count < numberNeeded &&
-        (count < players.length || count < goalies.length)
-      ) {
-        if (playerIdx < players.length) {
-          playersBeingAdded.push(players[playerIdx]);
-          playerIdx++;
-          count++;
-        }
-        if (goalieIdx < goalies.length) {
-          playersBeingAdded.push(goalies[goalieIdx]);
-          goalieIdx++;
-          count++;
-        }
-        if (goalieIdx >= goalies.length) {
-          playersBeingAdded.push(
-            ...players.slice(playersBeingAdded.length, numberNeeded)
-          );
-          break;
-        }
-        if (playerIdx >= players.length) {
-          playersBeingAdded.push(
-            ...goalies.slice(playersBeingAdded.length, numberNeeded)
-          );
-          break;
-        }
-        if (count >= numberNeeded) {
-          break;
-        }
+      return;
+    }
+    const players = skaterSorter(
+      playersFromCountry.filter((player) => player.position !== "G")
+    );
+    const goalies = goalieSorter(
+      playersFromCountry.filter((player) => player.position === "G")
+    );
+    let count = 0;
+    let playerIdx = 0;
+    let goalieIdx = 0;
+    const playersBeingAdded = [];
+    while (playersBeingAdded.length < nationality.Players) {
+      if (playerIdx < players.length) {
+        playersBeingAdded.push(players[playerIdx]);
+        playerIdx++;
+        count++;
       }
-      if (playersBeingAdded.length > numberNeeded) {
-        finalLeague.push(...playersBeingAdded.slice(0, numberNeeded));
-      } else {
-        finalLeague.push(...playersBeingAdded);
+      if (goalieIdx < goalies.length) {
+        playersBeingAdded.push(goalies[goalieIdx]);
+        goalieIdx++;
+        count++;
+      }
+      if (goalieIdx >= goalies.length) {
+        playersBeingAdded.push(
+          ...players.slice(playersBeingAdded.length, nationality.Players)
+        );
+        break;
+      }
+      if (playerIdx >= players.length) {
+        playersBeingAdded.push(
+          ...goalies.slice(playersBeingAdded.length, nationality.Players)
+        );
+        break;
       }
     }
-    if (remainingPlayers && remainingPlayers > 0) {
-      const remainingCanadians = thanosSnapped.league.filter(
-        (player) =>
-          player.nationality === "Canada" && !finalLeague.includes(player)
+
+    if (playersBeingAdded.length > nationality.Players && canadian) {
+      extraPlayers.push(...playersBeingAdded.slice(nationality.Players));
+    }
+    finalLeague.push(...playersBeingAdded.slice(0, nationality.Players));
+    if (canadian) {
+      extraPlayers.push(
+        ...playersBeingAdded.slice(nationality.Players),
+        ...players.slice(playerIdx),
+        ...goalies.slice(goalieIdx)
       );
-      const playersBeingAdded = skaterSorter(remainingCanadians).slice(
-        0,
-        remainingPlayers
-      );
-      finalLeague.push(...playersBeingAdded);
-      remainingPlayers -= playersBeingAdded.length;
-      const placeHolderPlayer = {
-        playerId: Number(Math.floor(Math.random() * 100 * 100000)),
-        headshot: "empty",
-        firstName: "Other Professional",
-        lastName: "Player",
-        position: "C",
-        nationality: "CAN",
-        fgq: "forward",
-        stats: {
-          gamesPlayed: 1,
-          goals: 0,
-          assists: 0,
-          points: 0,
-        },
-      };
-      while (remainingPlayers > 0) {
-        finalLeague.push(placeHolderPlayer);
-        remainingPlayers--;
-      }
     }
   });
+
+  // add extra players from Canada to fill league if short
   return divideLeagueByPosition(finalLeague);
 }
 
 function divideLeagueByPosition(league: Player[]) {
   const forwards = league.filter((player) => player.fgq === "forward");
-  const defensemen = league.filter((player) => player.fgq === "defenseman");
-  const goalies = league.filter((player) => player.position === "goalie");
+  const defensemen = league.filter((player) => player.fgq === "defensemen");
+  const goalies = league.filter((player) => player.fgq === "goalie");
   return { forwards, defensemen, goalies };
 }
