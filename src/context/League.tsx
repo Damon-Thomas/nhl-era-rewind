@@ -18,7 +18,6 @@ import getLeagueNationalityByYear from "@/data/league/leagueNationaltyByYear";
 import getTeamsByYear from "@/data/league/leagueTeamsByYear";
 import simulateLeague from "@/data/league/simulateLeague";
 
-
 type SimulationYearContextType = {
   year: number;
   setYear: Dispatch<SetStateAction<number>>;
@@ -32,24 +31,23 @@ class League {
   goalies: Player[];
   initialLeague: Roster;
   currentLeague: Roster;
-  year: number;
+  nationalityOfLeague: ReturnType<typeof getLeagueNationalityByYear>;
   sortedForwards: ReturnType<typeof skaterSorter>;
   sortedDefensemen: ReturnType<typeof skaterSorter>;
   sortedSkaters: ReturnType<typeof skaterSorter>;
   sortedGoalies: ReturnType<typeof goalieSorter>;
   leagueSortedByNationality: ReturnType<typeof nationalitySorter>;
-  currentPopulation: populationEntry[];
-  populationNumbers: populationEntry[];
-  nationalityOfLeague: ReturnType<typeof getLeagueNationalityByYear>;
   teamsFromYear: ReturnType<typeof getTeamsByYear>;
+  populationNumbers: populationEntry[];
   league: ReturnType<typeof simulateLeague>;
-
-
-  constructor(year = 2024) {
-    this.year = year;
-    this.currentPopulation = getPopulationByYear(2025);
+  constructor(
+    public year: number = 2024,
+    public currentPopulation: populationEntry[] = getPopulationByYear(2025)
+  ) {
+    // Initialize values that depend on constructor parameters
     this.populationNumbers = getPopulationByYear(this.year);
     this.nationalityOfLeague = getLeagueNationalityByYear(this.year);
+
     this.league = simulateLeague({
       currentPopulations: this.currentPopulation,
       simulatedPopulations: this.populationNumbers,
@@ -60,12 +58,16 @@ class League {
       ],
       simulatedNationalityNumbers: this.nationalityOfLeague,
     });
+
+    // Set properties from league results
     this.forwards = this.league.forwards;
     this.defensemen = this.league.defensemen;
     this.goalies = this.league.goalies;
+
     this.initialLeague = leagueRoster;
     this.currentLeague = this.league;
 
+    // Initialize calculated properties
     this.sortedForwards = skaterSorter(this.forwards);
     this.sortedDefensemen = skaterSorter(this.defensemen);
     this.sortedSkaters = skaterSorter(this.forwards, this.defensemen);
