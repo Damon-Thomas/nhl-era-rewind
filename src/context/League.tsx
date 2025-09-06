@@ -16,7 +16,7 @@ import getPopulationByYear, {
 } from "@/data/league/populationsByYear";
 import getLeagueNationalityByYear from "@/data/league/leagueNationaltyByYear";
 import getTeamsByYear from "@/data/league/leagueTeamsByYear";
-import simulateLeague from "@/data/league/simulateLeague";
+import simulateLeague from "@/data/league/simulator/simulateLeague";
 
 type SimulationYearContextType = {
   year: number;
@@ -39,7 +39,9 @@ class League {
   leagueSortedByNationality: ReturnType<typeof nationalitySorter>;
   teamsFromYear: ReturnType<typeof getTeamsByYear>;
   populationNumbers: populationEntry[];
-  league: ReturnType<typeof simulateLeague>;
+  league: ReturnType<typeof simulateLeague>["league"];
+  extras: ReturnType<typeof simulateLeague>["extras"];
+  full: ReturnType<typeof simulateLeague>;
   constructor(
     public year: number = 2024,
     public currentPopulation: populationEntry[] = getPopulationByYear(2025)
@@ -47,8 +49,7 @@ class League {
     // Initialize values that depend on constructor parameters
     this.populationNumbers = getPopulationByYear(this.year);
     this.nationalityOfLeague = getLeagueNationalityByYear(this.year);
-
-    this.league = simulateLeague({
+    this.full = simulateLeague({
       currentPopulations: this.currentPopulation,
       simulatedPopulations: this.populationNumbers,
       initialLeague: [
@@ -59,6 +60,8 @@ class League {
       simulatedNationalityNumbers: this.nationalityOfLeague,
     });
 
+    this.league = this.full.league;
+    this.extras = this.full.extras;
     // Set properties from league results
     this.forwards = this.league.forwards;
     this.defensemen = this.league.defensemen;
