@@ -15,8 +15,8 @@ import getPopulationByYear, {
   type populationEntry,
 } from "@/data/league/populationsByYear";
 import getLeagueNationalityByYear from "@/data/league/leagueNationaltyByYear";
-import getTeamsByYear from "@/data/league/leagueTeamsByYear";
 import simulateLeague from "@/data/league/simulator/simulateLeague";
+import newLeagueHandler from "@/data/league/newLeague/newLeagueHandler";
 
 type SimulationYearContextType = {
   year: number;
@@ -37,7 +37,7 @@ class League {
   sortedSkaters: ReturnType<typeof skaterSorter>;
   sortedGoalies: ReturnType<typeof goalieSorter>;
   leagueSortedByNationality: ReturnType<typeof nationalitySorter>;
-  teamsFromYear: ReturnType<typeof getTeamsByYear>;
+  draftedTeams: ReturnType<typeof newLeagueHandler>;
   populationNumbers: populationEntry[];
   league: ReturnType<typeof simulateLeague>["league"];
   extras: ReturnType<typeof simulateLeague>["extras"];
@@ -81,7 +81,12 @@ class League {
       ...this.goalies,
     ]);
 
-    this.teamsFromYear = getTeamsByYear(this.year);
+    this.draftedTeams = newLeagueHandler(
+      this.year,
+      this.sortedForwards,
+      this.sortedDefensemen,
+      this.sortedGoalies
+    );
   }
 
   getPositionalRoster() {
@@ -112,7 +117,8 @@ export function LeagueProvider({ children }: { children: React.ReactNode }) {
   // Re-instantiate league when year changes
   const league = new League(year);
   console.log("New league instantiated for year:", year);
-  console.log(league);
+  console.log("Full League Instance", league);
+  console.log("New Teams", league.draftedTeams);
 
   return (
     <SimulationYearContext.Provider value={{ year, setYear, league }}>

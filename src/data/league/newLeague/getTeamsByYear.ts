@@ -9,7 +9,7 @@ type TeamItem = {
   teams: TeamEntry[];
 };
 
-type TeamEntry = {
+export type TeamEntry = {
   name: string;
   abbreviation: string;
   logo: string;
