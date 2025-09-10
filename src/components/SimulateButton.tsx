@@ -17,7 +17,7 @@ export default function SimulateButton({
     <button
       className={`simulate-button ${className} ${
         disabled ? "disabled" : ""
-      } h-16 p-0! flex flex-1 justify-center items-center relative overflow-hidden rounded-lg border-3! border-black! bg-white cursor-pointer min-h-16`}
+      } h-16 p-0! flex flex-1 w-full sm:w-auto justify-center items-center relative overflow-hidden rounded-lg border-3! border-black! bg-white cursor-pointer min-h-16`}
       onClick={onClick}
       disabled={disabled}
       type="button"

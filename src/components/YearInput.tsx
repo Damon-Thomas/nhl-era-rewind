@@ -7,7 +7,7 @@ const seasons = Array.from({ length: 2025 - 1917 }, (_, i) => {
 });
 
 export default function YearInput() {
-  const { year, setYear } = useContext(SimulationYearContext);
+  const { setYear } = useContext(SimulationYearContext);
   const [error, setError] = useState<string>("");
   const [inputValue, setInputValue] = useState<string>("");
   const [dropdownOpen, setDropdownOpen] = useState<boolean>(false);
@@ -56,12 +56,15 @@ export default function YearInput() {
   }
 
   return (
-    <form className="flex flex-col gap-2" onSubmit={handleSubmit}>
-      <div className="flex gap-2 md:gap-4 relative">
+    <form
+      className="flex flex-col h-14 relative w-full sm:w-auto"
+      onSubmit={handleSubmit}
+    >
+      <div className="flex h-full">
         <input
           ref={inputRef}
           type="text"
-          className="year-input min-w-52 px-2 py-1 border rounded"
+          className="year-input min-w-52 px-2 w-full sm:w-fit border rounded"
           value={inputValue}
           onChange={handleInputChange}
           onFocus={() => setDropdownOpen(true)}
@@ -69,7 +72,7 @@ export default function YearInput() {
           placeholder="Type or select season (e.g. 1999-2000)"
           autoComplete="off"
         />
-        <button type="submit">Set Year</button>
+        {/* <button type="submit">Set Year</button> */}
         {dropdownOpen && filteredSeasons.length > 0 && (
           <ul className="bg-[var(--black)] absolute top-full left-0 z-10 border rounded shadow max-h-48 overflow-y-auto w-full mt-1">
             {filteredSeasons.map((season) => (
@@ -84,8 +87,9 @@ export default function YearInput() {
           </ul>
         )}
       </div>
-      <p className="text-xs text-red-600">{error}</p>
-      <p>Current Simulation Year: {year}</p>
+      <p className="text-xs absolute -bottom-1/3 text-red-600 w-screen">
+        {error}
+      </p>
     </form>
   );
 }
