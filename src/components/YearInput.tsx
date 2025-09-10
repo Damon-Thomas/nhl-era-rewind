@@ -50,7 +50,7 @@ export default function YearInput() {
     setDropdownOpen(false);
   }
 
-  function handleBlur(e: React.FocusEvent) {
+  function handleBlur() {
     // Delay closing dropdown to allow click event to register
     setTimeout(() => setDropdownOpen(false), 100);
   }
