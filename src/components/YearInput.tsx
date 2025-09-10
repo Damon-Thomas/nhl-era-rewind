@@ -28,8 +28,8 @@ export default function YearInput() {
     setInputValue(season);
     setDropdownOpen(false);
     setError("");
-    // Set year to the starting year of the selected season
-    const startYear = parseInt(season.split("-")[0]);
+    // Set year to the second year of the selected season
+    const startYear = parseInt(season.split("-")[1]);
     setYear(startYear);
   }
 
