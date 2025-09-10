@@ -165,7 +165,11 @@ function App() {
   return (
     <div className="h-screen w-screen p-2 md:p-4">
       <Header />
-      <div className="w-full">
+      <div className="w-full h-fit">
+        <div className="flex flex-1 flex-col sm:flex-row  justify-between items-center my-4 gap-2 md:gap-6">
+          <YearInput />
+          <SimulateButton />
+        </div>
         <div className="flex  justify-between items-center mb-4 ">
           <h2 className="">Current League</h2>
           <LeagueToggle
@@ -372,10 +376,6 @@ function App() {
               />
             </StatsDropDown>
           </>
-          <div className="flex flex-1 flex-col sm:flex-row  justify-between items-top mt-4 gap-2 md:gap-6">
-            <YearInput />
-            <SimulateButton />
-          </div>
         </div>
       </div>
     </div>

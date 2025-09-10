@@ -18,18 +18,17 @@ describe("YearInput", () => {
     expect(inputElement).toBeInTheDocument();
     expect(input).toBeInTheDocument();
   });
-  test("submit button renders", () => {
-    render(<YearInput />);
-    const button = screen.getByText("Set Year");
-    expect(button).toBeInTheDocument();
-  });
   test("input value updates on change", () => {
-    render(<YearInput />);
+    render(
+      <LeagueProvider>
+        <YearInput />
+      </LeagueProvider>
+    );
     const input = screen.getByRole("textbox");
     fireEvent.change(input, { target: { value: "2015" } });
     expect((input as HTMLInputElement).value).toBe("2015");
   });
-  test("input value updates context on submit", () => {
+  test("input value updates context on change", () => {
     render(
       <LeagueProvider>
         <ContextConsumer />
@@ -37,9 +36,8 @@ describe("YearInput", () => {
       </LeagueProvider>
     );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
     fireEvent.change(input, { target: { value: "2015" } });
-    fireEvent.click(submitButton);
+    fireEvent.submit(input.closest('form')!);
     const yearValue = screen.getByTestId("year-value");
     expect(yearValue.textContent).toBe("2015");
   });
@@ -51,14 +49,14 @@ describe("YearInput", () => {
       </LeagueProvider>
     );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
     const errorMessage = () => container.querySelector(".text-xs.text-red-600");
 
-    // Out-of-range numeric cases
+    // Out-of-range numeric cases - these should show errors when form is submitted
     const outOfRangeNumbers = ["2026", "9999", "1916", "-9999"];
     outOfRangeNumbers.forEach((val) => {
       fireEvent.change(input, { target: { value: val } });
-      fireEvent.click(submitButton);
+      // Submit the form to trigger validation
+      fireEvent.submit(input.closest("form")!);
       expect(errorMessage()).toHaveTextContent(
         "Select a valid season or enter a year between 1917 and 2024"
       );
@@ -72,10 +70,9 @@ describe("YearInput", () => {
       </LeagueProvider>
     );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
     const errorMessage = () => container.querySelector(".text-xs.text-red-600");
 
-    // Non-numeric cases
+    // Non-numeric cases - these should show errors when form is submitted
     const nonNumbers = [
       "abc",
       "",
@@ -88,7 +85,8 @@ describe("YearInput", () => {
     ];
     nonNumbers.forEach((val) => {
       fireEvent.change(input, { target: { value: val } });
-      fireEvent.click(submitButton);
+      // Submit the form to trigger validation
+      fireEvent.submit(input.closest("form")!);
       expect(errorMessage()).toHaveTextContent(
         "Select a valid season or enter a year between 1917 and 2024"
       );
@@ -102,12 +100,11 @@ describe("YearInput", () => {
       </LeagueProvider>
     );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
     fireEvent.change(input, { target: { value: "1917" } });
-    fireEvent.click(submitButton);
+    fireEvent.submit(input.closest('form')!);
     expect(screen.getByTestId("year-value").textContent).toBe("1917");
     fireEvent.change(input, { target: { value: "2024" } });
-    fireEvent.click(submitButton);
+    fireEvent.submit(input.closest('form')!);
     expect(screen.getByTestId("year-value").textContent).toBe("2024");
   });
 
@@ -120,9 +117,8 @@ describe("YearInput", () => {
       </LeagueProvider>
     );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
     fireEvent.change(input, { target: { value: " 2020 " } });
-    fireEvent.click(submitButton);
+    fireEvent.submit(input.closest('form')!);
     expect(screen.getByTestId("year-value").textContent).toBe("2020");
   });
 
@@ -134,9 +130,8 @@ describe("YearInput", () => {
       </LeagueProvider>
     );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
     fireEvent.change(input, { target: { value: "2020.5" } });
-    fireEvent.click(submitButton);
+    fireEvent.submit(input.closest('form')!);
     expect(screen.getByTestId("year-value").textContent).toBe("2020");
   });
 
@@ -148,11 +143,11 @@ describe("YearInput", () => {
       </LeagueProvider>
     );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
     const errorMessage = () => container.querySelector(".text-xs.text-red-600");
     ["0", "-1"].forEach((val) => {
       fireEvent.change(input, { target: { value: val } });
-      fireEvent.click(submitButton);
+      // Submit the form to trigger validation
+      fireEvent.submit(input.closest("form")!);
       expect(errorMessage()).toHaveTextContent(
         "Select a valid season or enter a year between 1917 and 2024"
       );
@@ -167,10 +162,10 @@ describe("YearInput", () => {
       </LeagueProvider>
     );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
     const errorMessage = () => container.querySelector(".text-xs.text-red-600");
     fireEvent.change(input, { target: { value: "1e10" } });
-    fireEvent.click(submitButton);
+    // Submit the form to trigger validation
+    fireEvent.submit(input.closest("form")!);
     expect(errorMessage()).toHaveTextContent(
       "Select a valid season or enter a year between 1917 and 2024"
     );
@@ -184,11 +179,9 @@ describe("YearInput", () => {
       </LeagueProvider>
     );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
     fireEvent.change(input, { target: { value: "2000" } });
     fireEvent.change(input, { target: { value: "2010" } });
     fireEvent.change(input, { target: { value: "2024" } });
-    fireEvent.click(submitButton);
     expect(screen.getByTestId("year-value").textContent).toBe("2024");
   });
 
@@ -200,10 +193,10 @@ describe("YearInput", () => {
       </LeagueProvider>
     );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
     const errorMessage = () => container.querySelector(".text-xs.text-red-600");
     fireEvent.change(input, { target: { value: "" } });
-    fireEvent.click(submitButton);
+    // Submit the form to trigger validation
+    fireEvent.submit(input.closest("form")!);
     expect(errorMessage()).toHaveTextContent(
       "Select a valid season or enter a year between 1917 and 2024"
     );
@@ -217,15 +210,18 @@ describe("YearInput", () => {
       </LeagueProvider>
     );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
     fireEvent.change(input, { target: { value: "2022" } }); // simulate paste
-    fireEvent.click(submitButton);
+    fireEvent.submit(input.closest('form')!);
     expect(screen.getByTestId("year-value").textContent).toBe("2022");
   });
 
   // New tests for dropdown functionality
   test("dropdown opens when input is focused", () => {
-    const { container } = render(<YearInput />);
+    const { container } = render(
+      <LeagueProvider>
+        <YearInput />
+      </LeagueProvider>
+    );
     const input = screen.getByRole("textbox");
 
     fireEvent.focus(input);
@@ -235,14 +231,18 @@ describe("YearInput", () => {
   });
 
   test("dropdown shows filtered seasons based on input", () => {
-    render(<YearInput />);
+    render(
+      <LeagueProvider>
+        <YearInput />
+      </LeagueProvider>
+    );
     const input = screen.getByRole("textbox");
 
-    fireEvent.change(input, { target: { value: "2000" } });
+    // Use a partial input that won't auto-submit
+    fireEvent.change(input, { target: { value: "199" } });
 
-    // Should show seasons that include "2000"
+    // Should show seasons that include "199"
     expect(screen.getByText("1999-2000")).toBeInTheDocument();
-    expect(screen.getByText("2000-2001")).toBeInTheDocument();
   });
 
   test("can select a season from dropdown", () => {
@@ -254,7 +254,8 @@ describe("YearInput", () => {
     );
     const input = screen.getByRole("textbox");
 
-    fireEvent.change(input, { target: { value: "2000" } });
+    // Use a partial input to keep dropdown open
+    fireEvent.change(input, { target: { value: "199" } });
     const seasonOption = screen.getByText("1999-2000");
     fireEvent.mouseDown(seasonOption);
 
@@ -270,20 +271,25 @@ describe("YearInput", () => {
       </LeagueProvider>
     );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
 
     fireEvent.change(input, { target: { value: "2022-2023" } });
-    fireEvent.click(submitButton);
+    const seasonOption = screen.getByText("2022-2023");
+    fireEvent.mouseDown(seasonOption);
 
     expect(screen.getByTestId("year-value").textContent).toBe("2023");
   });
 
   test("dropdown closes on blur", async () => {
-    const { container } = render(<YearInput />);
+    const { container } = render(
+      <LeagueProvider>
+        <YearInput />
+      </LeagueProvider>
+    );
     const input = screen.getByRole("textbox");
 
     fireEvent.focus(input);
-    fireEvent.change(input, { target: { value: "2000" } });
+    // Use partial input that won't trigger auto-submit
+    fireEvent.change(input, { target: { value: "20" } });
 
     // Dropdown should be open
     expect(container.querySelector("ul")).toBeInTheDocument();
@@ -299,9 +305,14 @@ describe("YearInput", () => {
   });
 
   test("dropdown filters correctly with partial matches", () => {
-    render(<YearInput />);
+    render(
+      <LeagueProvider>
+        <YearInput />
+      </LeagueProvider>
+    );
     const input = screen.getByRole("textbox");
 
+    // Use partial input that won't trigger auto-submit
     fireEvent.change(input, { target: { value: "19" } });
 
     // Should show seasons that include "19"
@@ -311,20 +322,23 @@ describe("YearInput", () => {
   });
 
   test("error is cleared when typing in input", () => {
-    const { container } = render(<YearInput />);
+    const { container } = render(
+      <LeagueProvider>
+        <YearInput />
+      </LeagueProvider>
+    );
     const input = screen.getByRole("textbox");
-    const submitButton = screen.getByText("Set Year");
     const errorMessage = () => container.querySelector(".text-xs.text-red-600");
 
-    // First create an error
+    // First create an error - use invalid input that won't auto-submit
     fireEvent.change(input, { target: { value: "invalid" } });
-    fireEvent.click(submitButton);
+    fireEvent.submit(input.closest("form")!);
     expect(errorMessage()).toHaveTextContent(
       "Select a valid season or enter a year between 1917 and 2024"
     );
 
-    // Error should clear when typing
-    fireEvent.change(input, { target: { value: "2000" } });
+    // Error should clear when typing - use partial valid input
+    fireEvent.change(input, { target: { value: "20" } });
     expect(errorMessage()).toHaveTextContent("");
   });
 });
